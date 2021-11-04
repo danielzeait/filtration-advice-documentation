@@ -1,0 +1,1085 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>howk documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">howk documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  FeedbackDialogComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/modal-dialogs/feedback-dialog/feedback-dialog/feedback-dialog.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-feedback-dialog</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./feedback-dialog.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./feedback-dialog.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#button_class" >button_class</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#data" >data</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#message_sent" >message_sent</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#reviewForm" >reviewForm</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#sending" >sending</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#stars" >stars</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#starset" >starset</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#close" >close</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#sendMessage" >sendMessage</a>
+                            </li>
+                            <li>
+                                <a href="#setReviewForm" >setReviewForm</a>
+                            </li>
+                            <li>
+                                <a href="#setStars" >setStars</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(fb: <a href="https://angular.io/api/forms/FormBuilder" target="_blank">FormBuilder</a>, authService: <a href="../injectables/AuthProvider.html" target="_self">AuthProvider</a>, data: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>, dialogref: <a href="../components/FeedbackDialogComponent.html" target="_self">MatDialogRef&lt;FeedbackDialogComponent&gt;</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/components/modal-dialogs/feedback-dialog/feedback-dialog/feedback-dialog.component.ts:18</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fb</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/forms/FormBuilder" target="_blank" >FormBuilder</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>authService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuthProvider.html" target="_self" >AuthProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>data</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>dialogref</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../components/FeedbackDialogComponent.html" target="_self" >MatDialogRef&lt;FeedbackDialogComponent&gt;</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="close"></a>
+                    <span class="name">
+                        <span ><b>close</b></span>
+                        <a href="#close"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>close()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="64"
+                            class="link-to-prism">src/app/components/modal-dialogs/feedback-dialog/feedback-dialog/feedback-dialog.component.ts:64</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="25"
+                            class="link-to-prism">src/app/components/modal-dialogs/feedback-dialog/feedback-dialog/feedback-dialog.component.ts:25</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sendMessage"></a>
+                    <span class="name">
+                        <span ><b>sendMessage</b></span>
+                        <a href="#sendMessage"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>sendMessage()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="48"
+                            class="link-to-prism">src/app/components/modal-dialogs/feedback-dialog/feedback-dialog/feedback-dialog.component.ts:48</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setReviewForm"></a>
+                    <span class="name">
+                        <span ><b>setReviewForm</b></span>
+                        <a href="#setReviewForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setReviewForm()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="29"
+                            class="link-to-prism">src/app/components/modal-dialogs/feedback-dialog/feedback-dialog/feedback-dialog.component.ts:29</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setStars"></a>
+                    <span class="name">
+                        <span ><b>setStars</b></span>
+                        <a href="#setStars"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setStars(pos)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="37"
+                            class="link-to-prism">src/app/components/modal-dialogs/feedback-dialog/feedback-dialog/feedback-dialog.component.ts:37</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>pos</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="button_class"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>button_class</b></span>
+                        <a href="#button_class"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;&#x27;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/components/modal-dialogs/feedback-dialog/feedback-dialog/feedback-dialog.component.ts:17</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="data"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>data</b></span>
+                        <a href="#data"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <b>Decorators : </b>
+                        <br />
+                        <code>
+                            @Inject(MAT_DIALOG_DATA)<br />
+                        </code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/components/modal-dialogs/feedback-dialog/feedback-dialog/feedback-dialog.component.ts:22</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="message_sent"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>message_sent</b></span>
+                        <a href="#message_sent"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/components/modal-dialogs/feedback-dialog/feedback-dialog/feedback-dialog.component.ts:15</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reviewForm"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>reviewForm</b></span>
+                        <a href="#reviewForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/forms/FormGroup" target="_blank" >FormGroup</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/components/modal-dialogs/feedback-dialog/feedback-dialog/feedback-dialog.component.ts:14</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sending"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>sending</b></span>
+                        <a href="#sending"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/components/modal-dialogs/feedback-dialog/feedback-dialog/feedback-dialog.component.ts:16</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="stars"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>stars</b></span>
+                        <a href="#stars"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[&#x27;star_border&#x27;,&#x27;star_border&#x27;,&#x27;star_border&#x27;,&#x27;star_border&#x27;,&#x27;star_border&#x27;]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/components/modal-dialogs/feedback-dialog/feedback-dialog/feedback-dialog.component.ts:13</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="starset"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>starset</b></span>
+                        <a href="#starset"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/components/modal-dialogs/feedback-dialog/feedback-dialog/feedback-dialog.component.ts:18</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, Inject, OnInit } from &#x27;@angular/core&#x27;;
+import { FormGroup, FormControl, Validators, FormBuilder } from &#x27;@angular/forms&#x27;;
+import { MatDialogRef, MAT_DIALOG_DATA } from &#x27;@angular/material/dialog&#x27;;
+import { AuthProvider } from &#x27;src/app/providers/auth.service&#x27;;
+import { NavigationProvider } from &#x27;src/app/providers/navigation.provider&#x27;;
+
+@Component({
+  selector: &#x27;app-feedback-dialog&#x27;,
+  templateUrl: &#x27;./feedback-dialog.component.html&#x27;,
+  styleUrls: [&#x27;./feedback-dialog.component.scss&#x27;]
+})
+export class FeedbackDialogComponent implements OnInit {
+  public stars:any &#x3D; [&#x27;star_border&#x27;,&#x27;star_border&#x27;,&#x27;star_border&#x27;,&#x27;star_border&#x27;,&#x27;star_border&#x27;];
+  public reviewForm:FormGroup;
+  public message_sent:boolean&#x3D;false;
+  public sending:boolean&#x3D;false;
+  public button_class:string&#x3D;&#x27;&#x27;;
+  public starset:boolean &#x3D; false;
+  constructor(
+    private fb: FormBuilder, 
+    private authService:AuthProvider,
+    @Inject(MAT_DIALOG_DATA) public data: any,
+    private dialogref:MatDialogRef&lt;FeedbackDialogComponent&gt;) { }
+
+  ngOnInit(){
+    this.setReviewForm();
+  }
+
+  setReviewForm(){
+    this.reviewForm &#x3D; this.fb.group({
+      email: new FormControl({value:this.data.email,disabled:true}),
+      rating:new FormControl({value:&#x27;&#x27;,disabled:this.sending}),
+      review:new FormControl({value:&#x27;&#x27;,disabled:this.sending},Validators.required),
+    });
+  }
+
+  setStars(pos){
+    this.stars &#x3D; [&#x27;star_border&#x27;,&#x27;star_border&#x27;,&#x27;star_border&#x27;,&#x27;star_border&#x27;,&#x27;star_border&#x27;];
+    for (let i &#x3D; 0; i &lt; pos +1; i++) {
+      this.stars[i] &#x3D; &#x27;star&#x27;
+    }
+    this.reviewForm.controls.rating &#x3D; pos+ 1
+    this.starset &#x3D; true;
+  }
+
+
+
+  sendMessage(){
+    //this.reviewForm.disable()
+    this.sending &#x3D; true;
+    this.button_class &#x3D; &#x27;animated fadeIn infinite&#x27;;
+    let data &#x3D; {
+      comment:this.reviewForm.controls.review.value,
+      rate:this.reviewForm.controls.rating
+    }
+    
+    this.authService.sendUserReview(data).subscribe(()&#x3D;&gt;{
+      this.sending &#x3D; false;
+      this.button_class &#x3D; &#x27;&#x27;;
+      this.message_sent &#x3D; true;
+    })
+  }
+
+  close(){
+    this.dialogref.close();
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;img class&#x3D;&quot;bg-img&quot; src&#x3D;&quot;../../../../assets/imgs/fondo_2.png&quot;&gt;
+&lt;button class&#x3D;&quot;btn-close button-clear&quot; (click)&#x3D;&quot;close()&quot;&gt;x&lt;/button&gt;
+&lt;div class&#x3D;&quot;contact-content&quot;&gt;
+    
+    &lt;form [formGroup]&#x3D;&quot;reviewForm&quot; class&#x3D;&quot;animated fadeIn&quot; *ngIf&#x3D;&quot;!message_sent&quot;&gt;
+        &lt;h2&gt;
+            {{ message_sent ? &#x27;Thank you for your review!&#x27; : &#x27;Your opinion matters! Help us improve&#x27; }}
+        &lt;/h2&gt;
+        &lt;div class&#x3D;&quot;contact-form&quot;&gt;
+            &lt;div&gt;
+                &lt;h3&gt; Rate your experience with Filtration Advice &lt;/h3&gt;
+                &lt;div class&#x3D;&quot;line&quot;&gt;&lt;/div&gt;
+
+                &lt;div class&#x3D;&quot;stars&quot;&gt;
+                    &lt;mat-icon *ngFor&#x3D;&quot;let star of stars; let i &#x3D; index&quot; (click)&#x3D;&quot;setStars(i)&quot;&gt;{{ star }}&amp;nbsp;&lt;/mat-icon&gt;
+                &lt;/div&gt;
+
+                &lt;mat-label&gt; Email &lt;/mat-label&gt;&lt;br&gt;
+                &lt;input formControlName&#x3D;&quot;email&quot; type&#x3D;&quot;email&quot; [disabled]&#x3D;&quot;true&quot; class&#x3D;&quot;color-primary&quot; placeholder&#x3D;&quot;myemail@email.com&quot;&gt;&lt;br&gt;&lt;br&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+                &lt;mat-label&gt; What do you think of Filtration Advice &lt;/mat-label&gt;&lt;br&gt;&lt;br&gt;
+                &lt;!-- &lt;input  formControlName&#x3D;&quot;message&quot; type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;Write yor message here&quot;&gt; --&gt;
+                &lt;textarea  rows&#x3D;&quot;14&quot; cols&#x3D;&quot;50&quot; formControlName&#x3D;&quot;review&quot; placeholder&#x3D;&quot;Write yor review here...&quot;&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+            &lt;button mat-stroked-button class&#x3D;&quot;button-primary&quot; [disabled]&#x3D;&quot;(reviewForm &amp;&amp; reviewForm.invalid) || sending || !starset&quot; (click)&#x3D;&quot;sendMessage()&quot;&gt; 
+                &lt;span class&#x3D;&quot;{{ button_class }}&quot;&gt;{{ sending ? &#x27;Sending your review...&#x27; : &#x27;Send your review&#x27; }} &lt;/span&gt;
+            &lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/form&gt;
+    
+    &lt;div *ngIf&#x3D;&quot;message_sent&quot; class&#x3D;&quot;sent animated fadeIn&quot;&gt;
+        &lt;img src&#x3D;&quot;../../../../../assets/imgs/Logo/1x/logo.png&quot;&gt;
+        &lt;h3 class&#x3D;&quot;color-secondary&quot;&gt; Our team works hard everyday for people like you! &lt;/h3&gt;
+        &lt;p&gt; Thank you for your time! &lt;/p&gt;
+        &lt;button mat-stroked-button class&#x3D;&quot;button-primary&quot; (click)&#x3D;&quot;close()&quot;&gt; Ok! Finish review &lt;/button&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./feedback-dialog.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.bg-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-content{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    h2{
+        margin-top: 0;
+        text-align: center;
+        color: white;
+        line-height: 1.5em;
+        font-size: 32px;
+        font-weight: lighter;
+    }
+}
+
+.contact-form{
+    background-color: white;
+    position: relative;
+    width: 70%;
+    margin-left: calc(15% - 50px);
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 50% 50%;
+    height: 21rem;
+    h3{
+        font-size: 24px;
+        font-weight: normal;
+        color: #666;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    button{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 50%;
+        border-radius: 0 !important;
+        border: none;
+    }
+    .line{
+        border-radius: 4px;
+        height: 4px;
+        width: 30%;
+        background-color: #34A6DC;
+        margin-bottom: 15px;
+    }
+    input{
+        height: 35px;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        padding-left: 1px;
+        width: 75%;
+    }
+    mat-checkbox{
+        font-size: 24px;
+        span{
+            font-weight: 300;
+            font-size: 14px;
+        }
+    }
+    textarea{
+        font-family: &#x27;lato&#x27;;
+        padding:15px;
+        resize: none;
+        width: 100%;
+    }
+}
+
+.sent{
+    align-items: flex-start;
+    background: white;
+    width: 260px;
+    height: 300px;
+    padding: 40px;
+    display: grid;
+    border-radius: 8px;
+    margin-left: calc(50% - 167px);
+    padding-bottom: 0;
+    margin-top: 40px;
+    img{
+        justify-self: center;
+        width: 40%;
+    }
+    h3{
+        font-size: 18px;
+        margin: 0;
+    }
+    p{
+        font-size: 14px;
+        color: #707070;
+        margin: 0;
+    }
+    button{
+        width: auto;
+    }
+}
+
+.btn-close{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.stars{
+    padding: 15px 0px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 75%;
+    mat-icon{
+        color: #34A6DC;
+        font-size: 30px;
+        cursor: pointer;
+        margin-right: 5px;
+    }
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><img class="bg-img" src="../../../../assets/imgs/fondo_2.png"><button class="btn-close button-clear" (click)="close()">x</button><div class="contact-content">        <form [formGroup]="reviewForm" class="animated fadeIn" *ngIf="!message_sent">        <h2>            {{ message_sent ? \'Thank you for your review!\' : \'Your opinion matters! Help us improve\' }}        </h2>        <div class="contact-form">            <div>                <h3> Rate your experience with Filtration Advice </h3>                <div class="line"></div>                <div class="stars">                    <mat-icon *ngFor="let star of stars; let i = index" (click)="setStars(i)">{{ star }}&nbsp;</mat-icon>                </div>                <mat-label> Email </mat-label><br>                <input formControlName="email" type="email" [disabled]="true" class="color-primary" placeholder="myemail@email.com"><br><br>            </div>            <div>                <mat-label> What do you think of Filtration Advice </mat-label><br><br>                <!-- <input  formControlName="message" type="text" placeholder="Write yor message here"> -->                <textarea  rows="14" cols="50" formControlName="review" placeholder="Write yor review here..."></textarea>            </div>            <button mat-stroked-button class="button-primary" [disabled]="(reviewForm && reviewForm.invalid) || sending || !starset" (click)="sendMessage()">                 <span class="{{ button_class }}">{{ sending ? \'Sending your review...\' : \'Send your review\' }} </span>            </button>        </div>    </form>        <div *ngIf="message_sent" class="sent animated fadeIn">        <img src="../../../../../assets/imgs/Logo/1x/logo.png">        <h3 class="color-secondary"> Our team works hard everyday for people like you! </h3>        <p> Thank you for your time! </p>        <button mat-stroked-button class="button-primary" (click)="close()"> Ok! Finish review </button>    </div></div></div>'
+    var COMPONENTS = [{'name': 'AboutComponent', 'selector': 'app-about'},{'name': 'AdvancedFilterComponent', 'selector': 'app-advanced-filter'},{'name': 'AdvancedSearchComponent', 'selector': 'app-advanced-search'},{'name': 'AirFlowDialogComponent', 'selector': 'airflow-dialog'},{'name': 'AirflowVsDpComponent', 'selector': 'app-airflow-vs-dp'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AreaChartComponent', 'selector': 'app-area-chart'},{'name': 'BarChartComponent', 'selector': 'app-bar-chart'},{'name': 'BeforePrintDialogComponent', 'selector': 'app-before-print-dialog'},{'name': 'BillingsComponent', 'selector': 'app-billings'},{'name': 'BottomPaginatorComponent', 'selector': 'app-bottom-paginator'},{'name': 'CaseActionsComponent', 'selector': 'app-case-actions'},{'name': 'CaseCostComponent', 'selector': 'app-case-cost'},{'name': 'CaseListComponent', 'selector': 'app-case-list'},{'name': 'CaseSelectorComponent', 'selector': 'app-case-selector'},{'name': 'CaseStudyProfileComponent', 'selector': 'app-case-study-profile'},{'name': 'CaseTimeLineComponent', 'selector': 'app-case-time-line'},{'name': 'ChangeCaseDialogComponent', 'selector': 'app-change-case-dialog'},{'name': 'ChangeoutListComponent', 'selector': 'app-changeout-list'},{'name': 'ChangeProviderDialogComponent', 'selector': 'app-change-provider-dialog'},{'name': 'ChartAirflowVsDpComponent', 'selector': 'app-chart-airflow-vs-dp'},{'name': 'ChartCostVsTimeComponent', 'selector': 'app-chart-cost-vs-time'},{'name': 'ChartDpVsTimeComponent', 'selector': 'app-chart-dp-vs-time'},{'name': 'ChartDustVsDpComponent', 'selector': 'app-chart-dust-vs-dp'},{'name': 'ChartReviewComponent', 'selector': 'app-chart-review'},{'name': 'CompanyComponent', 'selector': 'app-company'},{'name': 'ComparisonBarChartComponent', 'selector': 'app-comparison-bar-chart'},{'name': 'ComparisonDpVsTimeChartComponent', 'selector': 'app-comparison-dp-vs-time-chart'},{'name': 'ComparisonListComponent', 'selector': 'app-comparison-list'},{'name': 'ComparisonResultsComponent', 'selector': 'app-comparison-results'},{'name': 'ConfirmDialogComponent', 'selector': 'app-confirm-dialog'},{'name': 'ConfirmRegisterPageComponent', 'selector': 'app-confirm-register-page'},{'name': 'ContactComponent', 'selector': 'app-contact'},{'name': 'ContactComponentComponent', 'selector': 'app-contact-component'},{'name': 'CreditCarDListPageComponent', 'selector': 'app-credit-cart-list-page'},{'name': 'CreditsSummaryComponent', 'selector': 'app-credits-summary'},{'name': 'CurrentCycleValuesComponent', 'selector': 'app-current-cycle-values'},{'name': 'CustomizeDashboardComponent', 'selector': 'app-customize-dashboard'},{'name': 'CustomSnackBarComponent', 'selector': 'app-custom-snack-bar'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DialogDeleteConfirmation', 'selector': ''},{'name': 'DustVsDpComponent', 'selector': 'app-dust-vs-dp'},{'name': 'EmptyListComponent', 'selector': 'app-empty-list'},{'name': 'ErrorDialogComponent', 'selector': 'app-error-dialog'},{'name': 'FaqsComponent', 'selector': 'app-faqs'},{'name': 'FeedbackDialogComponent', 'selector': 'app-feedback-dialog'},{'name': 'FilterDetailsComponent', 'selector': 'app-filter-details'},{'name': 'FilterFinderComponent', 'selector': 'app-filter-finder'},{'name': 'FilterListComponent', 'selector': 'app-filter-list'},{'name': 'FilterListReviewComponent', 'selector': 'app-filter-list-review'},{'name': 'FilterSelectorComponent', 'selector': 'app-filter-selector'},{'name': 'FilterSummaryComponent', 'selector': 'app-filter-summary'},{'name': 'FilterTermsConditionsComponent', 'selector': 'app-filter-terms-conditions'},{'name': 'FilterTestReportsComponent', 'selector': 'app-filter-test-reports'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'FrequencyChartComponent', 'selector': 'app-frequency-chart'},{'name': 'GaugeChartComponent', 'selector': 'app-gauge-chart'},{'name': 'GaugeComponentComponent', 'selector': 'app-gauge-component'},{'name': 'GeneralErrorComponent', 'selector': 'app-general-error'},{'name': 'GeneralNewsComponent', 'selector': 'app-general-news'},{'name': 'GenericListComponent', 'selector': 'app-generic-list'},{'name': 'HeaderGeneralComponent', 'selector': 'app-header-general'},{'name': 'HeaderLoggedComponent', 'selector': 'app-header-logged'},{'name': 'HistogramChartComponent', 'selector': 'app-histogram-chart'},{'name': 'HistogramComponent', 'selector': 'app-histogram'},{'name': 'HoboDashboardComponent', 'selector': 'app-hobo-dashboard'},{'name': 'HomeCounterComponent', 'selector': 'app-home-counter'},{'name': 'HomePageComponent', 'selector': 'app-home-page'},{'name': 'InstrumentationComponent', 'selector': 'app-instrumentation'},{'name': 'InstrumentComponent', 'selector': 'app-instrument-list'},{'name': 'InstrumentHelpComponent', 'selector': 'app-instrument-help'},{'name': 'InstrumentIndicatorComponent', 'selector': 'app-instrument-indicator'},{'name': 'InstrumentSelectorComponent', 'selector': 'app-instrument-selector'},{'name': 'InstumentsListComponent', 'selector': 'app-instuments-list'},{'name': 'InvoiceComponent', 'selector': 'app-invoice'},{'name': 'LandingPageComponent', 'selector': 'app-landing-page'},{'name': 'LeaveDialogComponent', 'selector': 'app-leave-dialog'},{'name': 'LoaderComponent', 'selector': 'app-loader'},{'name': 'LoginPageComponent', 'selector': 'app-login-page'},{'name': 'LoginPageSonicuComponent', 'selector': 'app-provider-login'},{'name': 'MervChartComponent', 'selector': 'app-merv-chart'},{'name': 'MobilePlaceholderComponent', 'selector': 'app-mobile-placeholder'},{'name': 'ModelFilterFormComponent', 'selector': 'app-model-filter-form'},{'name': 'MonitoringComponent', 'selector': 'app-monitoring'},{'name': 'NewCardComponent', 'selector': 'app-new-card'},{'name': 'NewCaseComponent', 'selector': 'app-new-case'},{'name': 'NewComparisonComponent', 'selector': 'app-new-comparison'},{'name': 'NewInstrumentationComponent', 'selector': 'app-new-instrumentation'},{'name': 'NewPasswordComponent', 'selector': 'app-new-password'},{'name': 'NotificationsInboxComponent', 'selector': 'app-notifications-inbox'},{'name': 'NotificationsListComponent', 'selector': 'app-notifications-list'},{'name': 'NotificationsSettingsComponent', 'selector': 'app-notifications-settings'},{'name': 'OptimizationResultsComponent', 'selector': 'app-optimization-results'},{'name': 'PaginatorComponent', 'selector': 'app-paginator'},{'name': 'PairedCaseInstrumentComponent', 'selector': 'app-paired-list'},{'name': 'PaymentDialogComponent', 'selector': 'app-payment-dialog'},{'name': 'PdfHelperDialogComponent', 'selector': 'app-pdf-helper-dialog'},{'name': 'PdfViewerComponent', 'selector': 'app-pdf-viewer'},{'name': 'PersonalInformationComponent', 'selector': 'app-personal-information'},{'name': 'PieChartComponent', 'selector': 'app-pie-chart'},{'name': 'PlansListComponent', 'selector': 'app-plans-list'},{'name': 'PopOverComponent', 'selector': 'app-pop-over'},{'name': 'ProductComponent', 'selector': 'app-product'},{'name': 'ProfilePageComponent', 'selector': 'app-profile-page'},{'name': 'ProfileSelectionComponent', 'selector': 'app-profile-selection'},{'name': 'RecoverPasswordPageComponent', 'selector': 'app-recover-password-page'},{'name': 'RedirectDialogComponent', 'selector': 'app-redirect-dialog'},{'name': 'RegisterPageComponent', 'selector': 'app-register-page'},{'name': 'ReplaceCostDialogComponent', 'selector': 'app-replace-cost-dialog'},{'name': 'ReportFileDropperComponent', 'selector': 'app-report-file-dropper'},{'name': 'ReportRejectedComponent', 'selector': 'app-report-rejected'},{'name': 'ReportReviewComponent', 'selector': 'app-report-review'},{'name': 'RequestFilterComponent', 'selector': 'app-request-filter'},{'name': 'RequestFilterOptionsComponent', 'selector': 'app-request-filter-options'},{'name': 'SellersComponent', 'selector': 'app-sellers'},{'name': 'SharedReportsComponent', 'selector': 'app-shared-reports'},{'name': 'SingleFormComponent', 'selector': 'app-single-form'},{'name': 'StripePaymentCreationComponent', 'selector': 'app-stripe-payment-creation'},{'name': 'SubscriptionDialogComponent', 'selector': 'app-subscription-dialog'},{'name': 'SubscriptionsListComponent', 'selector': 'app-subscriptions-list'},{'name': 'SuccessDialogComponent', 'selector': 'app-success-dialog'},{'name': 'SystemInformationComponent', 'selector': 'app-system-information'},{'name': 'SystemInformationSummaryComponent', 'selector': 'app-system-information-summary'},{'name': 'TableCostSummaryComponent', 'selector': 'app-table-cost-summary'},{'name': 'TermsAndConditionsComponent', 'selector': 'app-terms-and-conditions'},{'name': 'UploadReportComponent', 'selector': 'app-upload-report'},{'name': 'UserOverviewComponent', 'selector': 'app-user-overview'},{'name': 'UserReportsComponent', 'selector': 'app-user-reports'},{'name': 'UserSharedReportsComponent', 'selector': 'app-users-shared-reports'},{'name': 'UserWelcomeComponent', 'selector': 'app-user-welcome'},{'name': 'ValidatorMenuComponent', 'selector': 'app-validator-menu'},{'name': 'VersionComponent', 'selector': 'app-version'},{'name': 'VerticalSwipperComponent', 'selector': 'app-vertical-swipper'}];
+    var DIRECTIVES = [{'name': 'DragDirective', 'selector': '[appDrag]'},{'name': 'FocusMeDirective', 'selector': '[focusMe]'},{'name': 'HighlightDirective', 'selector': '[appHighlight]'}];
+    var ACTUAL_COMPONENT = {'name': 'FeedbackDialogComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'FeedbackDialogComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

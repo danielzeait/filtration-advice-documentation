@@ -1,0 +1,1002 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>howk documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">howk documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  InstumentsListComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/instruments-list/instuments-list.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-instuments-list</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./instuments-list.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./instuments-list.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#displayedColumns" >displayedColumns</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#original_instruments" >original_instruments</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#search" >search</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#searchedWords$" >searchedWords$</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#searchedWordsControl" >searchedWordsControl</a>
+                            </li>
+                            <li>
+                                <a href="#setInstruments" >setInstruments</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#show_me" >show_me</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#selectInstrument" >selectInstrument</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#for_case" >for_case</a>
+                            </li>
+                            <li>
+                                <a href="#instruments" >instruments</a>
+                            </li>
+                            <li>
+                                <a href="#type" >type</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#done" >done</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor()</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/components/instruments-list/instuments-list.component.ts:27</a></div>
+                            </td>
+                        </tr>
+
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="for_case"></a>
+                        <b>for_case</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/components/instruments-list/instuments-list.component.ts:14</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="instruments"></a>
+                        <b>instruments</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/components/instruments-list/instuments-list.component.ts:12</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="type"></a>
+                        <b>type</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/components/instruments-list/instuments-list.component.ts:13</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+    <section>
+    <h3 id="outputs">Outputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="done"></a>
+                        <b>done</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/components/instruments-list/instuments-list.component.ts:15</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="31"
+                            class="link-to-prism">src/app/components/instruments-list/instuments-list.component.ts:31</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="selectInstrument"></a>
+                    <span class="name">
+                        <span ><b>selectInstrument</b></span>
+                        <a href="#selectInstrument"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>selectInstrument(ev)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="45"
+                            class="link-to-prism">src/app/components/instruments-list/instuments-list.component.ts:45</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ev</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="displayedColumns"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>displayedColumns</b></span>
+                        <a href="#displayedColumns"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>string[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[&#x27;serial_number&#x27;, &#x27;name&#x27;, &#x27;unit&#x27;, &#x27;status&#x27;, &#x27;type&#x27;,&#x27;actions&#x27;]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/components/instruments-list/instuments-list.component.ts:20</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="original_instruments"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>original_instruments</b></span>
+                        <a href="#original_instruments"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/components/instruments-list/instuments-list.component.ts:18</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="search"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>search</b></span>
+                        <a href="#search"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/components/instruments-list/instuments-list.component.ts:19</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="searchedWords$"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>searchedWords$</b></span>
+                        <a href="#searchedWords$"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Observable&lt;string[]&gt;</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>this
+    .searchedWordsControl
+    .valueChanges
+    .pipe(
+      map((search: string) &#x3D;&gt; search.trim().split(&#x27; &#x27;))
+  )</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/components/instruments-list/instuments-list.component.ts:22</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="searchedWordsControl"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>searchedWordsControl</b></span>
+                        <a href="#searchedWordsControl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new FormControl(&#x27;&#x27;)</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/components/instruments-list/instuments-list.component.ts:16</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setInstruments"></a>
+                    <span class="name">
+                        <span ><b>setInstruments</b></span>
+                        <a href="#setInstruments"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/components/instruments-list/instuments-list.component.ts:35</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="show_me"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>show_me</b></span>
+                        <a href="#show_me"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Array&lt;boolean&gt;</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/components/instruments-list/instuments-list.component.ts:17</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, Input, Output, EventEmitter } from &#x27;@angular/core&#x27;;
+import { FormControl } from &#x27;@angular/forms&#x27;;
+import { Observable } from &#x27;rxjs&#x27;;
+import { map } from &#x27;rxjs/operators&#x27;;
+
+@Component({
+  selector: &#x27;app-instuments-list&#x27;,
+  templateUrl: &#x27;./instuments-list.component.html&#x27;,
+  styleUrls: [&#x27;./instuments-list.component.scss&#x27;]
+})
+export class InstumentsListComponent implements OnInit {
+  @Input(&#x27;instruments&#x27;) instruments:any;
+  @Input(&#x27;type&#x27;) type:any;
+  @Input(&#x27;for_case&#x27;) for_case:boolean;
+  @Output() done &#x3D; new EventEmitter();
+  public searchedWordsControl &#x3D; new FormControl(&#x27;&#x27;);
+  public show_me:Array&lt;boolean&gt; &#x3D; []; 
+  public original_instruments:any;
+  public search:any;
+  public displayedColumns: string[] &#x3D; [&#x27;serial_number&#x27;, &#x27;name&#x27;, &#x27;unit&#x27;, &#x27;status&#x27;, &#x27;type&#x27;,&#x27;actions&#x27;];
+  
+  public searchedWords$: Observable&lt;string[]&gt; &#x3D; this
+    .searchedWordsControl
+    .valueChanges
+    .pipe(
+      map((search: string) &#x3D;&gt; search.trim().split(&#x27; &#x27;))
+  )
+  
+  constructor() { }
+
+  ngOnInit() {
+    this.setInstruments()
+  }
+
+  setInstruments &#x3D; () &#x3D;&gt; {
+    this.original_instruments &#x3D; this.instruments;
+    this.instruments.sort((a,b) &#x3D;&gt; 
+      (a[&#x27;units&#x27;] &gt; b[&#x27;units&#x27;]) ? 1 : ((b[&#x27;units&#x27;] &gt; a[&#x27;units&#x27;]) ? -1 : 0)
+    )
+    this.instruments.reverse();
+    this.instruments.map(i &#x3D;&gt; i.paired_with ? i.case_name &#x3D; i.paired_with.case_name : i.case_name &#x3D; &#x27;Unpaired&#x27; );
+    this.instruments.map(i &#x3D;&gt; i.slot ? &#x27;&#x27; : i.slot &#x3D; &#x27;-&#x27;);
+  }
+
+  selectInstrument(ev){
+    ev.selected&#x3D;true;
+    this.done.emit(ev);
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;table-container&quot; [class.table-container-case]&#x3D;&quot;for_case&quot;&gt;
+    &lt;div class&#x3D;&quot;searchbar-container&quot; *ngIf&#x3D;&quot;!for_case&quot;&gt;
+        &lt;mat-icon&gt;search&lt;/mat-icon&gt;
+        &lt;input type&#x3D;&quot;text&quot; name&#x3D;&quot;search&quot; [ngModel]&#x3D;&quot;search&quot; (ngModelChange)&#x3D;&quot;search&#x3D;$event&quot;
+        placeholder&#x3D;&quot;Search for instruments&quot; [formControl]&#x3D;&quot;searchedWordsControl&quot;&gt;
+    
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;table-list&quot;&gt;
+
+        &lt;table mat-table [dataSource]&#x3D;&quot;instruments&quot; class&#x3D;&quot;mat-elevation-z8&quot;&gt;
+        
+            &lt;ng-container matColumnDef&#x3D;&quot;serial_number&quot;&gt;
+              &lt;th mat-header-cell *matHeaderCellDef &gt;&lt;h4 &gt;Serial&lt;/h4&gt;&lt;/th&gt;
+              &lt;td 
+              [class.opacity]&#x3D;&quot;(type &#x3D;&#x3D; &#x27;Airflow&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;) ||  element.units &#x3D;&#x3D; &#x27;&#x27; || element.selected || element.paired_with !&#x3D;&#x3D; null || (type &#x3D;&#x3D; &#x27;Pressure Drop&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;)&quot; 
+              mat-cell *matCellDef&#x3D;&quot;let element&quot; appHighlight [searchedWords]&#x3D;&quot;searchedWords$ | async&quot; classToApply&#x3D;&quot;selected-text&quot;
+              text&#x3D;&quot;{{ element.serial_number }}&quot;&gt; &lt;/td&gt;
+            &lt;/ng-container&gt;
+        
+            &lt;ng-container matColumnDef&#x3D;&quot;name&quot;&gt;
+              &lt;th mat-header-cell *matHeaderCellDef&gt;&lt;h4&gt;Name&lt;/h4&gt;&lt;/th&gt;
+              &lt;td mat-cell *matCellDef&#x3D;&quot;let element&quot; 
+              [class.opacity]&#x3D;&quot;(type &#x3D;&#x3D; &#x27;Airflow&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;) ||  element.units &#x3D;&#x3D; &#x27;&#x27; || element.selected || element.paired_with !&#x3D;&#x3D; null || (type &#x3D;&#x3D; &#x27;Pressure Drop&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;)&quot; 
+              appHighlight [searchedWords]&#x3D;&quot;searchedWords$ | async&quot; classToApply&#x3D;&quot;selected-text&quot;
+              text&#x3D;&quot;{{ element.name }}&quot;&gt; &lt;/td&gt;
+            &lt;/ng-container&gt;
+            
+            
+            &lt;ng-container matColumnDef&#x3D;&quot;unit&quot;&gt;
+              &lt;th mat-header-cell *matHeaderCellDef&gt;&lt;h4&gt;Unit&lt;/h4&gt;&lt;/th&gt;
+              &lt;td mat-cell *matCellDef&#x3D;&quot;let element&quot; 
+              [class.opacity]&#x3D;&quot;(type &#x3D;&#x3D; &#x27;Airflow&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;) ||  element.units &#x3D;&#x3D; &#x27;&#x27; || element.selected || element.paired_with !&#x3D;&#x3D; null || (type &#x3D;&#x3D; &#x27;Pressure Drop&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;)&quot; 
+              appHighlight [searchedWords]&#x3D;&quot;searchedWords$ | async&quot; classToApply&#x3D;&quot;selected-text&quot;
+              text&#x3D;&quot;{{ element.units ? element.units : &#x27;-&#x27; }}&quot;&gt; &lt;/td&gt;
+            &lt;/ng-container&gt;
+            
+            &lt;ng-container matColumnDef&#x3D;&quot;status&quot;&gt;
+              &lt;th mat-header-cell *matHeaderCellDef&gt;&lt;h4&gt;Paired With&lt;/h4&gt;&lt;/th&gt;
+              &lt;td mat-cell *matCellDef&#x3D;&quot;let element&quot; 
+              [class.opacity]&#x3D;&quot;(type &#x3D;&#x3D; &#x27;Airflow&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;) ||  element.units &#x3D;&#x3D; &#x27;&#x27; || element.selected || element.paired_with !&#x3D;&#x3D; null || (type &#x3D;&#x3D; &#x27;Pressure Drop&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;)&quot;&gt;
+                &lt;span *ngIf&#x3D;&quot;!element.paired_with&quot; class&#x3D;&quot;unpaired&quot;&gt; Unpaired &lt;/span&gt;
+                &lt;span *ngIf&#x3D;&quot;element.paired_with&quot; class&#x3D;&quot;case-paired&quot; appHighlight [searchedWords]&#x3D;&quot;searchedWords$ | async&quot; classToApply&#x3D;&quot;selected-text&quot;
+                text&#x3D;&quot;{{ element.case_name }}&quot; (click)&#x3D;&quot;_viewCaseResults(element)&quot;&gt;  &lt;/span&gt;  &lt;/td&gt;
+            &lt;/ng-container&gt;
+        
+            &lt;ng-container matColumnDef&#x3D;&quot;type&quot;&gt;
+              &lt;th mat-header-cell *matHeaderCellDef&gt;&lt;h4&gt; Type&lt;/h4&gt;&lt;/th&gt;
+              &lt;td mat-cell *matCellDef&#x3D;&quot;let element&quot; 
+              [class.opacity]&#x3D;&quot;(type &#x3D;&#x3D; &#x27;Airflow&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;) ||  element.units &#x3D;&#x3D; &#x27;&#x27; || element.selected || element.paired_with !&#x3D;&#x3D; null || (type &#x3D;&#x3D; &#x27;Pressure Drop&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;)&quot;&gt; 
+                &lt;span *ngIf&#x3D;&quot;element.slot&quot; appHighlight [searchedWords]&#x3D;&quot;searchedWords$ | async&quot; classToApply&#x3D;&quot;selected-text&quot;
+                text&#x3D;&quot;{{ element.slot }}&quot;&gt;  &lt;/span&gt;
+                &lt;span *ngIf&#x3D;&quot;!element.slot&quot;&gt; - &lt;/span&gt;   
+              &lt;/td&gt;
+            &lt;/ng-container&gt;
+        
+            &lt;ng-container matColumnDef&#x3D;&quot;actions&quot;&gt;
+              &lt;th mat-header-cell *matHeaderCellDef&gt;&lt;h4&gt;Aactions&lt;/h4&gt;&lt;/th&gt;
+              &lt;td mat-cell *matCellDef&#x3D;&quot;let element&quot;&gt;
+                &lt;button 
+                (click)&#x3D;&quot;selectInstrument(element)&quot;
+                mat-stroked-button 
+                class&#x3D;&quot;button-primary&quot;
+                [class.button-disabled] &#x3D; &quot;(type &#x3D;&#x3D; &#x27;Airflow&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;) ||  element.units &#x3D;&#x3D; &#x27;&#x27; || element.selected || element.paired_with !&#x3D;&#x3D; null || (type &#x3D;&#x3D; &#x27;Pressure Drop&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;)&quot;
+                [disabled]&#x3D;&quot;(type &#x3D;&#x3D; &#x27;Airflow&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;) ||  element.units &#x3D;&#x3D; &#x27;&#x27; || element.selected || element.paired_with !&#x3D;&#x3D; null || (type &#x3D;&#x3D; &#x27;Pressure Drop&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;)&quot;  
+                *ngIf&#x3D;&quot;!element.paired_with; else paired&quot;&gt;
+                  Use for case
+                &lt;/button&gt;
+                &lt;ng-template #paired&gt;
+                  &lt;button mat-stroked-button class&#x3D;&quot;button-outline&quot;
+                  [class.button-disabled] &#x3D; &quot;(type &#x3D;&#x3D; &#x27;Airflow&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;) ||  element.units &#x3D;&#x3D; &#x27;&#x27; || element.selected || element.paired_with !&#x3D;&#x3D; null || (type &#x3D;&#x3D; &#x27;Pressure Drop&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;)&quot;
+                  [disabled]&#x3D;&quot;(type &#x3D;&#x3D; &#x27;Airflow&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;) ||  element.units &#x3D;&#x3D; &#x27;&#x27; || element.selected || element.paired_with !&#x3D;&#x3D; null || (type &#x3D;&#x3D; &#x27;Pressure Drop&#x27; &amp;&amp; element.units !&#x3D;&#x3D; &#x27;inWC&#x27;)&quot;&gt;
+                    Unpair
+                  &lt;/button&gt;
+                &lt;/ng-template&gt;
+              &lt;/td&gt;
+            &lt;/ng-container&gt;
+        
+            &lt;tr mat-header-row *matHeaderRowDef&#x3D;&quot;displayedColumns&quot;&gt;&lt;/tr&gt;
+            &lt;tr mat-row *matRowDef&#x3D;&quot;let row; columns: displayedColumns;&quot;&gt;&lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./instuments-list.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.table-container{
+    width: 100%;
+    padding-top: 7%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.table-container-case{
+    position: relative !important;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 0;
+}
+
+table {
+    width: calc(100% - 30px);
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    h4{
+      color:#003A70;
+      text-align: center;
+    }
+    .mat-stroked-button {
+      line-height: 0px;
+    }
+    button{
+      height: 25px;
+      font-size: 11px;
+      padding: 0;
+      padding-left: 10px;
+      padding-right: 10px;
+      span{
+        line-height: 0;
+      }
+    }
+  }
+
+  
+.searchbar-container{
+    border: 0.5px solid #ccc;
+    padding-left: 10px;
+    height: 37px;
+    width: 95%;
+    margin-left: 1%;
+    input{
+        border: none;
+        font-size: 11px;
+        width: 90%;
+        margin-left:0px;
+        padding-left: 40px;
+    }
+    .mat-icon{
+        position: absolute;
+        left: 30px;
+        transform: rotate(90deg);
+        color: grey;
+    }
+    button{
+        font-size: 12px;
+        border-radius: 20px;
+        background-color: #fcfcfc;
+    }
+}
+
+.table-list{
+    height: 403px;
+    max-height: 600px;
+    overflow-y: scroll;
+    padding-right: 0px;
+    width: calc(100% - 20px);
+    table{
+        th , td , button{
+            font-size: 12px;
+        }
+    }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f3f4f5;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d7d8d9;
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+}
+
+.opacity{
+    opacity: 0.3;
+    pointer-events: none !important;
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="table-container" [class.table-container-case]="for_case">    <div class="searchbar-container" *ngIf="!for_case">        <mat-icon>search</mat-icon>        <input type="text" name="search" [ngModel]="search" (ngModelChange)="search=$event"        placeholder="Search for instruments" [formControl]="searchedWordsControl">        </div>    <div class="table-list">        <table mat-table [dataSource]="instruments" class="mat-elevation-z8">                    <ng-container matColumnDef="serial_number">              <th mat-header-cell *matHeaderCellDef ><h4 >Serial</h4></th>              <td               [class.opacity]="(type == \'Airflow\' && element.units !== \'inWC\') ||  element.units == \'\' || element.selected || element.paired_with !== null || (type == \'Pressure Drop\' && element.units !== \'inWC\')"               mat-cell *matCellDef="let element" appHighlight [searchedWords]="searchedWords$ | async" classToApply="selected-text"              text="{{ element.serial_number }}"> </td>            </ng-container>                    <ng-container matColumnDef="name">              <th mat-header-cell *matHeaderCellDef><h4>Name</h4></th>              <td mat-cell *matCellDef="let element"               [class.opacity]="(type == \'Airflow\' && element.units !== \'inWC\') ||  element.units == \'\' || element.selected || element.paired_with !== null || (type == \'Pressure Drop\' && element.units !== \'inWC\')"               appHighlight [searchedWords]="searchedWords$ | async" classToApply="selected-text"              text="{{ element.name }}"> </td>            </ng-container>                                    <ng-container matColumnDef="unit">              <th mat-header-cell *matHeaderCellDef><h4>Unit</h4></th>              <td mat-cell *matCellDef="let element"               [class.opacity]="(type == \'Airflow\' && element.units !== \'inWC\') ||  element.units == \'\' || element.selected || element.paired_with !== null || (type == \'Pressure Drop\' && element.units !== \'inWC\')"               appHighlight [searchedWords]="searchedWords$ | async" classToApply="selected-text"              text="{{ element.units ? element.units : \'-\' }}"> </td>            </ng-container>                        <ng-container matColumnDef="status">              <th mat-header-cell *matHeaderCellDef><h4>Paired With</h4></th>              <td mat-cell *matCellDef="let element"               [class.opacity]="(type == \'Airflow\' && element.units !== \'inWC\') ||  element.units == \'\' || element.selected || element.paired_with !== null || (type == \'Pressure Drop\' && element.units !== \'inWC\')">                <span *ngIf="!element.paired_with" class="unpaired"> Unpaired </span>                <span *ngIf="element.paired_with" class="case-paired" appHighlight [searchedWords]="searchedWords$ | async" classToApply="selected-text"                text="{{ element.case_name }}" (click)="_viewCaseResults(element)">  </span>  </td>            </ng-container>                    <ng-container matColumnDef="type">              <th mat-header-cell *matHeaderCellDef><h4> Type</h4></th>              <td mat-cell *matCellDef="let element"               [class.opacity]="(type == \'Airflow\' && element.units !== \'inWC\') ||  element.units == \'\' || element.selected || element.paired_with !== null || (type == \'Pressure Drop\' && element.units !== \'inWC\')">                 <span *ngIf="element.slot" appHighlight [searchedWords]="searchedWords$ | async" classToApply="selected-text"                text="{{ element.slot }}">  </span>                <span *ngIf="!element.slot"> - </span>                 </td>            </ng-container>                    <ng-container matColumnDef="actions">              <th mat-header-cell *matHeaderCellDef><h4>Aactions</h4></th>              <td mat-cell *matCellDef="let element">                <button                 (click)="selectInstrument(element)"                mat-stroked-button                 class="button-primary"                [class.button-disabled] = "(type == \'Airflow\' && element.units !== \'inWC\') ||  element.units == \'\' || element.selected || element.paired_with !== null || (type == \'Pressure Drop\' && element.units !== \'inWC\')"                [disabled]="(type == \'Airflow\' && element.units !== \'inWC\') ||  element.units == \'\' || element.selected || element.paired_with !== null || (type == \'Pressure Drop\' && element.units !== \'inWC\')"                  *ngIf="!element.paired_with; else paired">                  Use for case                </button>                <ng-template #paired>                  <button mat-stroked-button class="button-outline"                  [class.button-disabled] = "(type == \'Airflow\' && element.units !== \'inWC\') ||  element.units == \'\' || element.selected || element.paired_with !== null || (type == \'Pressure Drop\' && element.units !== \'inWC\')"                  [disabled]="(type == \'Airflow\' && element.units !== \'inWC\') ||  element.units == \'\' || element.selected || element.paired_with !== null || (type == \'Pressure Drop\' && element.units !== \'inWC\')">                    Unpair                  </button>                </ng-template>              </td>            </ng-container>                    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>        </table>    </div></div></div>'
+    var COMPONENTS = [{'name': 'AboutComponent', 'selector': 'app-about'},{'name': 'AdvancedFilterComponent', 'selector': 'app-advanced-filter'},{'name': 'AdvancedSearchComponent', 'selector': 'app-advanced-search'},{'name': 'AirFlowDialogComponent', 'selector': 'airflow-dialog'},{'name': 'AirflowVsDpComponent', 'selector': 'app-airflow-vs-dp'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AreaChartComponent', 'selector': 'app-area-chart'},{'name': 'BarChartComponent', 'selector': 'app-bar-chart'},{'name': 'BeforePrintDialogComponent', 'selector': 'app-before-print-dialog'},{'name': 'BillingsComponent', 'selector': 'app-billings'},{'name': 'BottomPaginatorComponent', 'selector': 'app-bottom-paginator'},{'name': 'CaseActionsComponent', 'selector': 'app-case-actions'},{'name': 'CaseCostComponent', 'selector': 'app-case-cost'},{'name': 'CaseListComponent', 'selector': 'app-case-list'},{'name': 'CaseSelectorComponent', 'selector': 'app-case-selector'},{'name': 'CaseStudyProfileComponent', 'selector': 'app-case-study-profile'},{'name': 'CaseTimeLineComponent', 'selector': 'app-case-time-line'},{'name': 'ChangeCaseDialogComponent', 'selector': 'app-change-case-dialog'},{'name': 'ChangeoutListComponent', 'selector': 'app-changeout-list'},{'name': 'ChangeProviderDialogComponent', 'selector': 'app-change-provider-dialog'},{'name': 'ChartAirflowVsDpComponent', 'selector': 'app-chart-airflow-vs-dp'},{'name': 'ChartCostVsTimeComponent', 'selector': 'app-chart-cost-vs-time'},{'name': 'ChartDpVsTimeComponent', 'selector': 'app-chart-dp-vs-time'},{'name': 'ChartDustVsDpComponent', 'selector': 'app-chart-dust-vs-dp'},{'name': 'ChartReviewComponent', 'selector': 'app-chart-review'},{'name': 'CompanyComponent', 'selector': 'app-company'},{'name': 'ComparisonBarChartComponent', 'selector': 'app-comparison-bar-chart'},{'name': 'ComparisonDpVsTimeChartComponent', 'selector': 'app-comparison-dp-vs-time-chart'},{'name': 'ComparisonListComponent', 'selector': 'app-comparison-list'},{'name': 'ComparisonResultsComponent', 'selector': 'app-comparison-results'},{'name': 'ConfirmDialogComponent', 'selector': 'app-confirm-dialog'},{'name': 'ConfirmRegisterPageComponent', 'selector': 'app-confirm-register-page'},{'name': 'ContactComponent', 'selector': 'app-contact'},{'name': 'ContactComponentComponent', 'selector': 'app-contact-component'},{'name': 'CreditCarDListPageComponent', 'selector': 'app-credit-cart-list-page'},{'name': 'CreditsSummaryComponent', 'selector': 'app-credits-summary'},{'name': 'CurrentCycleValuesComponent', 'selector': 'app-current-cycle-values'},{'name': 'CustomizeDashboardComponent', 'selector': 'app-customize-dashboard'},{'name': 'CustomSnackBarComponent', 'selector': 'app-custom-snack-bar'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DialogDeleteConfirmation', 'selector': ''},{'name': 'DustVsDpComponent', 'selector': 'app-dust-vs-dp'},{'name': 'EmptyListComponent', 'selector': 'app-empty-list'},{'name': 'ErrorDialogComponent', 'selector': 'app-error-dialog'},{'name': 'FaqsComponent', 'selector': 'app-faqs'},{'name': 'FeedbackDialogComponent', 'selector': 'app-feedback-dialog'},{'name': 'FilterDetailsComponent', 'selector': 'app-filter-details'},{'name': 'FilterFinderComponent', 'selector': 'app-filter-finder'},{'name': 'FilterListComponent', 'selector': 'app-filter-list'},{'name': 'FilterListReviewComponent', 'selector': 'app-filter-list-review'},{'name': 'FilterSelectorComponent', 'selector': 'app-filter-selector'},{'name': 'FilterSummaryComponent', 'selector': 'app-filter-summary'},{'name': 'FilterTermsConditionsComponent', 'selector': 'app-filter-terms-conditions'},{'name': 'FilterTestReportsComponent', 'selector': 'app-filter-test-reports'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'FrequencyChartComponent', 'selector': 'app-frequency-chart'},{'name': 'GaugeChartComponent', 'selector': 'app-gauge-chart'},{'name': 'GaugeComponentComponent', 'selector': 'app-gauge-component'},{'name': 'GeneralErrorComponent', 'selector': 'app-general-error'},{'name': 'GeneralNewsComponent', 'selector': 'app-general-news'},{'name': 'GenericListComponent', 'selector': 'app-generic-list'},{'name': 'HeaderGeneralComponent', 'selector': 'app-header-general'},{'name': 'HeaderLoggedComponent', 'selector': 'app-header-logged'},{'name': 'HistogramChartComponent', 'selector': 'app-histogram-chart'},{'name': 'HistogramComponent', 'selector': 'app-histogram'},{'name': 'HoboDashboardComponent', 'selector': 'app-hobo-dashboard'},{'name': 'HomeCounterComponent', 'selector': 'app-home-counter'},{'name': 'HomePageComponent', 'selector': 'app-home-page'},{'name': 'InstrumentationComponent', 'selector': 'app-instrumentation'},{'name': 'InstrumentComponent', 'selector': 'app-instrument-list'},{'name': 'InstrumentHelpComponent', 'selector': 'app-instrument-help'},{'name': 'InstrumentIndicatorComponent', 'selector': 'app-instrument-indicator'},{'name': 'InstrumentSelectorComponent', 'selector': 'app-instrument-selector'},{'name': 'InstumentsListComponent', 'selector': 'app-instuments-list'},{'name': 'InvoiceComponent', 'selector': 'app-invoice'},{'name': 'LandingPageComponent', 'selector': 'app-landing-page'},{'name': 'LeaveDialogComponent', 'selector': 'app-leave-dialog'},{'name': 'LoaderComponent', 'selector': 'app-loader'},{'name': 'LoginPageComponent', 'selector': 'app-login-page'},{'name': 'LoginPageSonicuComponent', 'selector': 'app-provider-login'},{'name': 'MervChartComponent', 'selector': 'app-merv-chart'},{'name': 'MobilePlaceholderComponent', 'selector': 'app-mobile-placeholder'},{'name': 'ModelFilterFormComponent', 'selector': 'app-model-filter-form'},{'name': 'MonitoringComponent', 'selector': 'app-monitoring'},{'name': 'NewCardComponent', 'selector': 'app-new-card'},{'name': 'NewCaseComponent', 'selector': 'app-new-case'},{'name': 'NewComparisonComponent', 'selector': 'app-new-comparison'},{'name': 'NewInstrumentationComponent', 'selector': 'app-new-instrumentation'},{'name': 'NewPasswordComponent', 'selector': 'app-new-password'},{'name': 'NotificationsInboxComponent', 'selector': 'app-notifications-inbox'},{'name': 'NotificationsListComponent', 'selector': 'app-notifications-list'},{'name': 'NotificationsSettingsComponent', 'selector': 'app-notifications-settings'},{'name': 'OptimizationResultsComponent', 'selector': 'app-optimization-results'},{'name': 'PaginatorComponent', 'selector': 'app-paginator'},{'name': 'PairedCaseInstrumentComponent', 'selector': 'app-paired-list'},{'name': 'PaymentDialogComponent', 'selector': 'app-payment-dialog'},{'name': 'PdfHelperDialogComponent', 'selector': 'app-pdf-helper-dialog'},{'name': 'PdfViewerComponent', 'selector': 'app-pdf-viewer'},{'name': 'PersonalInformationComponent', 'selector': 'app-personal-information'},{'name': 'PieChartComponent', 'selector': 'app-pie-chart'},{'name': 'PlansListComponent', 'selector': 'app-plans-list'},{'name': 'PopOverComponent', 'selector': 'app-pop-over'},{'name': 'ProductComponent', 'selector': 'app-product'},{'name': 'ProfilePageComponent', 'selector': 'app-profile-page'},{'name': 'ProfileSelectionComponent', 'selector': 'app-profile-selection'},{'name': 'RecoverPasswordPageComponent', 'selector': 'app-recover-password-page'},{'name': 'RedirectDialogComponent', 'selector': 'app-redirect-dialog'},{'name': 'RegisterPageComponent', 'selector': 'app-register-page'},{'name': 'ReplaceCostDialogComponent', 'selector': 'app-replace-cost-dialog'},{'name': 'ReportFileDropperComponent', 'selector': 'app-report-file-dropper'},{'name': 'ReportRejectedComponent', 'selector': 'app-report-rejected'},{'name': 'ReportReviewComponent', 'selector': 'app-report-review'},{'name': 'RequestFilterComponent', 'selector': 'app-request-filter'},{'name': 'RequestFilterOptionsComponent', 'selector': 'app-request-filter-options'},{'name': 'SellersComponent', 'selector': 'app-sellers'},{'name': 'SharedReportsComponent', 'selector': 'app-shared-reports'},{'name': 'SingleFormComponent', 'selector': 'app-single-form'},{'name': 'StripePaymentCreationComponent', 'selector': 'app-stripe-payment-creation'},{'name': 'SubscriptionDialogComponent', 'selector': 'app-subscription-dialog'},{'name': 'SubscriptionsListComponent', 'selector': 'app-subscriptions-list'},{'name': 'SuccessDialogComponent', 'selector': 'app-success-dialog'},{'name': 'SystemInformationComponent', 'selector': 'app-system-information'},{'name': 'SystemInformationSummaryComponent', 'selector': 'app-system-information-summary'},{'name': 'TableCostSummaryComponent', 'selector': 'app-table-cost-summary'},{'name': 'TermsAndConditionsComponent', 'selector': 'app-terms-and-conditions'},{'name': 'UploadReportComponent', 'selector': 'app-upload-report'},{'name': 'UserOverviewComponent', 'selector': 'app-user-overview'},{'name': 'UserReportsComponent', 'selector': 'app-user-reports'},{'name': 'UserSharedReportsComponent', 'selector': 'app-users-shared-reports'},{'name': 'UserWelcomeComponent', 'selector': 'app-user-welcome'},{'name': 'ValidatorMenuComponent', 'selector': 'app-validator-menu'},{'name': 'VersionComponent', 'selector': 'app-version'},{'name': 'VerticalSwipperComponent', 'selector': 'app-vertical-swipper'}];
+    var DIRECTIVES = [{'name': 'DragDirective', 'selector': '[appDrag]'},{'name': 'FocusMeDirective', 'selector': '[focusMe]'},{'name': 'HighlightDirective', 'selector': '[appHighlight]'}];
+    var ACTUAL_COMPONENT = {'name': 'InstumentsListComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'InstumentsListComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

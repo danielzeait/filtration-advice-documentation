@@ -1,0 +1,1016 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>howk documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">howk documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  ChangeoutListComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/changeout-list/changeout-list.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-changeout-list</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./changeout-list.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./changeout-list.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#change_out_data" >change_out_data</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#change_out_list" >change_out_list</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#date" >date</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#dialog" >dialog</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#getChangeOutDates" >getChangeOutDates</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#openCaseSelector" >openCaseSelector</a>
+                            </li>
+                            <li>
+                                <a href="#removeFromDashboard" >removeFromDashboard</a>
+                            </li>
+                            <li>
+                                <a href="#viewCaseDetails" >viewCaseDetails</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#data" >data</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#change_list" >change_list</a>
+                            </li>
+                            <li>
+                                <a href="#remove" >remove</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(dialog: MatDialog, navigator: <a href="../injectables/NavigationProvider.html" target="_self">NavigationProvider</a>, authProvider: <a href="../injectables/AuthProvider.html" target="_self">AuthProvider</a>, caseProvider: <a href="../injectables/CaseProvider.html" target="_self">CaseProvider</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/components/changeout-list/changeout-list.component.ts:21</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>dialog</td>
+                                                  
+                                                        <td>
+                                                                    <code>MatDialog</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>navigator</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/NavigationProvider.html" target="_self" >NavigationProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>authProvider</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuthProvider.html" target="_self" >AuthProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>caseProvider</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CaseProvider.html" target="_self" >CaseProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="data"></a>
+                        <b>data</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/components/changeout-list/changeout-list.component.ts:16</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+    <section>
+    <h3 id="outputs">Outputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="change_list"></a>
+                        <b>change_list</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/components/changeout-list/changeout-list.component.ts:17</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="remove"></a>
+                        <b>remove</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/components/changeout-list/changeout-list.component.ts:18</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getChangeOutDates"></a>
+                    <span class="name">
+                        <span ><b>getChangeOutDates</b></span>
+                        <a href="#getChangeOutDates"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getChangeOutDates()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="57"
+                            class="link-to-prism">src/app/components/changeout-list/changeout-list.component.ts:57</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="28"
+                            class="link-to-prism">src/app/components/changeout-list/changeout-list.component.ts:28</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openCaseSelector"></a>
+                    <span class="name">
+                        <span ><b>openCaseSelector</b></span>
+                        <a href="#openCaseSelector"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openCaseSelector()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="35"
+                            class="link-to-prism">src/app/components/changeout-list/changeout-list.component.ts:35</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="removeFromDashboard"></a>
+                    <span class="name">
+                        <span ><b>removeFromDashboard</b></span>
+                        <a href="#removeFromDashboard"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>removeFromDashboard()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="68"
+                            class="link-to-prism">src/app/components/changeout-list/changeout-list.component.ts:68</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="viewCaseDetails"></a>
+                    <span class="name">
+                        <span ><b>viewCaseDetails</b></span>
+                        <a href="#viewCaseDetails"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>viewCaseDetails(_case)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="72"
+                            class="link-to-prism">src/app/components/changeout-list/changeout-list.component.ts:72</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>_case</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="change_out_data"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>change_out_data</b></span>
+                        <a href="#change_out_data"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/components/changeout-list/changeout-list.component.ts:19</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="change_out_list"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>change_out_list</b></span>
+                        <a href="#change_out_list"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/components/changeout-list/changeout-list.component.ts:20</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="date"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>date</b></span>
+                        <a href="#date"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/components/changeout-list/changeout-list.component.ts:21</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dialog"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>dialog</b></span>
+                        <a href="#dialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>MatDialog</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/components/changeout-list/changeout-list.component.ts:23</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, Input, Output, EventEmitter } from &#x27;@angular/core&#x27;;
+import { CaseSelectorComponent } from &#x27;../modal-dialogs/case-selector/case-selector.component&#x27;;
+import { MatDialog } from &#x27;@angular/material/dialog&#x27;;
+import { AuthProvider } from &#x27;src/app/providers/auth.service&#x27;;
+import { Width } from &#x27;ngx-owl-carousel-o/lib/services/carousel.service&#x27;;
+import { CaseProvider } from &#x27;src/app/providers/case.service&#x27;;
+import { emit } from &#x27;process&#x27;;
+import { NavigationProvider } from &#x27;src/app/providers/navigation.provider&#x27;;
+
+@Component({
+  selector: &#x27;app-changeout-list&#x27;,
+  templateUrl: &#x27;./changeout-list.component.html&#x27;,
+  styleUrls: [&#x27;./changeout-list.component.scss&#x27;]
+})
+export class ChangeoutListComponent implements OnInit {
+  @Input(&#x27;data&#x27;) input_data:any;
+  @Output() change_list &#x3D; new EventEmitter(); 
+  @Output() remove &#x3D; new EventEmitter(); 
+  public change_out_data:any;
+  public change_out_list:any;
+  public date:any;
+  constructor(
+    public dialog:MatDialog, 
+    private navigator:NavigationProvider,
+    private authProvider:AuthProvider, 
+    private caseProvider:CaseProvider) { }
+
+  ngOnInit() {
+    if(this.input_data){
+      this.change_out_data &#x3D; [...this.input_data];
+      this.getChangeOutDates();
+    }
+  }
+
+  openCaseSelector(){
+    let dialogRef &#x3D; this.dialog.open(CaseSelectorComponent, {
+      width: &#x27;70%&#x27;,
+      height: &#x27;91%&#x27;,
+      data:this.change_out_data ? this.change_out_data : null,
+      id:&#x27;case-selector&#x27;
+    });
+
+    dialogRef.afterClosed().subscribe(result &#x3D;&gt; {
+      if (result) {
+        this.authProvider.getUserDashboard().subscribe((dashboard:any)&#x3D;&gt;{
+          dashboard.find(widget &#x3D;&gt; widget.type &#x3D;&#x3D; &quot;changeout&quot;).data &#x3D; [...result];
+          this.authProvider.setUserDashboard(dashboard).subscribe(
+            (updated_dashboard:any)&#x3D;&gt;{
+              this.change_out_data &#x3D; [...updated_dashboard.find(widget &#x3D;&gt; widget.type &#x3D;&#x3D; &#x27;changeout&#x27;).data]; 
+              this.getChangeOutDates();
+          })
+        })
+      }
+    });
+  }
+
+  getChangeOutDates(){
+    var cases &#x3D; [...this.change_out_data].join();
+    if(cases.length &gt; 0){
+      this.caseProvider.getChangeOutList(cases).subscribe((change_out_list) &#x3D;&gt; {
+        this.change_out_list &#x3D; [...change_out_list];
+        this.change_out_list.map( item &#x3D;&gt; item.already_past &#x3D; new Date(item.replace_date.replace(&#x27; at&#x27;,&#x27;&#x27;)) &lt; new Date() )
+        this.change_list.emit(this.change_out_data);
+      })
+    }
+  }
+
+  removeFromDashboard(){
+    this.remove.emit();
+  }
+
+  viewCaseDetails(_case){
+    this.navigator._goOptimizationsResults(_case);
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;h3&gt; Optimal Date of Change-out &lt;/h3&gt;
+&lt;button class&#x3D;&quot;button-more&quot; [matMenuTriggerFor]&#x3D;&quot;menu&quot;&gt;&lt;mat-icon&gt;more_vert&lt;/mat-icon&gt;&lt;/button&gt;
+&lt;mat-menu #menu&#x3D;&quot;matMenu&quot;&gt;
+    &lt;button mat-menu-item (click)&#x3D;&quot;openCaseSelector()&quot;&gt;
+        &lt;span&gt;Edit widget&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;button mat-menu-item (click)&#x3D;&quot;removeFromDashboard()&quot;&gt; 
+        &lt;span&gt;Remove from dashboard&lt;/span&gt;
+    &lt;/button&gt;
+&lt;/mat-menu&gt;
+&lt;div class&#x3D;&quot;changeout-list-container&quot; *ngIf&#x3D;&quot;!change_out_list&quot;&gt;
+    &lt;button class&#x3D;&quot;button-clear&quot;  (click)&#x3D;&quot;openCaseSelector()&quot;&gt; Add cases to this widget &lt;/button&gt;
+&lt;/div&gt;
+&lt;div class&#x3D;&quot;dates-list&quot; *ngIf&#x3D;&quot;change_out_list&quot;&gt;
+    &lt;div class&#x3D;&quot;item&quot; *ngFor&#x3D;&quot;let item of change_out_list&quot;&gt;
+        &lt;button class&#x3D;&quot;button-link&quot; (click)&#x3D;&quot;viewCaseDetails(item)&quot;&gt; Go to case &lt;/button&gt;
+        &lt;img src&#x3D;&quot;{{ item.picture }}&quot;&gt;
+        &lt;h4&gt; {{ item.name }} &amp;nbsp;&amp;nbsp; &lt;img src&#x3D;&quot;../../../assets/imgs/instrument_icon.png&quot; *ngIf&#x3D;&quot;item.is_instrumented&quot;&gt;  &lt;/h4&gt;
+        &lt;h6&gt; Filter should be changed on &lt;span [class.color-alert]&#x3D;&quot;item.already_past&quot;&gt;{{ item.replace_date }}&lt;/span&gt; &lt;/h6&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./changeout-list.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">h3{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}
+
+.changeout-list-container{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    height: calc(100% - 70px);
+    display: -webkit-flex;;
+    justify-content: center;
+    align-items: center;
+    button{
+        font-size: 16px;
+        margin-top: -30px;
+    }
+}
+
+.dates-list{
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    width: calc(100% - 40px);
+    .item{
+        position: relative;
+        height: auto;
+        text-align: left;
+        border-bottom: 0.5px solid #ccc;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+        img{
+            width: 45px;
+            position: absolute;
+            top: -7.5px;
+            height: 45px;
+        }
+        button{
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        h4{
+            color: #003A70;
+            font-size: 13px;
+            margin: 5px;
+            margin-left: 55px;
+            img{
+                width: 14px;
+                top: -1px;
+            }
+        }
+        h6{
+            //position: absolute;
+            bottom: 0;
+            margin: 5px;
+            margin-left: 55px;
+            right: 0;
+            font-size: 11px;
+            color: #999;
+            padding-right: 5px;
+            font-weight: normal;
+            span{
+                margin-left: 15px;
+                color: #199AD8;
+            }
+        }
+    }
+    
+}
+
+.button-more{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #707070;
+    background: none;
+    border: none;
+}
+
+button.mat-menu-item {
+    width: 100%;
+    height: 30px;
+    font-size: 11px;
+    line-height: 0px;
+}
+
+::ng-deep .mat-menu-panel {
+    min-width: 190px !important;
+    max-width: 280px;
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><h3> Optimal Date of Change-out </h3><button class="button-more" [matMenuTriggerFor]="menu"><mat-icon>more_vert</mat-icon></button><mat-menu #menu="matMenu">    <button mat-menu-item (click)="openCaseSelector()">        <span>Edit widget</span>    </button>    <button mat-menu-item (click)="removeFromDashboard()">         <span>Remove from dashboard</span>    </button></mat-menu><div class="changeout-list-container" *ngIf="!change_out_list">    <button class="button-clear"  (click)="openCaseSelector()"> Add cases to this widget </button></div><div class="dates-list" *ngIf="change_out_list">    <div class="item" *ngFor="let item of change_out_list">        <button class="button-link" (click)="viewCaseDetails(item)"> Go to case </button>        <img src="{{ item.picture }}">        <h4> {{ item.name }} &nbsp;&nbsp; <img src="../../../assets/imgs/instrument_icon.png" *ngIf="item.is_instrumented">  </h4>        <h6> Filter should be changed on <span [class.color-alert]="item.already_past">{{ item.replace_date }}</span> </h6>    </div></div></div>'
+    var COMPONENTS = [{'name': 'AboutComponent', 'selector': 'app-about'},{'name': 'AdvancedFilterComponent', 'selector': 'app-advanced-filter'},{'name': 'AdvancedSearchComponent', 'selector': 'app-advanced-search'},{'name': 'AirFlowDialogComponent', 'selector': 'airflow-dialog'},{'name': 'AirflowVsDpComponent', 'selector': 'app-airflow-vs-dp'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AreaChartComponent', 'selector': 'app-area-chart'},{'name': 'BarChartComponent', 'selector': 'app-bar-chart'},{'name': 'BeforePrintDialogComponent', 'selector': 'app-before-print-dialog'},{'name': 'BillingsComponent', 'selector': 'app-billings'},{'name': 'BottomPaginatorComponent', 'selector': 'app-bottom-paginator'},{'name': 'CaseActionsComponent', 'selector': 'app-case-actions'},{'name': 'CaseCostComponent', 'selector': 'app-case-cost'},{'name': 'CaseListComponent', 'selector': 'app-case-list'},{'name': 'CaseSelectorComponent', 'selector': 'app-case-selector'},{'name': 'CaseStudyProfileComponent', 'selector': 'app-case-study-profile'},{'name': 'CaseTimeLineComponent', 'selector': 'app-case-time-line'},{'name': 'ChangeCaseDialogComponent', 'selector': 'app-change-case-dialog'},{'name': 'ChangeoutListComponent', 'selector': 'app-changeout-list'},{'name': 'ChangeProviderDialogComponent', 'selector': 'app-change-provider-dialog'},{'name': 'ChartAirflowVsDpComponent', 'selector': 'app-chart-airflow-vs-dp'},{'name': 'ChartCostVsTimeComponent', 'selector': 'app-chart-cost-vs-time'},{'name': 'ChartDpVsTimeComponent', 'selector': 'app-chart-dp-vs-time'},{'name': 'ChartDustVsDpComponent', 'selector': 'app-chart-dust-vs-dp'},{'name': 'ChartReviewComponent', 'selector': 'app-chart-review'},{'name': 'CompanyComponent', 'selector': 'app-company'},{'name': 'ComparisonBarChartComponent', 'selector': 'app-comparison-bar-chart'},{'name': 'ComparisonDpVsTimeChartComponent', 'selector': 'app-comparison-dp-vs-time-chart'},{'name': 'ComparisonListComponent', 'selector': 'app-comparison-list'},{'name': 'ComparisonResultsComponent', 'selector': 'app-comparison-results'},{'name': 'ConfirmDialogComponent', 'selector': 'app-confirm-dialog'},{'name': 'ConfirmRegisterPageComponent', 'selector': 'app-confirm-register-page'},{'name': 'ContactComponent', 'selector': 'app-contact'},{'name': 'ContactComponentComponent', 'selector': 'app-contact-component'},{'name': 'CreditCarDListPageComponent', 'selector': 'app-credit-cart-list-page'},{'name': 'CreditsSummaryComponent', 'selector': 'app-credits-summary'},{'name': 'CurrentCycleValuesComponent', 'selector': 'app-current-cycle-values'},{'name': 'CustomizeDashboardComponent', 'selector': 'app-customize-dashboard'},{'name': 'CustomSnackBarComponent', 'selector': 'app-custom-snack-bar'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DialogDeleteConfirmation', 'selector': ''},{'name': 'DustVsDpComponent', 'selector': 'app-dust-vs-dp'},{'name': 'EmptyListComponent', 'selector': 'app-empty-list'},{'name': 'ErrorDialogComponent', 'selector': 'app-error-dialog'},{'name': 'FaqsComponent', 'selector': 'app-faqs'},{'name': 'FeedbackDialogComponent', 'selector': 'app-feedback-dialog'},{'name': 'FilterDetailsComponent', 'selector': 'app-filter-details'},{'name': 'FilterFinderComponent', 'selector': 'app-filter-finder'},{'name': 'FilterListComponent', 'selector': 'app-filter-list'},{'name': 'FilterListReviewComponent', 'selector': 'app-filter-list-review'},{'name': 'FilterSelectorComponent', 'selector': 'app-filter-selector'},{'name': 'FilterSummaryComponent', 'selector': 'app-filter-summary'},{'name': 'FilterTermsConditionsComponent', 'selector': 'app-filter-terms-conditions'},{'name': 'FilterTestReportsComponent', 'selector': 'app-filter-test-reports'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'FrequencyChartComponent', 'selector': 'app-frequency-chart'},{'name': 'GaugeChartComponent', 'selector': 'app-gauge-chart'},{'name': 'GaugeComponentComponent', 'selector': 'app-gauge-component'},{'name': 'GeneralErrorComponent', 'selector': 'app-general-error'},{'name': 'GeneralNewsComponent', 'selector': 'app-general-news'},{'name': 'GenericListComponent', 'selector': 'app-generic-list'},{'name': 'HeaderGeneralComponent', 'selector': 'app-header-general'},{'name': 'HeaderLoggedComponent', 'selector': 'app-header-logged'},{'name': 'HistogramChartComponent', 'selector': 'app-histogram-chart'},{'name': 'HistogramComponent', 'selector': 'app-histogram'},{'name': 'HoboDashboardComponent', 'selector': 'app-hobo-dashboard'},{'name': 'HomeCounterComponent', 'selector': 'app-home-counter'},{'name': 'HomePageComponent', 'selector': 'app-home-page'},{'name': 'InstrumentationComponent', 'selector': 'app-instrumentation'},{'name': 'InstrumentComponent', 'selector': 'app-instrument-list'},{'name': 'InstrumentHelpComponent', 'selector': 'app-instrument-help'},{'name': 'InstrumentIndicatorComponent', 'selector': 'app-instrument-indicator'},{'name': 'InstrumentSelectorComponent', 'selector': 'app-instrument-selector'},{'name': 'InstumentsListComponent', 'selector': 'app-instuments-list'},{'name': 'InvoiceComponent', 'selector': 'app-invoice'},{'name': 'LandingPageComponent', 'selector': 'app-landing-page'},{'name': 'LeaveDialogComponent', 'selector': 'app-leave-dialog'},{'name': 'LoaderComponent', 'selector': 'app-loader'},{'name': 'LoginPageComponent', 'selector': 'app-login-page'},{'name': 'LoginPageSonicuComponent', 'selector': 'app-provider-login'},{'name': 'MervChartComponent', 'selector': 'app-merv-chart'},{'name': 'MobilePlaceholderComponent', 'selector': 'app-mobile-placeholder'},{'name': 'ModelFilterFormComponent', 'selector': 'app-model-filter-form'},{'name': 'MonitoringComponent', 'selector': 'app-monitoring'},{'name': 'NewCardComponent', 'selector': 'app-new-card'},{'name': 'NewCaseComponent', 'selector': 'app-new-case'},{'name': 'NewComparisonComponent', 'selector': 'app-new-comparison'},{'name': 'NewInstrumentationComponent', 'selector': 'app-new-instrumentation'},{'name': 'NewPasswordComponent', 'selector': 'app-new-password'},{'name': 'NotificationsInboxComponent', 'selector': 'app-notifications-inbox'},{'name': 'NotificationsListComponent', 'selector': 'app-notifications-list'},{'name': 'NotificationsSettingsComponent', 'selector': 'app-notifications-settings'},{'name': 'OptimizationResultsComponent', 'selector': 'app-optimization-results'},{'name': 'PaginatorComponent', 'selector': 'app-paginator'},{'name': 'PairedCaseInstrumentComponent', 'selector': 'app-paired-list'},{'name': 'PaymentDialogComponent', 'selector': 'app-payment-dialog'},{'name': 'PdfHelperDialogComponent', 'selector': 'app-pdf-helper-dialog'},{'name': 'PdfViewerComponent', 'selector': 'app-pdf-viewer'},{'name': 'PersonalInformationComponent', 'selector': 'app-personal-information'},{'name': 'PieChartComponent', 'selector': 'app-pie-chart'},{'name': 'PlansListComponent', 'selector': 'app-plans-list'},{'name': 'PopOverComponent', 'selector': 'app-pop-over'},{'name': 'ProductComponent', 'selector': 'app-product'},{'name': 'ProfilePageComponent', 'selector': 'app-profile-page'},{'name': 'ProfileSelectionComponent', 'selector': 'app-profile-selection'},{'name': 'RecoverPasswordPageComponent', 'selector': 'app-recover-password-page'},{'name': 'RedirectDialogComponent', 'selector': 'app-redirect-dialog'},{'name': 'RegisterPageComponent', 'selector': 'app-register-page'},{'name': 'ReplaceCostDialogComponent', 'selector': 'app-replace-cost-dialog'},{'name': 'ReportFileDropperComponent', 'selector': 'app-report-file-dropper'},{'name': 'ReportRejectedComponent', 'selector': 'app-report-rejected'},{'name': 'ReportReviewComponent', 'selector': 'app-report-review'},{'name': 'RequestFilterComponent', 'selector': 'app-request-filter'},{'name': 'RequestFilterOptionsComponent', 'selector': 'app-request-filter-options'},{'name': 'SellersComponent', 'selector': 'app-sellers'},{'name': 'SharedReportsComponent', 'selector': 'app-shared-reports'},{'name': 'SingleFormComponent', 'selector': 'app-single-form'},{'name': 'StripePaymentCreationComponent', 'selector': 'app-stripe-payment-creation'},{'name': 'SubscriptionDialogComponent', 'selector': 'app-subscription-dialog'},{'name': 'SubscriptionsListComponent', 'selector': 'app-subscriptions-list'},{'name': 'SuccessDialogComponent', 'selector': 'app-success-dialog'},{'name': 'SystemInformationComponent', 'selector': 'app-system-information'},{'name': 'SystemInformationSummaryComponent', 'selector': 'app-system-information-summary'},{'name': 'TableCostSummaryComponent', 'selector': 'app-table-cost-summary'},{'name': 'TermsAndConditionsComponent', 'selector': 'app-terms-and-conditions'},{'name': 'UploadReportComponent', 'selector': 'app-upload-report'},{'name': 'UserOverviewComponent', 'selector': 'app-user-overview'},{'name': 'UserReportsComponent', 'selector': 'app-user-reports'},{'name': 'UserSharedReportsComponent', 'selector': 'app-users-shared-reports'},{'name': 'UserWelcomeComponent', 'selector': 'app-user-welcome'},{'name': 'ValidatorMenuComponent', 'selector': 'app-validator-menu'},{'name': 'VersionComponent', 'selector': 'app-version'},{'name': 'VerticalSwipperComponent', 'selector': 'app-vertical-swipper'}];
+    var DIRECTIVES = [{'name': 'DragDirective', 'selector': '[appDrag]'},{'name': 'FocusMeDirective', 'selector': '[focusMe]'},{'name': 'HighlightDirective', 'selector': '[appHighlight]'}];
+    var ACTUAL_COMPONENT = {'name': 'ChangeoutListComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'ChangeoutListComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

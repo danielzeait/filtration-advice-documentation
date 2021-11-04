@@ -1,0 +1,2283 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>howk documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">howk documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content injectable">
+                   <div class="content-data">
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Injectables</li>
+  <li >MetaDataProvider</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/app/providers/metadata.service.ts</code>
+        </p>
+
+
+
+
+
+            <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#arrayDelService" >arrayDelService</a>
+                            </li>
+                            <li>
+                                <a href="#header" >header</a>
+                            </li>
+                            <li>
+                                <a href="#options" >options</a>
+                            </li>
+                            <li>
+                                <a href="#own" >own</a>
+                            </li>
+                            <li>
+                                <a href="#profiles" >profiles</a>
+                            </li>
+                            <li>
+                                <a href="#requestHeaders" >requestHeaders</a>
+                            </li>
+                            <li>
+                                <a href="#std" >std</a>
+                            </li>
+                            <li>
+                                <a href="#token" >token</a>
+                            </li>
+                            <li>
+                                <a href="#type_of_case" >type_of_case</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#addLaboratory" >addLaboratory</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#addManufacturer" >addManufacturer</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#filterProfiles" >filterProfiles</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getAllManufacturers" >getAllManufacturers</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getAllNorms" >getAllNorms</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getAllTestLaboratories" >getAllTestLaboratories</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getCaseActions" >getCaseActions</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getCaseTypes" >getCaseTypes</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getDustType" >getDustType</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getFilterSellers" >getFilterSellers</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getFilterTypes" >getFilterTypes</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getFrameMaterial" >getFrameMaterial</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getFrameTypes" >getFrameTypes</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getHomeInfo" >getHomeInfo</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getHomeNews" >getHomeNews</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getHomeStats" >getHomeStats</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getMediaTypes" >getMediaTypes</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getNormsFilter" >getNormsFilter</a>
+                            </li>
+                            <li>
+                                <a href="#getOwn" >getOwn</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getPdfDisclaimer" >getPdfDisclaimer</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getPdfPremises" >getPdfPremises</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getProfiles" >getProfiles</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getProviderType" >getProviderType</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getRequestHeaders" >getRequestHeaders</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getSessionToken" >getSessionToken</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getStatusMessage" >getStatusMessage</a>
+                            </li>
+                            <li>
+                                <a href="#getStd" >getStd</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getSystemVersion" >getSystemVersion</a>
+                            </li>
+                            <li>
+                                <a href="#setOwn" >setOwn</a>
+                            </li>
+                            <li>
+                                <a href="#setStd" >setStd</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(http: <a href="https://angular.io/api/common/http/HttpClient" target="_blank">HttpClient</a>, router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/providers/metadata.service.ts:17</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>http</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/common/http/HttpClient" target="_blank" >HttpClient</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+            <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="addLaboratory"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>addLaboratory</b></span>
+                        <a href="#addLaboratory"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>addLaboratory(data)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="123"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:123</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="addManufacturer"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>addManufacturer</b></span>
+                        <a href="#addManufacturer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>addManufacturer(data)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="131"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:131</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filterProfiles"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>filterProfiles</b></span>
+                        <a href="#filterProfiles"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>filterProfiles(type: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="300"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:300</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>type</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getAllManufacturers"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getAllManufacturers</b></span>
+                        <a href="#getAllManufacturers"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getAllManufacturers()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="106"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:106</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getAllNorms"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getAllNorms</b></span>
+                        <a href="#getAllNorms"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getAllNorms()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="64"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:64</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getAllTestLaboratories"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getAllTestLaboratories</b></span>
+                        <a href="#getAllTestLaboratories"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getAllTestLaboratories()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="54"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:54</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getCaseActions"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getCaseActions</b></span>
+                        <a href="#getCaseActions"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getCaseActions()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="190"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:190</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>{ primary_actions: {}; secondary_actions: {}; }</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getCaseTypes"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getCaseTypes</b></span>
+                        <a href="#getCaseTypes"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getCaseTypes()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="169"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:169</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDustType"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getDustType</b></span>
+                        <a href="#getDustType"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getDustType()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="96"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:96</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getFilterSellers"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getFilterSellers</b></span>
+                        <a href="#getFilterSellers"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getFilterSellers()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="262"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:262</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>{}</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getFilterTypes"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getFilterTypes</b></span>
+                        <a href="#getFilterTypes"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getFilterTypes()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="76"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:76</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getFrameMaterial"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getFrameMaterial</b></span>
+                        <a href="#getFrameMaterial"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getFrameMaterial()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="91"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:91</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getFrameTypes"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getFrameTypes</b></span>
+                        <a href="#getFrameTypes"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getFrameTypes()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="81"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:81</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getHomeInfo"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getHomeInfo</b></span>
+                        <a href="#getHomeInfo"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getHomeInfo()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="111"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:111</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getHomeNews"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getHomeNews</b></span>
+                        <a href="#getHomeNews"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getHomeNews()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="119"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:119</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getHomeStats"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getHomeStats</b></span>
+                        <a href="#getHomeStats"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getHomeStats()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="115"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:115</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getMediaTypes"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getMediaTypes</b></span>
+                        <a href="#getMediaTypes"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getMediaTypes()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="86"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:86</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getNormsFilter"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getNormsFilter</b></span>
+                        <a href="#getNormsFilter"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getNormsFilter(data)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="69"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:69</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getOwn"></a>
+                    <span class="name">
+                        <span ><b>getOwn</b></span>
+                        <a href="#getOwn"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getOwn()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="50"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:50</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getPdfDisclaimer"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getPdfDisclaimer</b></span>
+                        <a href="#getPdfDisclaimer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getPdfDisclaimer()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="309"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:309</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getPdfPremises"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getPdfPremises</b></span>
+                        <a href="#getPdfPremises"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getPdfPremises()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="305"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:305</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getProfiles"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getProfiles</b></span>
+                        <a href="#getProfiles"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getProfiles()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="139"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:139</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getProviderType"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getProviderType</b></span>
+                        <a href="#getProviderType"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getProviderType()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="101"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:101</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getRequestHeaders"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getRequestHeaders</b></span>
+                        <a href="#getRequestHeaders"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getRequestHeaders()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="20"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:20</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getSessionToken"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getSessionToken</b></span>
+                        <a href="#getSessionToken"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getSessionToken()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="32"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:32</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getStatusMessage"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getStatusMessage</b></span>
+                        <a href="#getStatusMessage"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getStatusMessage()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="295"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:295</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getStd"></a>
+                    <span class="name">
+                        <span ><b>getStd</b></span>
+                        <a href="#getStd"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getStd()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="46"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:46</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getSystemVersion"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getSystemVersion</b></span>
+                        <a href="#getSystemVersion"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getSystemVersion()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="59"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:59</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setOwn"></a>
+                    <span class="name">
+                        <span ><b>setOwn</b></span>
+                        <a href="#setOwn"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setOwn(number: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="42"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:42</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>number</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setStd"></a>
+                    <span class="name">
+                        <span ><b>setStd</b></span>
+                        <a href="#setStd"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setStd(number: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="38"
+                            class="link-to-prism">src/app/providers/metadata.service.ts:38</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>number</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+            <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="arrayDelService"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>arrayDelService</b></span>
+                        <a href="#arrayDelService"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Array&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/providers/metadata.service.ts:36</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="header"></a>
+                    <span class="name">
+                        <span ><b>header</b></span>
+                        <a href="#header"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/common/http/HttpHeaders" target="_blank" >HttpHeaders</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="10" class="link-to-prism">src/app/providers/metadata.service.ts:10</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="options"></a>
+                    <span class="name">
+                        <span ><b>options</b></span>
+                        <a href="#options"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="11" class="link-to-prism">src/app/providers/metadata.service.ts:11</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="own"></a>
+                    <span class="name">
+                        <span ><b>own</b></span>
+                        <a href="#own"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/providers/metadata.service.ts:15</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="profiles"></a>
+                    <span class="name">
+                        <span ><b>profiles</b></span>
+                        <a href="#profiles"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/providers/metadata.service.ts:16</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="requestHeaders"></a>
+                    <span class="name">
+                        <span ><b>requestHeaders</b></span>
+                        <a href="#requestHeaders"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/providers/metadata.service.ts:13</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="std"></a>
+                    <span class="name">
+                        <span ><b>std</b></span>
+                        <a href="#std"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/providers/metadata.service.ts:14</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="token"></a>
+                    <span class="name">
+                        <span ><b>token</b></span>
+                        <a href="#token"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/providers/metadata.service.ts:12</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="type_of_case"></a>
+                    <span class="name">
+                        <span ><b>type_of_case</b></span>
+                        <a href="#type_of_case"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/providers/metadata.service.ts:17</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Injectable } from &#x27;@angular/core&#x27;;
+import { HttpClient, HttpHeaders } from &#x27;@angular/common/http&#x27;;
+import { map } from &#x27;rxjs/operators&#x27;;
+import { global } from  &#x27;../global&#x27;;
+import { Router } from &#x27;@angular/router&#x27;;
+import { Observable } from &#x27;rxjs&#x27;;
+
+@Injectable()
+export class MetaDataProvider {
+    header:HttpHeaders;
+    options:any;
+    token:any;
+    requestHeaders:any;
+    std: any;
+    own: any;
+    profiles:any;
+    type_of_case:any;
+    constructor(private http: HttpClient, private router:Router) {}
+
+    public getRequestHeaders(){
+        let token &#x3D; this.getSessionToken();
+        this.requestHeaders &#x3D; new  HttpHeaders()
+            .set(&#x27;Accept&#x27;, &#x27;application/json&#x27;)
+            .set(&quot;Authorization&quot;,&quot;token &quot;+ token)
+        this.options &#x3D; {
+            headers: this.requestHeaders
+        }
+        return this.options;
+    }
+
+
+    public getSessionToken(){
+        return localStorage.getItem(&#x27;auth_token&#x27;);
+    }
+
+    public arrayDelService: Array&lt;any&gt;;
+
+  setStd(number: any) {
+    this.std &#x3D; number;
+  } 
+  
+  setOwn(number: any) {
+    this.own &#x3D; number;
+  }
+
+  getStd() {
+    return this.std;
+  }
+
+  getOwn() {
+    return this.own;
+  }
+
+    public getAllTestLaboratories():Observable&lt;any&gt;{
+        localStorage.setItem(&#x27;hide_loader&#x27;,&#x27;true&#x27;);
+        return this.http.get&lt;any&gt;(global.API_GET_LABS,this.getRequestHeaders()).pipe();
+    }
+
+    public getSystemVersion():Observable&lt;any&gt;{
+        localStorage.setItem(&#x27;hide_loader&#x27;,&#x27;true&#x27;);
+        return this.http.get&lt;any&gt;(global.API_GET_SYSTEM_VERSION,this.getRequestHeaders()).pipe();
+    }
+
+    public getAllNorms():Observable&lt;any&gt;{
+        localStorage.setItem(&#x27;hide_loader&#x27;,&#x27;true&#x27;);
+        return this.http.get&lt;any&gt;(global.API_GET_NORMS,this.getRequestHeaders()).pipe();
+    }
+
+    public getNormsFilter(data):Observable&lt;any&gt;{
+        let url &#x3D; global.API_GET_NORMS_FILTER;
+        url &#x3D; url.replace(&#x27;_id_filter&#x27;, data.filter);
+        url &#x3D; url.replace(&#x27;owner&#x27;, data.owner);
+        return this.http.get&lt;any&gt;(url,this.getRequestHeaders()).pipe();
+  }
+
+    public getFilterTypes():Observable&lt;any&gt;{
+        localStorage.setItem(&#x27;hide_loader&#x27;,&#x27;true&#x27;);
+        return this.http.get&lt;any&gt;(global.API_GET_FILTER_TYPE,this.getRequestHeaders()).pipe();
+    }
+
+    public getFrameTypes():Observable&lt;any&gt;{
+        localStorage.setItem(&#x27;hide_loader&#x27;,&#x27;true&#x27;);
+        return this.http.get&lt;any&gt;(global.API_GET_FRAME_TYPE,this.getRequestHeaders()).pipe();
+    }
+
+    public getMediaTypes():Observable&lt;any&gt;{
+        localStorage.setItem(&#x27;hide_loader&#x27;,&#x27;true&#x27;);
+        return this.http.get&lt;any&gt;(global.API_GET_MEDIA_TYPE,this.getRequestHeaders()).pipe();
+    }
+
+    public getFrameMaterial():Observable&lt;any&gt;{
+        localStorage.setItem(&#x27;hide_loader&#x27;,&#x27;true&#x27;);
+        return this.http.get&lt;any&gt;(global.API_GET_FRAME_MATERIAL,this.getRequestHeaders()).pipe();
+    }
+
+    public getDustType():Observable&lt;any&gt;{
+        localStorage.setItem(&#x27;hide_loader&#x27;,&#x27;true&#x27;);
+        return this.http.get&lt;any&gt;(global.API_GET_DUST_TYPE,this.getRequestHeaders()).pipe();
+    }
+
+    public getProviderType():Observable&lt;any&gt;{
+        localStorage.setItem(&#x27;hide_loader&#x27;,&#x27;true&#x27;);
+        return this.http.get&lt;any&gt;(global.API_GET_PROVIDER_TYPE,this.getRequestHeaders()).pipe();
+    }
+
+    public getAllManufacturers():Observable&lt;any&gt;{
+        localStorage.setItem(&#x27;hide_loader&#x27;,&#x27;true&#x27;);
+        return this.http.get&lt;any&gt;(global.API_GET_MANUFACTURERS,this.getRequestHeaders()).pipe();
+    }
+
+    public getHomeInfo():Observable&lt;any&gt;{
+        return this.http.get&lt;any&gt;(global.API_HOME_COUNTERS,this.getRequestHeaders()).pipe();
+    }
+
+    public getHomeStats():Observable&lt;any&gt;{
+        return this.http.get&lt;any&gt;(global.API_HOME_STATS,this.getRequestHeaders()).pipe();
+    }
+
+    public getHomeNews():Observable&lt;any&gt;{
+        return this.http.get&lt;any&gt;(global.API_HOME_NEWS,this.getRequestHeaders()).pipe();
+    }
+
+    public addLaboratory(data){
+        let post_data &#x3D; {
+            id:&#x27;&#x27;,
+            name:data
+        }
+        return this.http.post&lt;any&gt;(global.API_ADD_LABORATORY,post_data,this.getRequestHeaders()).pipe();
+    }
+
+    public addManufacturer(data){
+        let post_data &#x3D; {
+            id:&#x27;&#x27;,
+            name:data
+        }
+        return this.http.post&lt;any&gt;(global.API_ADD_MANUFACTURER,post_data,this.getRequestHeaders()).pipe();
+    }
+
+    public getProfiles(){
+        this.profiles &#x3D; [
+            {
+              id:1,
+              type:&#x27;personal&#x27;,
+              name:&#x27;Personal Use&#x27;,
+              is_monitored:false,
+              image:&#x27;../../../assets/imgs/personal_use.svg&#x27;,
+              description:&#x27;Create a case for your personal needs and comparisons&#x27;,
+            },
+            {
+              id:2,
+              type:&#x27;company&#x27;,
+              name:&#x27;Company Use&#x27;,
+              is_monitored:false,
+              image:&#x27;../../../assets/imgs/business.svg&#x27;,
+              description:&#x27;Create a case for a business&#x27;,
+            },
+            {
+              id:3,
+              type:&#x27;independent_seller&#x27;,
+              name:&#x27;Independent Seller&#x27;,
+              is_monitored:false,
+              image:&#x27;../../../assets/imgs/independent_seller.svg&#x27;,
+              description:&#x27;Create a case for a client, additional  personal and company information will be requested&#x27;,
+            },
+        ]
+        return this.profiles
+    }
+
+    public getCaseTypes(){
+        this.type_of_case &#x3D; [
+            {
+              id:1,
+              type:&#x27;manual&#x27;,
+              name:&#x27;Manual Study Case&#x27;,
+              image:&#x27;../../../assets/imgs/manual_study_case.png&#x27;,
+              description:&quot;Create a manual case, you&#x27;ll need to provide specific data about your HVAC system for accurate optimization results&quot;,
+            },
+            {
+              id:2,
+              type:&#x27;monitor&#x27;,
+              name:&#x27;Monitor Study Case&#x27;,
+              image:&#x27;../../../assets/imgs/monitor_cases.png&#x27;,
+              description:&#x27;Create a case with instruments attached to it, using one of our selected providers will give accurate data for perfect HVAC results&#x27;,
+            },
+        ]
+        return this.type_of_case
+    }
+
+
+    public getCaseActions(){
+        let case_actions &#x3D; {
+            primary_actions:[
+                {
+                    id:1,
+                    title:&#x27;Change Filters&#x27;,
+                    icon:&#x27;../../../assets/imgs/change_filter.png&#x27;,
+                    action:&#x27;change_filter&#x27;,
+                    action_url:null
+                },
+                {
+                    id:2,
+                    title:&#x27;Change instruments&#x27;,
+                    icon:&#x27;../../../assets/imgs/change_instrument.png&#x27;,
+                    action:&#x27;change_intrument&#x27;,
+                    action_url:null
+                },
+                {
+                    id:3,
+                    title:&#x27;Upload CSV file&#x27;,
+                    icon:&#x27;../../../assets/imgs/csv.png&#x27;,
+                    action:&#x27;upload_file&#x27;,
+                    action_url:null
+                },
+            ],
+            secondary_actions:[
+                {
+                    id:1,
+                    title:&#x27;Share case&#x27;,
+                    icon:&#x27;../../../assets/imgs/share_case.png&#x27;,
+                    action:&#x27;share&#x27;,
+                    action_url:null
+
+                },
+                {
+                    id:2,
+                    title:&#x27;Reassign case&#x27;,
+                    icon:&#x27;../../../assets/imgs/reassign_case.png&#x27;,
+                    action:&#x27;reassign&#x27;,
+                    action_url:null
+
+                },
+                {
+                    id:3,
+                    title:&#x27;Duplicate case&#x27;,
+                    icon:&#x27;../../../assets/imgs/duplicate_case.png&#x27;,
+                    action:&#x27;duplicate&#x27;,
+                    action_url:null
+
+                },
+                {
+                    id:4,
+                    title:&#x27;Pause case&#x27;,
+                    icon:&#x27;../../../assets/imgs/pause_case.png&#x27;,
+                    action:&#x27;pause&#x27;,
+                    action_url:null
+
+                },
+                {
+                    id:5,
+                    title:&#x27;Delete case&#x27;,
+                    icon:&#x27;../../../assets/imgs/delete_case.png&#x27;,
+                    action:&#x27;delete&#x27;,
+                    action_url:null
+
+                },
+            ]
+        }
+        
+        return case_actions
+    }
+
+    public getFilterSellers(){
+        let sellers &#x3D; [
+            {
+                id:1,
+                active:false,
+                name:&#x27;Afterguard&#x27;,
+                image:&#x27;../../../assets/imgs/afterguard.png&#x27;,
+                number:&#x27;01 (222) 222 22 22&#x27;,
+                email:&#x27;lpachanes@filtrationadvice.com&#x27;,
+                website:&#x27;www.qa.filtrationadvice.com&#x27;
+            },
+            {
+                id:2,
+                active:false,
+                name:&#x27;Health Air&#x27;,
+                image:&#x27;../../../assets/imgs/health_air.png&#x27;,
+                number:&#x27;01 (333) 333 33 33&#x27;,
+                email:&#x27;nbracho@healthair.com&#x27;,
+                website:&#x27;www.qa.filtrationadvice.com&#x27;
+            },
+            {
+                id:3,
+                active:false,
+                name:&#x27;Boxi&#x27;,
+                image:&#x27;../../../assets/imgs/Boxi.png&#x27;,
+                number:&#x27;01 (444) 444 44 44&#x27;,
+                email:&#x27;guzman.boxi@sales.com&#x27;,
+                website:&#x27;www.qa.filtrationadvice.com&#x27;
+            },
+        ]
+        return sellers;
+    }
+
+    public getStatusMessage(){
+        let messages &#x3D; [&#x27;Making some cookies and ice cream&#x27;, &#x27;blah foo bar lorem ipsum&#x27;, &#x27;Fetching some data from some dates&#x27;,&#x27;Almost there&#x27;,&#x27;Done&#x27;];
+        return messages[Math.floor(Math.random() * 5)];
+    }
+
+    public filterProfiles(type:string){
+        let profiles &#x3D; [...this.getProfiles()];
+        return profiles.find(profile &#x3D;&gt; profile.type &#x3D;&#x3D; type);
+    }
+
+    public getPdfPremises(){
+        return &#x27;PREMISES: THE UNFILTERED AIR COMPOSITION AND THE ATMOSPHERIC CONDITIONS AT THE CUSTOMERS SITE AND TO WHICH THE FILTERS ARE EXPOSED TO REMAIN CONSTANT DURING THE ANALYZED AND PROJECTED PERIOD. a. THE CUSTOMER OPERATES THE AIR FILTRATION SYSTEM IDENTICALLY EVERY YEAR (AIR VOLUME, HOURS PER DAY, PER MONTH AND PER YEAR) DURING THE ANALYZED AND PROJECTED PERIOD. b. THE UNIT COSTS OF AIR FILTERS, ENERGY AND ALL OTHER ASSOCIATED UNIT COSTS REMAIN EQUAL DURING THE ANALYZED AND PROJECTED PERIOD.c. ANY FILTER OF EQUAL EFFICIENCY, SIZE AND AIR FLOW AS THE FILTER THAT THE CUSTOMER USES WILL OPERATE THE EQUAL AMOUNT OF TIME AT THE SAME ASHRAE DUST LOADING POINT.d. THE FILTRATION COST CALCULATION IS BASED ON THE CUSTOMERS FILTRATION EXPERIENCE AT THE SPECIFIC SITE, THE INDEPENDENT AIR FILTER TEST LABORATORY REPORTS AS PER ASHRAE 52.1, AHRAE 52.2-2012, EN779:2012 OR ISO 16890-2:2016, THE COST OF ENERGY AND ALL OTHER ASSOCIATED COSTS THAT ARE SHOWN ON THE REPORT.e. THE FILTER PERFORMANCE FILTER PARAMETERS ON THE FILTER TEST REPORT ARE NOT ADJUSTED TO THE ON-SITE ENVIRONMENTAL CONDITIONS.f. THE REPORTED FILTER CURVE “PRESSURE DROP VERSUS DUST HELD” IS CORRECTED TO THE ON-SITE FILTER FACE AIR VELOCITY ASSUMING THE SQUARE POWER LAW RELATIONSHIP BETWEEN FILTER PRESSURE DROP AND FACE AIR VELOCITY OF .g. THE CALCULATION OF FILTER CHANGE-OUT TIMES DOES NOT CONSIDER FILTER CHANGE-OUTS DUE TO MOLD, SMELL, OPERATIONAL LIMIT OF HVAC OR FILTRATION SYSTEM OR CUSTOMER CONVENIENCE.h. THE ASHRAE 52.1, AHRAE 52.2-2012, EN779:2012 OR ISO 16890-2:2016 TESTS STANDARD ARE VALID STANDARDS FOR COMPARING AIR FILTER PERFORMANCE AND TOTAL COST OF OWNERSHIP.i. THE FILTERS BEING EVALUATED OPERATE IN EITHER CONSTANT AIR VOLUME (CAV) OR VARIABLE AIR VOLUME (VAV) SYSTEMS THAT USE A FAN THAT COMPLIES WITH THE ENERGY CONSERVATION PRACTICES ESTABLISHED BY STANDARDS SUCH AS AMCA 205, IECC, ISO 12759 AND ASHRAE 90.1, AND THAT THE COMPLETE SYSTEM COMPLIES WITH ALL APPLICABLE DESIGN, CONSTRUCTION AND OPERATING STANDARDS AS WELL AS WITH THE BEST ENGINEERING PRACTICES.NOTE: SINCE THE UNFILTERED AIR COMPOSITION AND THE ATMOSPHERIC CONDITIONS AT THE CUSTOMERS FILTER SITE WILL VARY DURING THE TIME OF USAGE OF THE FILTER AND SINCE OTHER FACTORS THAT AFFECT THE COST OF FILTRATION MAY ALSO VARY DURING THE SAME TIME PERIOD, IT IS RECOMMENDED TO PERIODICALLY UPDATE THE INPUT DATA AND RUN THE NTCO SOFTWARE&#x27;
+    }
+
+    public getPdfDisclaimer(){
+        return &#x27;DISCLAIMER: THE PROGRAM AND INFORMATION GENERATED BY THE USE THEREOF (&quot;INFORMATION&quot;) ARE BASED ON INFORMATION OBTAINED BY LPD TECHNOLOGIES, INC, FILTRATION ADVICE, INC, ITS LICENSEES, ITS EMPLOYEES OR ANY PERSON OR ENTITY RELATED OR NOT RELATED TO LPD TECHNOLOGIES, INC OR FILTRATION ADVICE, INC, (COMPANY) FROM THE CUSTOMER AND THIRD PARTIES AND AGGREGATED BY COMPANY. COMPANY HAS NOT INDEPENDENTLY VERIFIED THE INFORMATION PROVIDED BY THE PROGRAM. COMPANY PROVIDES THE INFORMATION AND PROGRAM, ON AN “AS IS” BASIS. COMPANY MAKES NO WARRANTY THAT THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE PROGRAM WILL BE ACCURATE OR RELIABLE. COMPANY DISCLAIMS ALL REPRESENTATIONS AND WARRANTIES, EXPRESS OR IMPLIED, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT AND ACCURACY. COMPANY IS NOT RESPONSIBLE FOR ANY DECISION MADE OR ACTION TAKEN BY YOU IN RELIANCE ON THE PROGRAM OR THE INFORMATION IT GENERATES.IN NO EVENT SHALL COMPANY BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES, OR DAMAGES FOR LOSS OF PROFITS, REVENUE, DATA OR USE, WHETHER IN AN ACTION IN CONTRACT, TORT OR OTHERWISE, ARISING FROM YOUR USE OF THE PROGRAM OR THE INFORMATION&#x27;
+    }
+
+
+
+
+}
+</code></pre>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'injectable';
+            var COMPODOC_CURRENT_PAGE_URL = 'MetaDataProvider.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

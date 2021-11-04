@@ -1,0 +1,890 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>howk documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">howk documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  UserWelcomeComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/user-welcome/user-welcome.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-user-welcome</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./user-welcome.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./user-welcome.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#credits" >credits</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#notifications" >notifications</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#unread_notifications" >unread_notifications</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#user_data" >user_data</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#getCredits" >getCredits</a>
+                            </li>
+                            <li>
+                                <a href="#getNotifications" >getNotifications</a>
+                            </li>
+                            <li>
+                                <a href="#getWelcomeMessage" >getWelcomeMessage</a>
+                            </li>
+                            <li>
+                                <a href="#goToProfile" >goToProfile</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#openNotifications" >openNotifications</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(navigator: <a href="../injectables/NavigationProvider.html" target="_self">NavigationProvider</a>, _snackBar: MatSnackBar, notificationProvider: <a href="../injectables/NotificationService.html" target="_self">NotificationService</a>, authProvider: <a href="../injectables/AuthProvider.html" target="_self">AuthProvider</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/components/user-welcome/user-welcome.component.ts:20</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>navigator</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/NavigationProvider.html" target="_self" >NavigationProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_snackBar</td>
+                                                  
+                                                        <td>
+                                                                    <code>MatSnackBar</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>notificationProvider</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/NotificationService.html" target="_self" >NotificationService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>authProvider</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuthProvider.html" target="_self" >AuthProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getCredits"></a>
+                    <span class="name">
+                        <span ><b>getCredits</b></span>
+                        <a href="#getCredits"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getCredits()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="40"
+                            class="link-to-prism">src/app/components/user-welcome/user-welcome.component.ts:40</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getNotifications"></a>
+                    <span class="name">
+                        <span ><b>getNotifications</b></span>
+                        <a href="#getNotifications"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getNotifications()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="33"
+                            class="link-to-prism">src/app/components/user-welcome/user-welcome.component.ts:33</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getWelcomeMessage"></a>
+                    <span class="name">
+                        <span ><b>getWelcomeMessage</b></span>
+                        <a href="#getWelcomeMessage"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getWelcomeMessage()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="54"
+                            class="link-to-prism">src/app/components/user-welcome/user-welcome.component.ts:54</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="goToProfile"></a>
+                    <span class="name">
+                        <span ><b>goToProfile</b></span>
+                        <a href="#goToProfile"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>goToProfile()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="46"
+                            class="link-to-prism">src/app/components/user-welcome/user-welcome.component.ts:46</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="27"
+                            class="link-to-prism">src/app/components/user-welcome/user-welcome.component.ts:27</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="openNotifications"></a>
+                    <span class="name">
+                        <span ><b>openNotifications</b></span>
+                        <a href="#openNotifications"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>openNotifications()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="50"
+                            class="link-to-prism">src/app/components/user-welcome/user-welcome.component.ts:50</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="credits"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>credits</b></span>
+                        <a href="#credits"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/components/user-welcome/user-welcome.component.ts:20</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="notifications"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>notifications</b></span>
+                        <a href="#notifications"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>any[]</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/components/user-welcome/user-welcome.component.ts:18</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="unread_notifications"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>unread_notifications</b></span>
+                        <a href="#unread_notifications"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/components/user-welcome/user-welcome.component.ts:19</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="user_data"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>user_data</b></span>
+                        <a href="#user_data"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/components/user-welcome/user-welcome.component.ts:17</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { MatSnackBar } from &#x27;@angular/material/snack-bar&#x27;;
+import { CustomSnackBarComponent } from &#x27;../custom-snackbar/custom-snack-bar.component&#x27;;
+import { NotificationService } from &#x27;src/app/providers/notifications.service&#x27;;
+import { AuthProvider } from &#x27;src/app/providers/auth.service&#x27;;
+import { NavigationProvider } from &#x27;src/app/providers/navigation.provider&#x27;;
+import * as moment from &#x27;moment&#x27;;
+import { Message } from &#x27;@angular/compiler/src/i18n/i18n_ast&#x27;;
+import { connect } from &#x27;http2&#x27;;
+
+@Component({
+  selector: &#x27;app-user-welcome&#x27;,
+  templateUrl: &#x27;./user-welcome.component.html&#x27;,
+  styleUrls: [&#x27;./user-welcome.component.scss&#x27;]
+})
+export class UserWelcomeComponent implements OnInit {
+  public user_data:any;
+  public notifications: any[];
+  public unread_notifications: any;
+  public credits: any;
+  constructor(
+    private navigator:NavigationProvider,
+    private _snackBar: MatSnackBar, 
+    private notificationProvider:NotificationService, 
+    private authProvider:AuthProvider) { }
+  
+  ngOnInit() {
+    this.user_data &#x3D; JSON.parse(localStorage.getItem(&#x27;user_data&#x27;));
+    this.getNotifications();
+    this.getCredits();
+  }
+
+  getNotifications(){
+    this.notificationProvider.getNotifications().subscribe((notifications:any)&#x3D;&gt;{
+      this.notifications &#x3D; [...notifications];
+      this.unread_notifications &#x3D; this.notifications.filter(notification &#x3D;&gt; !notification.is_read);
+    })
+  }
+
+  getCredits(){
+    this.authProvider.getUserCredits().subscribe((credits:any)&#x3D;&gt;{
+      this.credits &#x3D; {...credits};
+    })
+  }
+
+  goToProfile(){
+    this.navigator._goProfile();
+  }
+
+  openNotifications(){
+    this.navigator._goNotificationInbox();
+  }
+
+  getWelcomeMessage(){
+    let date &#x3D; new Date().toLocaleString();
+    let time &#x3D; date.split(&#x27; &#x27;)[1];
+    var message &#x3D; &#x27;&#x27;;
+    // if(parseInt(time) &lt; 12)\
+    var final_time &#x3D; parseInt(moment(time, &#x27;hh:mm:ss&#x27;).format(&#x27;HH&#x27;));
+    if(final_time &gt; 0 &amp;&amp; final_time &lt; 12){
+      message &#x3D; &quot;Good Morning&quot;
+    }
+    if(final_time &gt; 11 &amp;&amp; final_time &lt; 19){
+      message &#x3D; &quot;Good Afternoon&quot;
+    }
+    if(final_time &gt; 18 &amp;&amp; final_time &lt; 23){
+      message &#x3D; &quot;Good Evening&quot;
+    }
+    return message;
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;welcome-container&quot;&gt;
+    &lt;mat-grid-list cols&#x3D;&quot;12&quot; rowHeight&#x3D;&quot;90px&quot;&gt; 
+        &lt;mat-grid-tile [colspan]&#x3D;&quot;3&quot; style&#x3D;&quot;height: 60px;&quot;&gt;  
+            &lt;img *ngIf&#x3D;&quot;user_data.profile_image&quot; src&#x3D;&quot;{{ user_data.profile_image }}&quot; (click)&#x3D;&quot;goToProfile()&quot;&gt;
+            &lt;div class&#x3D;&quot;user_no_image&quot; *ngIf&#x3D;&quot;!user_data.profile_image&quot; (click)&#x3D;&quot;goToProfile()&quot;&gt;
+                {{ user_data.first_name[0] + &#x27;&#x27; + user_data.last_name[0] }}
+            &lt;/div&gt;
+        &lt;/mat-grid-tile&gt;
+        &lt;mat-grid-tile [colspan]&#x3D;&quot;6&quot; style&#x3D;&quot;height: 60px;&quot;&gt; 
+            &lt;div class&#x3D;&quot;welcome-information&quot;&gt;
+                &lt;h4&gt; {{ getWelcomeMessage() }} &lt;span&gt; {{ user_data.first_name }} {{ user_data.last_name }}  &lt;/span&gt; &lt;/h4&gt;
+                &lt;p *ngIf&#x3D;&quot;unread_notifications &amp;&amp; credits&quot;&gt;
+                    You have &lt;span (click)&#x3D;&quot;openNotifications()&quot;&gt;{{ unread_notifications.length &gt; 0 ? unread_notifications.length : &#x27;no new&#x27; }} notifications&lt;/span&gt; &lt;br&gt;
+                    You have &lt;span class&#x3D;&quot;color-secondary&quot; style&#x3D;&quot;cursor: default;font-weight: bold;&quot;&gt; {{ credits.total_credits }} CFM&#x27;s &lt;/span&gt;
+                &lt;/p&gt;
+            &lt;/div&gt; 
+        &lt;/mat-grid-tile&gt;
+        &lt;mat-grid-tile [colspan]&#x3D;&quot;3&quot; style&#x3D;&quot;height: 60px;&quot;&gt;
+            &lt;button class&#x3D;&quot;button-primary button-small&quot; (click)&#x3D;&quot;goToProfile()&quot;&gt; Go to profile &lt;/button&gt;
+        &lt;/mat-grid-tile&gt;
+    &lt;/mat-grid-list&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./user-welcome.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.welcome-container{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top:0px;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    button{
+        padding-left: 15px;
+        padding-right: 15px;
+        font-weight: 400;
+        font-size: 12px;
+        border: none !important;
+    }
+    img{
+        width: 86px;
+        height: 86px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+.welcome-information{
+    text-align: left;
+    h4{
+        margin-top: 0px;
+        font-size: 14px;
+        font-weight: bold;
+        span{
+            margin-left: 15px;
+            color: #707070;
+            font-size: 14px;
+        }
+    }
+    p{
+        font-size: 12px;
+        color: #707070;
+        span{
+            color: #199AD8;
+            cursor: pointer;
+        }
+    }
+}
+
+.user_no_image{
+    background-color: #199AD8;
+    width: 64px;
+    height: 64px;
+    display: -webkit-flex;;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="welcome-container">    <mat-grid-list cols="12" rowHeight="90px">         <mat-grid-tile [colspan]="3" style="height: 60px;">              <img *ngIf="user_data.profile_image" src="{{ user_data.profile_image }}" (click)="goToProfile()">            <div class="user_no_image" *ngIf="!user_data.profile_image" (click)="goToProfile()">                {{ user_data.first_name[0] + \'\' + user_data.last_name[0] }}            </div>        </mat-grid-tile>        <mat-grid-tile [colspan]="6" style="height: 60px;">             <div class="welcome-information">                <h4> {{ getWelcomeMessage() }} <span> {{ user_data.first_name }} {{ user_data.last_name }}  </span> </h4>                <p *ngIf="unread_notifications && credits">                    You have <span (click)="openNotifications()">{{ unread_notifications.length > 0 ? unread_notifications.length : \'no new\' }} notifications</span> <br>                    You have <span class="color-secondary" style="cursor: default;font-weight: bold;"> {{ credits.total_credits }} CFM\'s </span>                </p>            </div>         </mat-grid-tile>        <mat-grid-tile [colspan]="3" style="height: 60px;">            <button class="button-primary button-small" (click)="goToProfile()"> Go to profile </button>        </mat-grid-tile>    </mat-grid-list></div></div>'
+    var COMPONENTS = [{'name': 'AboutComponent', 'selector': 'app-about'},{'name': 'AdvancedFilterComponent', 'selector': 'app-advanced-filter'},{'name': 'AdvancedSearchComponent', 'selector': 'app-advanced-search'},{'name': 'AirFlowDialogComponent', 'selector': 'airflow-dialog'},{'name': 'AirflowVsDpComponent', 'selector': 'app-airflow-vs-dp'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AreaChartComponent', 'selector': 'app-area-chart'},{'name': 'BarChartComponent', 'selector': 'app-bar-chart'},{'name': 'BeforePrintDialogComponent', 'selector': 'app-before-print-dialog'},{'name': 'BillingsComponent', 'selector': 'app-billings'},{'name': 'BottomPaginatorComponent', 'selector': 'app-bottom-paginator'},{'name': 'CaseActionsComponent', 'selector': 'app-case-actions'},{'name': 'CaseCostComponent', 'selector': 'app-case-cost'},{'name': 'CaseListComponent', 'selector': 'app-case-list'},{'name': 'CaseSelectorComponent', 'selector': 'app-case-selector'},{'name': 'CaseStudyProfileComponent', 'selector': 'app-case-study-profile'},{'name': 'CaseTimeLineComponent', 'selector': 'app-case-time-line'},{'name': 'ChangeCaseDialogComponent', 'selector': 'app-change-case-dialog'},{'name': 'ChangeoutListComponent', 'selector': 'app-changeout-list'},{'name': 'ChangeProviderDialogComponent', 'selector': 'app-change-provider-dialog'},{'name': 'ChartAirflowVsDpComponent', 'selector': 'app-chart-airflow-vs-dp'},{'name': 'ChartCostVsTimeComponent', 'selector': 'app-chart-cost-vs-time'},{'name': 'ChartDpVsTimeComponent', 'selector': 'app-chart-dp-vs-time'},{'name': 'ChartDustVsDpComponent', 'selector': 'app-chart-dust-vs-dp'},{'name': 'ChartReviewComponent', 'selector': 'app-chart-review'},{'name': 'CompanyComponent', 'selector': 'app-company'},{'name': 'ComparisonBarChartComponent', 'selector': 'app-comparison-bar-chart'},{'name': 'ComparisonDpVsTimeChartComponent', 'selector': 'app-comparison-dp-vs-time-chart'},{'name': 'ComparisonListComponent', 'selector': 'app-comparison-list'},{'name': 'ComparisonResultsComponent', 'selector': 'app-comparison-results'},{'name': 'ConfirmDialogComponent', 'selector': 'app-confirm-dialog'},{'name': 'ConfirmRegisterPageComponent', 'selector': 'app-confirm-register-page'},{'name': 'ContactComponent', 'selector': 'app-contact'},{'name': 'ContactComponentComponent', 'selector': 'app-contact-component'},{'name': 'CreditCarDListPageComponent', 'selector': 'app-credit-cart-list-page'},{'name': 'CreditsSummaryComponent', 'selector': 'app-credits-summary'},{'name': 'CurrentCycleValuesComponent', 'selector': 'app-current-cycle-values'},{'name': 'CustomizeDashboardComponent', 'selector': 'app-customize-dashboard'},{'name': 'CustomSnackBarComponent', 'selector': 'app-custom-snack-bar'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DialogDeleteConfirmation', 'selector': ''},{'name': 'DustVsDpComponent', 'selector': 'app-dust-vs-dp'},{'name': 'EmptyListComponent', 'selector': 'app-empty-list'},{'name': 'ErrorDialogComponent', 'selector': 'app-error-dialog'},{'name': 'FaqsComponent', 'selector': 'app-faqs'},{'name': 'FeedbackDialogComponent', 'selector': 'app-feedback-dialog'},{'name': 'FilterDetailsComponent', 'selector': 'app-filter-details'},{'name': 'FilterFinderComponent', 'selector': 'app-filter-finder'},{'name': 'FilterListComponent', 'selector': 'app-filter-list'},{'name': 'FilterListReviewComponent', 'selector': 'app-filter-list-review'},{'name': 'FilterSelectorComponent', 'selector': 'app-filter-selector'},{'name': 'FilterSummaryComponent', 'selector': 'app-filter-summary'},{'name': 'FilterTermsConditionsComponent', 'selector': 'app-filter-terms-conditions'},{'name': 'FilterTestReportsComponent', 'selector': 'app-filter-test-reports'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'FrequencyChartComponent', 'selector': 'app-frequency-chart'},{'name': 'GaugeChartComponent', 'selector': 'app-gauge-chart'},{'name': 'GaugeComponentComponent', 'selector': 'app-gauge-component'},{'name': 'GeneralErrorComponent', 'selector': 'app-general-error'},{'name': 'GeneralNewsComponent', 'selector': 'app-general-news'},{'name': 'GenericListComponent', 'selector': 'app-generic-list'},{'name': 'HeaderGeneralComponent', 'selector': 'app-header-general'},{'name': 'HeaderLoggedComponent', 'selector': 'app-header-logged'},{'name': 'HistogramChartComponent', 'selector': 'app-histogram-chart'},{'name': 'HistogramComponent', 'selector': 'app-histogram'},{'name': 'HoboDashboardComponent', 'selector': 'app-hobo-dashboard'},{'name': 'HomeCounterComponent', 'selector': 'app-home-counter'},{'name': 'HomePageComponent', 'selector': 'app-home-page'},{'name': 'InstrumentationComponent', 'selector': 'app-instrumentation'},{'name': 'InstrumentComponent', 'selector': 'app-instrument-list'},{'name': 'InstrumentHelpComponent', 'selector': 'app-instrument-help'},{'name': 'InstrumentIndicatorComponent', 'selector': 'app-instrument-indicator'},{'name': 'InstrumentSelectorComponent', 'selector': 'app-instrument-selector'},{'name': 'InstumentsListComponent', 'selector': 'app-instuments-list'},{'name': 'InvoiceComponent', 'selector': 'app-invoice'},{'name': 'LandingPageComponent', 'selector': 'app-landing-page'},{'name': 'LeaveDialogComponent', 'selector': 'app-leave-dialog'},{'name': 'LoaderComponent', 'selector': 'app-loader'},{'name': 'LoginPageComponent', 'selector': 'app-login-page'},{'name': 'LoginPageSonicuComponent', 'selector': 'app-provider-login'},{'name': 'MervChartComponent', 'selector': 'app-merv-chart'},{'name': 'MobilePlaceholderComponent', 'selector': 'app-mobile-placeholder'},{'name': 'ModelFilterFormComponent', 'selector': 'app-model-filter-form'},{'name': 'MonitoringComponent', 'selector': 'app-monitoring'},{'name': 'NewCardComponent', 'selector': 'app-new-card'},{'name': 'NewCaseComponent', 'selector': 'app-new-case'},{'name': 'NewComparisonComponent', 'selector': 'app-new-comparison'},{'name': 'NewInstrumentationComponent', 'selector': 'app-new-instrumentation'},{'name': 'NewPasswordComponent', 'selector': 'app-new-password'},{'name': 'NotificationsInboxComponent', 'selector': 'app-notifications-inbox'},{'name': 'NotificationsListComponent', 'selector': 'app-notifications-list'},{'name': 'NotificationsSettingsComponent', 'selector': 'app-notifications-settings'},{'name': 'OptimizationResultsComponent', 'selector': 'app-optimization-results'},{'name': 'PaginatorComponent', 'selector': 'app-paginator'},{'name': 'PairedCaseInstrumentComponent', 'selector': 'app-paired-list'},{'name': 'PaymentDialogComponent', 'selector': 'app-payment-dialog'},{'name': 'PdfHelperDialogComponent', 'selector': 'app-pdf-helper-dialog'},{'name': 'PdfViewerComponent', 'selector': 'app-pdf-viewer'},{'name': 'PersonalInformationComponent', 'selector': 'app-personal-information'},{'name': 'PieChartComponent', 'selector': 'app-pie-chart'},{'name': 'PlansListComponent', 'selector': 'app-plans-list'},{'name': 'PopOverComponent', 'selector': 'app-pop-over'},{'name': 'ProductComponent', 'selector': 'app-product'},{'name': 'ProfilePageComponent', 'selector': 'app-profile-page'},{'name': 'ProfileSelectionComponent', 'selector': 'app-profile-selection'},{'name': 'RecoverPasswordPageComponent', 'selector': 'app-recover-password-page'},{'name': 'RedirectDialogComponent', 'selector': 'app-redirect-dialog'},{'name': 'RegisterPageComponent', 'selector': 'app-register-page'},{'name': 'ReplaceCostDialogComponent', 'selector': 'app-replace-cost-dialog'},{'name': 'ReportFileDropperComponent', 'selector': 'app-report-file-dropper'},{'name': 'ReportRejectedComponent', 'selector': 'app-report-rejected'},{'name': 'ReportReviewComponent', 'selector': 'app-report-review'},{'name': 'RequestFilterComponent', 'selector': 'app-request-filter'},{'name': 'RequestFilterOptionsComponent', 'selector': 'app-request-filter-options'},{'name': 'SellersComponent', 'selector': 'app-sellers'},{'name': 'SharedReportsComponent', 'selector': 'app-shared-reports'},{'name': 'SingleFormComponent', 'selector': 'app-single-form'},{'name': 'StripePaymentCreationComponent', 'selector': 'app-stripe-payment-creation'},{'name': 'SubscriptionDialogComponent', 'selector': 'app-subscription-dialog'},{'name': 'SubscriptionsListComponent', 'selector': 'app-subscriptions-list'},{'name': 'SuccessDialogComponent', 'selector': 'app-success-dialog'},{'name': 'SystemInformationComponent', 'selector': 'app-system-information'},{'name': 'SystemInformationSummaryComponent', 'selector': 'app-system-information-summary'},{'name': 'TableCostSummaryComponent', 'selector': 'app-table-cost-summary'},{'name': 'TermsAndConditionsComponent', 'selector': 'app-terms-and-conditions'},{'name': 'UploadReportComponent', 'selector': 'app-upload-report'},{'name': 'UserOverviewComponent', 'selector': 'app-user-overview'},{'name': 'UserReportsComponent', 'selector': 'app-user-reports'},{'name': 'UserSharedReportsComponent', 'selector': 'app-users-shared-reports'},{'name': 'UserWelcomeComponent', 'selector': 'app-user-welcome'},{'name': 'ValidatorMenuComponent', 'selector': 'app-validator-menu'},{'name': 'VersionComponent', 'selector': 'app-version'},{'name': 'VerticalSwipperComponent', 'selector': 'app-vertical-swipper'}];
+    var DIRECTIVES = [{'name': 'DragDirective', 'selector': '[appDrag]'},{'name': 'FocusMeDirective', 'selector': '[focusMe]'},{'name': 'HighlightDirective', 'selector': '[appHighlight]'}];
+    var ACTUAL_COMPONENT = {'name': 'UserWelcomeComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'UserWelcomeComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

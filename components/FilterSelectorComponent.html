@@ -1,0 +1,2224 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>howk documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">howk documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  FilterSelectorComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/filter-selector/filter-selector.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-filter-selector</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./filter-selector.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./filter-selector.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#advanced_search_data" >advanced_search_data</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#clear_search" >clear_search</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#dialog" >dialog</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#filter_selected" >filter_selected</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#filters" >filters</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#filters_search_result" >filters_search_result</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#isImgLoaded" >isImgLoaded</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#num_cols" >num_cols</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#original_filters" >original_filters</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#search" >search</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#search_models" >search_models</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#searchedWords$" >searchedWords$</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#searchedWordsControl" >searchedWordsControl</a>
+                            </li>
+                            <li>
+                                <a href="#setFilters" >setFilters</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#show_advanced_filter" >show_advanced_filter</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#showFilterDetails" >showFilterDetails</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#url_search_data" >url_search_data</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#_openFilterDetails" >_openFilterDetails</a>
+                            </li>
+                            <li>
+                                <a href="#_openSearchModal" >_openSearchModal</a>
+                            </li>
+                            <li>
+                                <a href="#clearFiltersFilter" >clearFiltersFilter</a>
+                            </li>
+                            <li>
+                                <a href="#filterSet" >filterSet</a>
+                            </li>
+                            <li>
+                                <a href="#ngAfterViewInit" >ngAfterViewInit</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onResize" >onResize</a>
+                            </li>
+                            <li>
+                                <a href="#prevent" >prevent</a>
+                            </li>
+                            <li>
+                                <a href="#refreshFilters" >refreshFilters</a>
+                            </li>
+                            <li>
+                                <a href="#requestFilter" >requestFilter</a>
+                            </li>
+                            <li>
+                                <a href="#restrieveReports" >restrieveReports</a>
+                            </li>
+                            <li>
+                                <a href="#searchBywords" >searchBywords</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#filter" >filter</a>
+                            </li>
+                            <li>
+                                <a href="#review" >review</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#allow_next" >allow_next</a>
+                            </li>
+                            <li>
+                                <a href="#done" >done</a>
+                            </li>
+                            <li>
+                                <a href="#prevent_next" >prevent_next</a>
+                            </li>
+                            <li>
+                                <a href="#report_set" >report_set</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>HostListeners</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#window:resize" >window:resize</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(filterService: <a href="../injectables/FilterProvider.html" target="_self">FilterProvider</a>, responsiveProvider: <a href="../injectables/ResponsiveProvider.html" target="_self">ResponsiveProvider</a>, dialog: MatDialog)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="48" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:48</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>filterService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/FilterProvider.html" target="_self" >FilterProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>responsiveProvider</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/ResponsiveProvider.html" target="_self" >ResponsiveProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>dialog</td>
+                                                  
+                                                        <td>
+                                                                    <code>MatDialog</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="filter"></a>
+                        <b>filter</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:18</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="review"></a>
+                        <b>review</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:19</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+    <section>
+    <h3 id="outputs">Outputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="allow_next"></a>
+                        <b>allow_next</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:22</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="done"></a>
+                        <b>done</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:20</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="prevent_next"></a>
+                        <b>prevent_next</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:21</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="report_set"></a>
+                        <b>report_set</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:23</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3>HostListeners</h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="window:resize"></a>
+                    <span class="name">
+                        <span ><b>window:resize</b></span>
+                        <a href="#window:resize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <i>Arguments : </i><code>'$event' </code>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>window:resize(event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="61"
+                            class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:61</a></div>
+                </td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_openFilterDetails"></a>
+                    <span class="name">
+                        <span ><b>_openFilterDetails</b></span>
+                        <a href="#_openFilterDetails"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>_openFilterDetails(filter)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="142"
+                            class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:142</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>filter</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_openSearchModal"></a>
+                    <span class="name">
+                        <span ><b>_openSearchModal</b></span>
+                        <a href="#_openSearchModal"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>_openSearchModal()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="77"
+                            class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:77</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="clearFiltersFilter"></a>
+                    <span class="name">
+                        <span ><b>clearFiltersFilter</b></span>
+                        <a href="#clearFiltersFilter"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>clearFiltersFilter()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="98"
+                            class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:98</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filterSet"></a>
+                    <span class="name">
+                        <span ><b>filterSet</b></span>
+                        <a href="#filterSet"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>filterSet(event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="147"
+                            class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:147</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngAfterViewInit"></a>
+                    <span class="name">
+                        <span ><b>ngAfterViewInit</b></span>
+                        <a href="#ngAfterViewInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngAfterViewInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="71"
+                            class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:71</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="51"
+                            class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:51</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onResize"></a>
+                    <span class="name">
+                        <span ><b>onResize</b></span>
+                        <a href="#onResize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onResize(event)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@HostListener(&#x27;window:resize&#x27;, [&#x27;$event&#x27;])<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="61"
+                            class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:61</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="prevent"></a>
+                    <span class="name">
+                        <span ><b>prevent</b></span>
+                        <a href="#prevent"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>prevent(ev)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="130"
+                            class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:130</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ev</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="refreshFilters"></a>
+                    <span class="name">
+                        <span ><b>refreshFilters</b></span>
+                        <a href="#refreshFilters"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>refreshFilters(result)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="89"
+                            class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:89</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>result</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="requestFilter"></a>
+                    <span class="name">
+                        <span ><b>requestFilter</b></span>
+                        <a href="#requestFilter"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>requestFilter()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="118"
+                            class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:118</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="restrieveReports"></a>
+                    <span class="name">
+                        <span ><b>restrieveReports</b></span>
+                        <a href="#restrieveReports"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>restrieveReports(event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="138"
+                            class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:138</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="searchBywords"></a>
+                    <span class="name">
+                        <span ><b>searchBywords</b></span>
+                        <a href="#searchBywords"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>searchBywords()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="81"
+                            class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:81</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="advanced_search_data"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                        <span ><b>advanced_search_data</b></span>
+                        <a href="#advanced_search_data"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:25</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="clear_search"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>clear_search</b></span>
+                        <a href="#clear_search"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:31</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dialog"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>dialog</b></span>
+                        <a href="#dialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>MatDialog</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="49" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:49</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filter_selected"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>filter_selected</b></span>
+                        <a href="#filter_selected"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="48" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:48</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filters"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>filters</b></span>
+                        <a href="#filters"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../injectables/Filter.html" target="_self" >Array&lt;Filter&gt;</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new Array&lt;Filter&gt;()</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:44</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filters_search_result"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>filters_search_result</b></span>
+                        <a href="#filters_search_result"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../injectables/Filter.html" target="_self" >Array&lt;Filter&gt;</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="45" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:45</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isImgLoaded"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>isImgLoaded</b></span>
+                        <a href="#isImgLoaded"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="42" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:42</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="num_cols"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>num_cols</b></span>
+                        <a href="#num_cols"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>3</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:32</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="original_filters"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>original_filters</b></span>
+                        <a href="#original_filters"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="46" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:46</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="search"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>search</b></span>
+                        <a href="#search"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&quot;&quot;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="47" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:47</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="search_models"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>search_models</b></span>
+                        <a href="#search_models"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:30</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="searchedWords$"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>searchedWords$</b></span>
+                        <a href="#searchedWords$"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Observable&lt;string[]&gt;</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>this
+    .searchedWordsControl
+    .valueChanges
+    .pipe(
+    map((search: string) &#x3D;&gt; search.trim().split(&#x27; &#x27;))
+  )</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:36</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="searchedWordsControl"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>searchedWordsControl</b></span>
+                        <a href="#searchedWordsControl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new FormControl(&#x27;&#x27;)</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:27</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setFilters"></a>
+                    <span class="name">
+                        <span ><b>setFilters</b></span>
+                        <a href="#setFilters"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="66" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:66</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="show_advanced_filter"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>show_advanced_filter</b></span>
+                        <a href="#show_advanced_filter"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:28</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="showFilterDetails"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>showFilterDetails</b></span>
+                        <a href="#showFilterDetails"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:43</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="url_search_data"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>url_search_data</b></span>
+                        <a href="#url_search_data"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/components/filter-selector/filter-selector.component.ts:29</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, Output, EventEmitter, Input, HostListener } from &#x27;@angular/core&#x27;;
+import { FilterProvider } from &#x27;src/app/providers/filter.service&#x27;;
+import { Filter } from &#x27;src/app/models/filter.model&#x27;;
+import { FormControl } from &#x27;@angular/forms&#x27;;
+import { Observable } from &#x27;rxjs&#x27;;
+import { map } from &#x27;rxjs/operators&#x27;;
+import { clear_search_data } from &quot;../../mocks/mocks.objects&quot;;
+import { ResponsiveProvider } from &#x27;src/app/providers/responsive-provider&#x27;;
+import { RequestFilterComponent } from &#x27;../modal-dialogs/request-filter/request-filter/request-filter.component&#x27;;
+import { MatDialog } from &#x27;@angular/material/dialog&#x27;;
+
+@Component({
+  selector: &#x27;app-filter-selector&#x27;,
+  templateUrl: &#x27;./filter-selector.component.html&#x27;,
+  styleUrls: [&#x27;./filter-selector.component.scss&#x27;]
+})
+export class FilterSelectorComponent implements OnInit {
+  @Input(&#x27;filter&#x27;) input_filter:any;
+  @Input(&#x27;review&#x27;) review:any;
+  @Output() done &#x3D; new EventEmitter&lt;any[]&gt;();
+  @Output() prevent_next &#x3D; new EventEmitter&lt;any[]&gt;();
+  @Output() allow_next &#x3D; new EventEmitter&lt;any[]&gt;();
+  @Output() report_set &#x3D; new EventEmitter&lt;any[]&gt;();
+
+  private advanced_search_data: any &#x3D; {};
+
+  public searchedWordsControl &#x3D; new FormControl(&#x27;&#x27;);
+  public show_advanced_filter: boolean;
+  public url_search_data: any;
+  public search_models: any;
+  public clear_search: any;
+  public num_cols: number &#x3D; 3;
+  
+
+
+  public searchedWords$: Observable&lt;string[]&gt; &#x3D; this
+    .searchedWordsControl
+    .valueChanges
+    .pipe(
+    map((search: string) &#x3D;&gt; search.trim().split(&#x27; &#x27;))
+  )
+  public isImgLoaded:any; 
+  public showFilterDetails:boolean&#x3D;false;
+  public filters: Array&lt;Filter&gt; &#x3D; new Array&lt;Filter&gt;();
+  public filters_search_result: Array&lt;Filter&gt; &#x3D; [];
+  public original_filters:any;
+  public search: string &#x3D; &quot;&quot;;
+  public filter_selected: any;
+  constructor(private filterService:FilterProvider,private responsiveProvider:ResponsiveProvider,public dialog: MatDialog) { }
+
+  ngOnInit() {
+    if(this.input_filter){
+      this._openFilterDetails(this.input_filter); 
+    }
+    Object.assign(this.advanced_search_data, clear_search_data);
+    this.filterService.getAllPublicFilters().subscribe(this.setFilters);
+    //this.num_cols &#x3D; this.responsiveProvider.getNumCols(window.innerWidth);
+  }
+
+  @HostListener(&#x27;window:resize&#x27;, [&#x27;$event&#x27;])
+  onResize(event) {
+    //this.num_cols &#x3D; this.responsiveProvider.getNumCols(window.innerWidth);
+  }
+
+
+  setFilters &#x3D; (filters: Array&lt;Filter&gt;) &#x3D;&gt; {
+    this.filters &#x3D; [...filters];
+    this.original_filters &#x3D; [...filters];
+  }
+
+  ngAfterViewInit() {
+    this.searchedWordsControl.valueChanges.subscribe((changes) &#x3D;&gt; {
+      //this.filters &#x3D; this.filterService.filterFilterListHard(this.original_filters, changes);
+    })
+  }
+
+  _openSearchModal(): void {
+    this.show_advanced_filter &#x3D; !this.show_advanced_filter;
+  }
+
+  searchBywords(){
+    if(this.filters_search_result.length &gt; 0){
+      this.filters &#x3D; [...this.filterService.filterFilterListHard(this.filters_search_result, this.search)]
+    }else if(this.original_filters){
+      this.filters &#x3D; [...this.filterService.filterFilterListHard(this.original_filters, this.search)]  
+    }
+  }
+
+  refreshFilters(result){
+    this.filters &#x3D; [...result.filters];
+    this.filters_search_result &#x3D; [...result.filters];
+    this.advanced_search_data &#x3D; {...result.data};
+    this.url_search_data &#x3D; result.url;
+    this.search_models &#x3D; {...result.model};
+    this.show_advanced_filter &#x3D; false;
+  }
+
+  clearFiltersFilter() {
+    this.filters &#x3D; [...this.original_filters];
+    this.advanced_search_data &#x3D; {...clear_search_data};
+    this.url_search_data &#x3D; &#x27;&#x27;;
+    this.search_models &#x3D; {
+      filter_type:[],
+      media_type:[],
+      manufacturer:[],
+      frame_type:[],
+      frame_material:[],
+      dust_type:[],
+      laboratory:[],
+      provider:[],
+      standard:[],
+    };
+    this.filters_search_result &#x3D; [];
+    this.clear_search &#x3D; {...{clear_me:true}};
+    this.show_advanced_filter &#x3D; false;
+  }
+
+  requestFilter(){
+    const dialogRef &#x3D; this.dialog.open(RequestFilterComponent, {
+      width: &#x27;35%&#x27;,
+      height: &#x27;75%&#x27;,
+      id: &#x27;request-filter&#x27;,
+    });
+    
+    dialogRef.afterClosed().subscribe(result &#x3D;&gt; {
+      if (result) {}
+    });
+  }
+  
+  prevent(ev){
+    if(ev){
+      this.prevent_next.emit()
+    }else{
+      this.allow_next.emit();
+    }
+  }
+
+  restrieveReports(event){
+    this.report_set.emit(event);
+  }
+
+  _openFilterDetails(filter) {
+    this.filter_selected &#x3D; {...filter};
+    this.showFilterDetails &#x3D; true;
+  }
+
+  filterSet(event){
+    this.done.emit(event);
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">
+&lt;!-- &lt;h3 class&#x3D;&quot;text-right searchbar-comments&quot; *ngIf&#x3D;&quot;!showFilterDetails&quot; style&#x3D;&quot;cursor: pointer;&quot; (click)&#x3D;&quot;requestFilter()&quot;&gt; &lt;span&gt; Can&#x27;t find your filter? Ask Filtration Advice to upload it &lt;/span&gt; &lt;/h3&gt; --&gt;
+
+&lt;!-- &lt;mat-grid-list cols&#x3D;&quot;12&quot; rowHeight&#x3D;&quot;30px&quot; *ngIf&#x3D;&quot;!showFilterDetails &amp;&amp; filters_search_result.length &gt; 0&quot;&gt;
+    &lt;mat-grid-tile [colspan]&#x3D;&quot;12&quot;&gt;
+        &lt;h6 class&#x3D;&quot;color-secondary text-results&quot;&gt;
+            {{ filters_search_result.length }}
+            Results from advanced search &amp;nbsp;
+            &lt;span (click)&#x3D;&quot;clearFiltersFilter()&quot;&gt; (CLEAR ADVANCED SEARCH) &lt;/span&gt;
+        &lt;/h6&gt;
+    &lt;/mat-grid-tile&gt;
+&lt;/mat-grid-list&gt; --&gt;
+
+&lt;div class&#x3D;&quot;section-form&quot;&gt;
+    &lt;div class&#x3D;&quot;section-form-title&quot;&gt;
+        &lt;p class&#x3D;&quot;color-secondary&quot;&gt; 1.  Filter Selection &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class&#x3D;&quot;searchbar-container&quot; *ngIf&#x3D;&quot;!showFilterDetails&quot;&gt;
+    &lt;mat-icon&gt;search&lt;/mat-icon&gt;
+    &lt;input type&#x3D;&quot;text&quot;  name&#x3D;&quot;search&quot; [ngModel]&#x3D;&quot;search&quot; (ngModelChange)&#x3D;&quot;search&#x3D;$event;searchBywords()&quot;
+        placeholder&#x3D;&quot;Search for your filter&quot; [formControl]&#x3D;&quot;searchedWordsControl&quot;&gt;
+&lt;/div&gt;
+
+&lt;mat-grid-list [cols]&#x3D;&quot;num_cols&quot; rowHeight&#x3D;&quot;340px&quot; style&#x3D;&quot;margin-bottom: 45px;&quot; *ngIf&#x3D;&quot;!showFilterDetails &amp;&amp; filters.length &gt; 0&quot;&gt;
+    &lt;mat-grid-tile *ngFor&#x3D;&quot;let filter of filters&quot; [colspan]&#x3D;&quot;1&quot; [gap]&#x3D;&quot;20&quot;&gt;
+        &lt;div class&#x3D;&quot;filter-card&quot;  (click)&#x3D;&quot;_openFilterDetails(filter)&quot;&gt;
+            &lt;mat-icon
+                matTooltipClass&#x3D;&quot;custom-tooltip&quot;
+                #tooltip&#x3D;&quot;matTooltip&quot; 
+                matTooltip&#x3D;&quot;This filter has private reports&quot; 
+                matTooltipPosition&#x3D;&quot;left&quot; 
+                *ngIf&#x3D;&quot;filter.reports.private.length &gt; 0&quot;&gt;
+                &lt;img src&#x3D;&quot;../../../../assets/imgs/private_testreport.svg&quot; style&#x3D;&quot;width: 35px;margin-left: -10px;&quot;&gt;
+            &lt;/mat-icon&gt;
+            &lt;img *ngIf&#x3D;&quot;!isImgLoaded&quot; src&#x3D;&quot;../../../../assets/imgs/local_loader.gif&quot; &gt;
+            &lt;img [hidden]&#x3D;&quot;!isImgLoaded&quot; [src]&#x3D;&quot;filter.picture ? filter.picture : &#x27;../../../../assets/imgs/no_filter.png&#x27; &quot; (load)&#x3D;&quot;isImgLoaded &#x3D; true&quot; &gt;
+            
+            &lt;div class&#x3D;&quot;filter-merv&quot;&gt;
+                &lt;p&gt; {{ filter.merv_rating }}&lt;br&gt;
+                    &lt;span&gt;MERV&lt;/span&gt; 
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;h5 appHighlight [searchedWords]&#x3D;&quot;searchedWords$ | async&quot; classToApply&#x3D;&quot;selected-text&quot;
+                text&#x3D;&quot;{{ filter.name }}&quot;&gt;
+            &lt;/h5&gt;
+            &lt;p&gt;
+                {{ !filter.manufacturer ? &#x27;&#x27; : filter.manufacturer.name | titlePipe }}&lt;br&gt;
+                &lt;span&gt;Depth {{ filter.size_depth ? filter.size_depth + &#x27;&quot;&#x27; : &#x27;N/A&#x27; }}&lt;/span&gt;
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/mat-grid-tile&gt;
+&lt;/mat-grid-list&gt;
+&lt;br&gt;
+&lt;app-empty-list 
+    *ngIf&#x3D;&quot;!showFilterDetails &amp;&amp; filters.length &#x3D;&#x3D; 0&quot;
+    [empty_results]&#x3D;&quot;true&quot;
+    [title]&#x3D;&quot;&#x27;NO MATCHING SEARCH RESULTS&#x27;&quot;
+    [subtitle]&#x3D;&quot;&#x27;Try again using other criteria.&#x27;&quot;
+    [action]&#x3D;&quot;&#x27;Clear Search&#x27;&quot;
+    (callToAction)&#x3D;&quot;clearFiltersFilter();search &#x3D; &#x27;&#x27;&quot;&gt;
+&lt;/app-empty-list&gt;
+
+&lt;app-filter-details 
+    *ngIf&#x3D;&quot;showFilterDetails&quot; 
+    (changeFilter)&#x3D;&quot;showFilterDetails &#x3D; false&quot; 
+    [filter]&#x3D;&quot;filter_selected&quot; 
+    [hide_reports] &#x3D; &#x27;true&#x27; 
+    [can_edit_size]&#x3D;&quot;true&quot; 
+    [is_for_case]&#x3D;&quot;true&quot;
+    [review]&#x3D;&quot;review&quot;
+    (prevent)&#x3D;&quot;prevent($event)&quot;
+    (done)&#x3D;&quot;filterSet($event)&quot;
+    (set_report)&#x3D;&quot;restrieveReports($event)&quot;
+    (close)&#x3D;&quot;showFilterDetails &#x3D; false&quot;&gt;
+&lt;/app-filter-details&gt;
+
+&lt;app-advanced-filter *ngIf&#x3D;&quot;show_advanced_filter&quot;
+        (hide)&#x3D;&quot;show_advanced_filter &#x3D; false&quot;
+        (clear_filters)&#x3D;&quot;clearFiltersFilter()&quot; 
+        (filtered)&#x3D;&quot;refreshFilters($event)&quot; 
+        [simple_clear]&#x3D;&quot;clear_search&quot;
+        [models]&#x3D;&quot;search_models&quot; 
+        [data]&#x3D;&quot;advanced_search_data&quot;&gt;
+&lt;/app-advanced-filter&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./filter-selector.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.filter-card{
+    height: auto;
+    border-radius: 0px;
+    box-shadow: 0 2px 3px 0 rgb(173 173 173 / 50%);
+    background-color: #ffffff;
+    width: 80%;
+    cursor: pointer;
+    padding-bottom: 15px;
+    padding-top: 40px;
+    position: relative;
+    transition: transform 0.4s;
+    text-align: center;
+    mat-icon{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: rgb(236, 185, 17);
+    }
+    p{
+        font-size: 13px;
+        line-height: 2em;
+        span{
+            color: #999;
+        }
+    }
+    img{
+        width: 140px;
+        height: 140px;
+    }
+    h5{
+        color: #003A70;
+        font-size: 15px;
+        font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-bottom: -5px;
+        text-align: center;
+        text-overflow: ellipsis;
+        background-color: transparent;
+        font-family: &#x27;montserrat bold&#x27; !important;
+    }
+    h6{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 0px;
+        background-color: transparent;
+        margin-bottom: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: relative;
+        span{
+            float: right;
+            padding-right: 5px;
+            color: #999;
+        }
+        .span-link{
+            color:#199AD8;
+            font-size: 10px;
+            font-weight: 700;
+            position: absolute;
+            right: 30px;
+            bottom: 0;
+        }
+        .span-link:hover{
+            cursor: pointer;
+            text-decoration: underline;
+            font-weight: 700;
+        }
+    }
+    
+    button{
+        color:#199AD8;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    transition: box-shadow 0.25s;
+}
+
+.filter-card:hover{
+    // -ms-transform: scale(1.01); /* IE 9 */
+    // -webkit-transform: scale(1.01); /* Safari 3-8 */
+    // transform: scale(1.01); 
+    box-shadow: 1px 4px 6px 0px rgb(100 100 100 / 50%);
+}
+
+.searchbar-container{
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    height: 30px;
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    input{
+        border: none;
+        font-size: 11px;
+        width: 90%;
+        margin-left:0px;
+        padding-left: 40px;
+    }
+    .mat-icon{
+        position: absolute;
+        left: 15px;
+        transform: rotate(0deg);
+        color: grey;
+    }
+    button{
+        position: absolute !important;
+        right: 0;
+        border-radius: 20px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+        margin-right: 0px;
+        background: #003A70;
+        color: white;
+        font-weight: normal;
+    }
+}
+
+
+.searchbar-comments{
+    text-align: right;
+    padding-right: 15px;
+    font-size: 12px;
+    font-weight: 200;
+    color: #003A70;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    span{
+        text-decoration: underline;
+    }
+}
+
+.filter-merv{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1.5px solid #707070;
+    background: #fff;
+    color: #707070 !important;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 3px 4px 0px 4px;
+    p{
+        margin: 0;
+        font-size: 16px !important;
+        line-height: normal !important;
+        span{
+            color: #707070 !important;
+            font-size: 11px !important;
+        }
+    }
+}
+
+.more-pading{
+    padding-left: 11px !important;
+    padding-right: 11px !important;
+}
+
+.merv-issues{
+    background-color: #DC3482 !important;
+    span{
+        background-color: #DC3482 !important;
+    }
+}
+
+.filter-info{
+    display: grid;
+    width: 95%;
+    margin-left: 2.5%;
+    justify-content: center;
+    position: absolute;
+    bottom: 5px;    
+    padding-bottom: 10px;
+    grid-template-columns: 25% 75%;
+    h6{
+        margin: 0px;
+        color: #666;
+        font-weight: bold !important;
+        line-height: 1.65em;
+        white-space: nowrap;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        max-width: 50%;
+    }
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><!-- <h3 class="text-right searchbar-comments" *ngIf="!showFilterDetails" style="cursor: pointer;" (click)="requestFilter()"> <span> Can\'t find your filter? Ask Filtration Advice to upload it </span> </h3> --><!-- <mat-grid-list cols="12" rowHeight="30px" *ngIf="!showFilterDetails && filters_search_result.length > 0">    <mat-grid-tile [colspan]="12">        <h6 class="color-secondary text-results">            {{ filters_search_result.length }}            Results from advanced search &nbsp;            <span (click)="clearFiltersFilter()"> (CLEAR ADVANCED SEARCH) </span>        </h6>    </mat-grid-tile></mat-grid-list> --><div class="section-form">    <div class="section-form-title">        <p class="color-secondary"> 1.  Filter Selection </p>    </div></div><div class="searchbar-container" *ngIf="!showFilterDetails">    <mat-icon>search</mat-icon>    <input type="text"  name="search" [ngModel]="search" (ngModelChange)="search=$event;searchBywords()"        placeholder="Search for your filter" [formControl]="searchedWordsControl"></div><mat-grid-list [cols]="num_cols" rowHeight="340px" style="margin-bottom: 45px;" *ngIf="!showFilterDetails && filters.length > 0">    <mat-grid-tile *ngFor="let filter of filters" [colspan]="1" [gap]="20">        <div class="filter-card"  (click)="_openFilterDetails(filter)">            <mat-icon                matTooltipClass="custom-tooltip"                #tooltip="matTooltip"                 matTooltip="This filter has private reports"                 matTooltipPosition="left"                 *ngIf="filter.reports.private.length > 0">                <img src="../../../../assets/imgs/private_testreport.svg" style="width: 35px;margin-left: -10px;">            </mat-icon>            <img *ngIf="!isImgLoaded" src="../../../../assets/imgs/local_loader.gif" >            <img [hidden]="!isImgLoaded" [src]="filter.picture ? filter.picture : \'../../../../assets/imgs/no_filter.png\' " (load)="isImgLoaded = true" >                        <div class="filter-merv">                <p> {{ filter.merv_rating }}<br>                    <span>MERV</span>                 </p>            </div>            <h5 appHighlight [searchedWords]="searchedWords$ | async" classToApply="selected-text"                text="{{ filter.name }}">            </h5>            <p>                {{ !filter.manufacturer ? \'\' : filter.manufacturer.name | titlePipe }}<br>                <span>Depth {{ filter.size_depth ? filter.size_depth + \'"\' : \'N/A\' }}</span>            </p>        </div>    </mat-grid-tile></mat-grid-list><br><app-empty-list     *ngIf="!showFilterDetails && filters.length == 0"    [empty_results]="true"    [title]="\'NO MATCHING SEARCH RESULTS\'"    [subtitle]="\'Try again using other criteria.\'"    [action]="\'Clear Search\'"    (callToAction)="clearFiltersFilter();search = \'\'"></app-empty-list><app-filter-details     *ngIf="showFilterDetails"     (changeFilter)="showFilterDetails = false"     [filter]="filter_selected"     [hide_reports] = \'true\'     [can_edit_size]="true"     [is_for_case]="true"    [review]="review"    (prevent)="prevent($event)"    (done)="filterSet($event)"    (set_report)="restrieveReports($event)"    (close)="showFilterDetails = false"></app-filter-details><app-advanced-filter *ngIf="show_advanced_filter"        (hide)="show_advanced_filter = false"        (clear_filters)="clearFiltersFilter()"         (filtered)="refreshFilters($event)"         [simple_clear]="clear_search"        [models]="search_models"         [data]="advanced_search_data"></app-advanced-filter></div>'
+    var COMPONENTS = [{'name': 'AboutComponent', 'selector': 'app-about'},{'name': 'AdvancedFilterComponent', 'selector': 'app-advanced-filter'},{'name': 'AdvancedSearchComponent', 'selector': 'app-advanced-search'},{'name': 'AirFlowDialogComponent', 'selector': 'airflow-dialog'},{'name': 'AirflowVsDpComponent', 'selector': 'app-airflow-vs-dp'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AreaChartComponent', 'selector': 'app-area-chart'},{'name': 'BarChartComponent', 'selector': 'app-bar-chart'},{'name': 'BeforePrintDialogComponent', 'selector': 'app-before-print-dialog'},{'name': 'BillingsComponent', 'selector': 'app-billings'},{'name': 'BottomPaginatorComponent', 'selector': 'app-bottom-paginator'},{'name': 'CaseActionsComponent', 'selector': 'app-case-actions'},{'name': 'CaseCostComponent', 'selector': 'app-case-cost'},{'name': 'CaseListComponent', 'selector': 'app-case-list'},{'name': 'CaseSelectorComponent', 'selector': 'app-case-selector'},{'name': 'CaseStudyProfileComponent', 'selector': 'app-case-study-profile'},{'name': 'CaseTimeLineComponent', 'selector': 'app-case-time-line'},{'name': 'ChangeCaseDialogComponent', 'selector': 'app-change-case-dialog'},{'name': 'ChangeoutListComponent', 'selector': 'app-changeout-list'},{'name': 'ChangeProviderDialogComponent', 'selector': 'app-change-provider-dialog'},{'name': 'ChartAirflowVsDpComponent', 'selector': 'app-chart-airflow-vs-dp'},{'name': 'ChartCostVsTimeComponent', 'selector': 'app-chart-cost-vs-time'},{'name': 'ChartDpVsTimeComponent', 'selector': 'app-chart-dp-vs-time'},{'name': 'ChartDustVsDpComponent', 'selector': 'app-chart-dust-vs-dp'},{'name': 'ChartReviewComponent', 'selector': 'app-chart-review'},{'name': 'CompanyComponent', 'selector': 'app-company'},{'name': 'ComparisonBarChartComponent', 'selector': 'app-comparison-bar-chart'},{'name': 'ComparisonDpVsTimeChartComponent', 'selector': 'app-comparison-dp-vs-time-chart'},{'name': 'ComparisonListComponent', 'selector': 'app-comparison-list'},{'name': 'ComparisonResultsComponent', 'selector': 'app-comparison-results'},{'name': 'ConfirmDialogComponent', 'selector': 'app-confirm-dialog'},{'name': 'ConfirmRegisterPageComponent', 'selector': 'app-confirm-register-page'},{'name': 'ContactComponent', 'selector': 'app-contact'},{'name': 'ContactComponentComponent', 'selector': 'app-contact-component'},{'name': 'CreditCarDListPageComponent', 'selector': 'app-credit-cart-list-page'},{'name': 'CreditsSummaryComponent', 'selector': 'app-credits-summary'},{'name': 'CurrentCycleValuesComponent', 'selector': 'app-current-cycle-values'},{'name': 'CustomizeDashboardComponent', 'selector': 'app-customize-dashboard'},{'name': 'CustomSnackBarComponent', 'selector': 'app-custom-snack-bar'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DialogDeleteConfirmation', 'selector': ''},{'name': 'DustVsDpComponent', 'selector': 'app-dust-vs-dp'},{'name': 'EmptyListComponent', 'selector': 'app-empty-list'},{'name': 'ErrorDialogComponent', 'selector': 'app-error-dialog'},{'name': 'FaqsComponent', 'selector': 'app-faqs'},{'name': 'FeedbackDialogComponent', 'selector': 'app-feedback-dialog'},{'name': 'FilterDetailsComponent', 'selector': 'app-filter-details'},{'name': 'FilterFinderComponent', 'selector': 'app-filter-finder'},{'name': 'FilterListComponent', 'selector': 'app-filter-list'},{'name': 'FilterListReviewComponent', 'selector': 'app-filter-list-review'},{'name': 'FilterSelectorComponent', 'selector': 'app-filter-selector'},{'name': 'FilterSummaryComponent', 'selector': 'app-filter-summary'},{'name': 'FilterTermsConditionsComponent', 'selector': 'app-filter-terms-conditions'},{'name': 'FilterTestReportsComponent', 'selector': 'app-filter-test-reports'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'FrequencyChartComponent', 'selector': 'app-frequency-chart'},{'name': 'GaugeChartComponent', 'selector': 'app-gauge-chart'},{'name': 'GaugeComponentComponent', 'selector': 'app-gauge-component'},{'name': 'GeneralErrorComponent', 'selector': 'app-general-error'},{'name': 'GeneralNewsComponent', 'selector': 'app-general-news'},{'name': 'GenericListComponent', 'selector': 'app-generic-list'},{'name': 'HeaderGeneralComponent', 'selector': 'app-header-general'},{'name': 'HeaderLoggedComponent', 'selector': 'app-header-logged'},{'name': 'HistogramChartComponent', 'selector': 'app-histogram-chart'},{'name': 'HistogramComponent', 'selector': 'app-histogram'},{'name': 'HoboDashboardComponent', 'selector': 'app-hobo-dashboard'},{'name': 'HomeCounterComponent', 'selector': 'app-home-counter'},{'name': 'HomePageComponent', 'selector': 'app-home-page'},{'name': 'InstrumentationComponent', 'selector': 'app-instrumentation'},{'name': 'InstrumentComponent', 'selector': 'app-instrument-list'},{'name': 'InstrumentHelpComponent', 'selector': 'app-instrument-help'},{'name': 'InstrumentIndicatorComponent', 'selector': 'app-instrument-indicator'},{'name': 'InstrumentSelectorComponent', 'selector': 'app-instrument-selector'},{'name': 'InstumentsListComponent', 'selector': 'app-instuments-list'},{'name': 'InvoiceComponent', 'selector': 'app-invoice'},{'name': 'LandingPageComponent', 'selector': 'app-landing-page'},{'name': 'LeaveDialogComponent', 'selector': 'app-leave-dialog'},{'name': 'LoaderComponent', 'selector': 'app-loader'},{'name': 'LoginPageComponent', 'selector': 'app-login-page'},{'name': 'LoginPageSonicuComponent', 'selector': 'app-provider-login'},{'name': 'MervChartComponent', 'selector': 'app-merv-chart'},{'name': 'MobilePlaceholderComponent', 'selector': 'app-mobile-placeholder'},{'name': 'ModelFilterFormComponent', 'selector': 'app-model-filter-form'},{'name': 'MonitoringComponent', 'selector': 'app-monitoring'},{'name': 'NewCardComponent', 'selector': 'app-new-card'},{'name': 'NewCaseComponent', 'selector': 'app-new-case'},{'name': 'NewComparisonComponent', 'selector': 'app-new-comparison'},{'name': 'NewInstrumentationComponent', 'selector': 'app-new-instrumentation'},{'name': 'NewPasswordComponent', 'selector': 'app-new-password'},{'name': 'NotificationsInboxComponent', 'selector': 'app-notifications-inbox'},{'name': 'NotificationsListComponent', 'selector': 'app-notifications-list'},{'name': 'NotificationsSettingsComponent', 'selector': 'app-notifications-settings'},{'name': 'OptimizationResultsComponent', 'selector': 'app-optimization-results'},{'name': 'PaginatorComponent', 'selector': 'app-paginator'},{'name': 'PairedCaseInstrumentComponent', 'selector': 'app-paired-list'},{'name': 'PaymentDialogComponent', 'selector': 'app-payment-dialog'},{'name': 'PdfHelperDialogComponent', 'selector': 'app-pdf-helper-dialog'},{'name': 'PdfViewerComponent', 'selector': 'app-pdf-viewer'},{'name': 'PersonalInformationComponent', 'selector': 'app-personal-information'},{'name': 'PieChartComponent', 'selector': 'app-pie-chart'},{'name': 'PlansListComponent', 'selector': 'app-plans-list'},{'name': 'PopOverComponent', 'selector': 'app-pop-over'},{'name': 'ProductComponent', 'selector': 'app-product'},{'name': 'ProfilePageComponent', 'selector': 'app-profile-page'},{'name': 'ProfileSelectionComponent', 'selector': 'app-profile-selection'},{'name': 'RecoverPasswordPageComponent', 'selector': 'app-recover-password-page'},{'name': 'RedirectDialogComponent', 'selector': 'app-redirect-dialog'},{'name': 'RegisterPageComponent', 'selector': 'app-register-page'},{'name': 'ReplaceCostDialogComponent', 'selector': 'app-replace-cost-dialog'},{'name': 'ReportFileDropperComponent', 'selector': 'app-report-file-dropper'},{'name': 'ReportRejectedComponent', 'selector': 'app-report-rejected'},{'name': 'ReportReviewComponent', 'selector': 'app-report-review'},{'name': 'RequestFilterComponent', 'selector': 'app-request-filter'},{'name': 'RequestFilterOptionsComponent', 'selector': 'app-request-filter-options'},{'name': 'SellersComponent', 'selector': 'app-sellers'},{'name': 'SharedReportsComponent', 'selector': 'app-shared-reports'},{'name': 'SingleFormComponent', 'selector': 'app-single-form'},{'name': 'StripePaymentCreationComponent', 'selector': 'app-stripe-payment-creation'},{'name': 'SubscriptionDialogComponent', 'selector': 'app-subscription-dialog'},{'name': 'SubscriptionsListComponent', 'selector': 'app-subscriptions-list'},{'name': 'SuccessDialogComponent', 'selector': 'app-success-dialog'},{'name': 'SystemInformationComponent', 'selector': 'app-system-information'},{'name': 'SystemInformationSummaryComponent', 'selector': 'app-system-information-summary'},{'name': 'TableCostSummaryComponent', 'selector': 'app-table-cost-summary'},{'name': 'TermsAndConditionsComponent', 'selector': 'app-terms-and-conditions'},{'name': 'UploadReportComponent', 'selector': 'app-upload-report'},{'name': 'UserOverviewComponent', 'selector': 'app-user-overview'},{'name': 'UserReportsComponent', 'selector': 'app-user-reports'},{'name': 'UserSharedReportsComponent', 'selector': 'app-users-shared-reports'},{'name': 'UserWelcomeComponent', 'selector': 'app-user-welcome'},{'name': 'ValidatorMenuComponent', 'selector': 'app-validator-menu'},{'name': 'VersionComponent', 'selector': 'app-version'},{'name': 'VerticalSwipperComponent', 'selector': 'app-vertical-swipper'}];
+    var DIRECTIVES = [{'name': 'DragDirective', 'selector': '[appDrag]'},{'name': 'FocusMeDirective', 'selector': '[focusMe]'},{'name': 'HighlightDirective', 'selector': '[appHighlight]'}];
+    var ACTUAL_COMPONENT = {'name': 'FilterSelectorComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'FilterSelectorComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

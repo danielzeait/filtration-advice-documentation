@@ -1,0 +1,1799 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>howk documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">howk documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  ChartDpVsTimeComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/AfterViewInit" target="_blank" >AfterViewInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-chart-dp-vs-time</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./chart-dp-vs-time.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./chart-dp-vs-time.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#already_fixed_x_axis" >already_fixed_x_axis</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#chart" >chart</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#chartData" >chartData</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#chartDataOptimized" >chartDataOptimized</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#chartDataSelected" >chartDataSelected</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#datas" >datas</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#max_x" >max_x</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#variableData" >variableData</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#verticalLimitChartData" >verticalLimitChartData</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#initChart" >initChart</a>
+                            </li>
+                            <li>
+                                <a href="#ngAfterViewInit" >ngAfterViewInit</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnChanges" >ngOnChanges</a>
+                            </li>
+                            <li>
+                                <a href="#orderCharts" >orderCharts</a>
+                            </li>
+                            <li>
+                                <a href="#setCurrentChartData" >setCurrentChartData</a>
+                            </li>
+                            <li>
+                                <a href="#setOptimizedChartData" >setOptimizedChartData</a>
+                            </li>
+                            <li>
+                                <a href="#setSelectedChart" >setSelectedChart</a>
+                            </li>
+                            <li>
+                                <a href="#updateChartTicks" >updateChartTicks</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#chart_data" >chart_data</a>
+                            </li>
+                            <li>
+                                <a href="#chart_data_optimized" >chart_data_optimized</a>
+                            </li>
+                            <li>
+                                <a href="#chart_data_selected" >chart_data_selected</a>
+                            </li>
+                            <li>
+                                <a href="#chart_id" >chart_id</a>
+                            </li>
+                            <li>
+                                <a href="#chart_x_type" >chart_x_type</a>
+                            </li>
+                            <li>
+                                <a href="#limit_dp" >limit_dp</a>
+                            </li>
+                            <li>
+                                <a href="#selected_values" >selected_values</a>
+                            </li>
+                            <li>
+                                <a href="#top_current_dp" >top_current_dp</a>
+                            </li>
+                            <li>
+                                <a href="#top_optimized_dp" >top_optimized_dp</a>
+                            </li>
+                            <li>
+                                <a href="#top_selected_dp" >top_selected_dp</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor()</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:29</a></div>
+                            </td>
+                        </tr>
+
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="chart_data"></a>
+                        <b>chart_data</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="10" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:10</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="chart_data_optimized"></a>
+                        <b>chart_data_optimized</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:14</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="chart_data_selected"></a>
+                        <b>chart_data_selected</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:19</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="chart_id"></a>
+                        <b>chart_id</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:12</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="chart_x_type"></a>
+                        <b>chart_x_type</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:18</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="limit_dp"></a>
+                        <b>limit_dp</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="11" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:11</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="selected_values"></a>
+                        <b>selected_values</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:13</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="top_current_dp"></a>
+                        <b>top_current_dp</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:15</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="top_optimized_dp"></a>
+                        <b>top_optimized_dp</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:16</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="top_selected_dp"></a>
+                        <b>top_selected_dp</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:17</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="initChart"></a>
+                    <span class="name">
+                        <span ><b>initChart</b></span>
+                        <a href="#initChart"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>initChart(global_data)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="223"
+                            class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:223</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>global_data</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngAfterViewInit"></a>
+                    <span class="name">
+                        <span ><b>ngAfterViewInit</b></span>
+                        <a href="#ngAfterViewInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngAfterViewInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="34"
+                            class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:34</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnChanges"></a>
+                    <span class="name">
+                        <span ><b>ngOnChanges</b></span>
+                        <a href="#ngOnChanges"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnChanges(changes: <a href="https://angular.io/api/core/SimpleChanges" target="_blank">SimpleChanges</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="60"
+                            class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:60</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>changes</td>
+                                    <td>
+                                                <code><a href="https://angular.io/api/core/SimpleChanges" target="_blank" >SimpleChanges</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="orderCharts"></a>
+                    <span class="name">
+                        <span ><b>orderCharts</b></span>
+                        <a href="#orderCharts"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>orderCharts()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="128"
+                            class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:128</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setCurrentChartData"></a>
+                    <span class="name">
+                        <span ><b>setCurrentChartData</b></span>
+                        <a href="#setCurrentChartData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setCurrentChartData(type)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="183"
+                            class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:183</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>type</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>{}</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setOptimizedChartData"></a>
+                    <span class="name">
+                        <span ><b>setOptimizedChartData</b></span>
+                        <a href="#setOptimizedChartData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setOptimizedChartData(type)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="197"
+                            class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:197</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>type</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>{}</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setSelectedChart"></a>
+                    <span class="name">
+                        <span ><b>setSelectedChart</b></span>
+                        <a href="#setSelectedChart"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setSelectedChart(type)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="170"
+                            class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:170</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>type</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>{}</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateChartTicks"></a>
+                    <span class="name">
+                        <span ><b>updateChartTicks</b></span>
+                        <a href="#updateChartTicks"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>updateChartTicks(max, step)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="211"
+                            class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:211</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>max</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>step</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="already_fixed_x_axis"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                        <span ><b>already_fixed_x_axis</b></span>
+                        <a href="#already_fixed_x_axis"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:21</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="chart"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                        <span ><b>chart</b></span>
+                        <a href="#chart"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:23</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="chartData"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                        <span ><b>chartData</b></span>
+                        <a href="#chartData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:24</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="chartDataOptimized"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                        <span ><b>chartDataOptimized</b></span>
+                        <a href="#chartDataOptimized"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:25</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="chartDataSelected"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                        <span ><b>chartDataSelected</b></span>
+                        <a href="#chartDataSelected"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:26</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="datas"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                        <span ><b>datas</b></span>
+                        <a href="#datas"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>literal type[]</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:29</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="max_x"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>max_x</b></span>
+                        <a href="#max_x"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:22</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="variableData"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                        <span ><b>variableData</b></span>
+                        <a href="#variableData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:27</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="verticalLimitChartData"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                        <span ><b>verticalLimitChartData</b></span>
+                        <a href="#verticalLimitChartData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/components/charts/chart-dp-vs-time/chart-dp-vs-time.component.ts:28</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, Input, SimpleChanges, AfterViewInit } from &#x27;@angular/core&#x27;;
+import Chart from &#x27;chart.js&#x27;;
+import { timeStamp } from &#x27;console&#x27;;
+@Component({
+  selector: &#x27;app-chart-dp-vs-time&#x27;,
+  templateUrl: &#x27;./chart-dp-vs-time.component.html&#x27;,
+  styleUrls: [&#x27;./chart-dp-vs-time.component.scss&#x27;]
+})
+export class ChartDpVsTimeComponent implements AfterViewInit {
+  @Input(&#x27;chart_data&#x27;) chart_data : any;  
+  @Input(&#x27;limit_dp&#x27;) limit_dp : any;
+  @Input(&#x27;chart_id&#x27;) chart_id : any;
+  @Input(&#x27;selected_values&#x27;) selected_values : any; 
+  @Input(&#x27;chart_data_optimized&#x27;) chart_data_optimized : any;
+  @Input(&#x27;top_current_dp&#x27;) top_current_dp : any; 
+  @Input(&#x27;top_optimized_dp&#x27;) top_optimized_dp : any;
+  @Input(&#x27;top_selected_dp&#x27;) top_selected_dp : any;
+  @Input(&#x27;chart_x_type&#x27;) chart_type : any;
+  @Input(&#x27;chart_data_selected&#x27;) chart_data_selected : any;
+  
+  private already_fixed_x_axis:boolean&#x3D;false;
+  public max_x:any;
+  private chart: any;
+  private chartData:any&#x3D;[];
+  private chartDataOptimized:any&#x3D;[];
+  private chartDataSelected: any&#x3D;[];
+  private variableData:any&#x3D;{};
+  private verticalLimitChartData:any&#x3D;[]
+  private datas: { dp_value: any; name: string; data: any; label: string; color: string; }[];
+  
+  constructor() { 
+  }
+  
+  ngAfterViewInit() {
+
+    if(this.chart_data.length &gt; 0){
+      var x2 &#x3D; this.chart_data[this.chart_data.length-1].time;
+      //var x2 &#x3D; this.chart_type &#x3D;&#x3D; &#x27;dp&#x27; ? this.chart_data[this.chart_data.length-1].time : this.chart_data[this.chart_data.length-1].dust;
+      this.verticalLimitChartData &#x3D; [
+        {x:0,y:this.limit_dp},
+        {x:Math.ceil(x2),y:this.limit_dp}
+      ]
+      this.chartData &#x3D; this.setCurrentChartData(this.chart_type);
+    }
+    if(this.chart_data_optimized.length &gt; 0){
+      this.chartDataOptimized &#x3D; this.setOptimizedChartData(this.chart_type);
+    }
+     
+    if(this.selected_values){
+      this.variableData &#x3D; [{
+        &#x27;x&#x27;:parseFloat(this.selected_values.time),
+        &#x27;y&#x27;:parseFloat(this.selected_values.drop_pressure)
+      }]
+    }
+    this.orderCharts();
+    var all_data &#x3D; this.chart_data.concat(this.chart_data_optimized);
+    this.initChart(all_data);
+  }
+
+  ngOnChanges(changes: SimpleChanges){
+    var update &#x3D; false
+    
+    if(changes.chart_type &amp;&amp; !changes.chart_type.firstChange){
+      this.chart_type &#x3D; changes.chart_type.currentValue;
+      this.chart.scales.xAxis2.hidden &#x3D; this.chart_type &#x3D;&#x3D; &#x27;dust&#x27; ? false : true;
+      this.chart.scales.xAxis2.options.display &#x3D; this.chart_type &#x3D;&#x3D; &#x27;dust&#x27; ? true : false;
+      // if(this.chart_data_selected){
+      //   this.chartDataSelected &#x3D; this.setSelectedChart(this.chart_type);
+      //   this.chart.data.datasets.find(data &#x3D;&gt; data.label &#x3D;&#x3D; &quot;Selected&quot;).data &#x3D; this.chartDataSelected;
+      // }
+      // this.chartData &#x3D; this.setCurrentChartData(this.chart_type);
+      // this.chart.data.datasets.find(data &#x3D;&gt; data.label &#x3D;&#x3D; &quot;Current&quot;).data &#x3D; this.chartData;
+      // this.chartDataOptimized &#x3D; this.setOptimizedChartData(this.chart_type);
+      // this.chart.data.datasets.find(data &#x3D;&gt; data.label &#x3D;&#x3D; &quot;Optimized&quot;).data &#x3D; this.chartDataOptimized;
+
+      //var x2 &#x3D; this.chart_type &#x3D;&#x3D; &#x27;dp&#x27; ? this.chart_data[this.chart_data.length-1].time : this.chart_data[this.chart_data.length-1].dust;
+      // var x2 &#x3D; this.chart_data[this.chart_data.length-1].time;
+      // this.verticalLimitChartData &#x3D; [
+      //   {x:0,y:this.limit_dp},
+      //   {x:Math.ceil(x2),y:this.limit_dp}
+      // ]
+      // this.chart.data.datasets[0].data &#x3D; this.verticalLimitChartData;
+      //this.chart.scales[&#x27;x-axis-0&#x27;].options.ticks.max &#x3D; this.chart_type &#x3D;&#x3D; &#x27;dp&#x27; ? this.chart_data[this.chart_data.length-1].time : this.chart_data[this.chart_data.length-1].dust
+      //this.chart.scales[&#x27;x-axis-0&#x27;].options.scaleLabel.labelString &#x3D; this.chart_type &#x3D;&#x3D; &#x27;dp&#x27; ?  &#x27;Time of Change in Months&#x27; : &#x27;Dust Fed (in grams)&#x27;;
+      update &#x3D; true;
+    }
+    
+    if(changes.chart_data_selected &amp;&amp; changes.chart_data_selected.currentValue){
+      this.chart_data_selected &#x3D; changes.chart_data_selected.currentValue;
+      this.chartDataSelected &#x3D; this.setSelectedChart(this.chart_type);
+      this.chart.data.datasets.find(data &#x3D;&gt; data.label &#x3D;&#x3D; &quot;Selected&quot;).data &#x3D; this.chartDataSelected;
+      this.chart.options.scales.xAxes[0].ticks.max &#x3D; this.chartDataSelected[this.chartDataSelected.length - 1].x;
+      this.chart.options.scales.xAxes[1].ticks.max &#x3D; this.chartDataSelected[this.chartDataSelected.length - 1].z;
+      update &#x3D; true; 
+    }
+    
+    if(changes.chart_data &amp;&amp; !changes.chart_data.firstChange){
+      this.chart_data &#x3D; changes.chart_data.currentValue;
+      this.chartData &#x3D; this.setCurrentChartData(this.chart_type);
+      this.chart.data.datasets.find(data &#x3D;&gt; data.label &#x3D;&#x3D; &quot;Current&quot;).data &#x3D; this.chartData;
+      update &#x3D; true; 
+    }
+    
+    if(changes.chart_data_optimized &amp;&amp; !changes.chart_data_optimized.firstChange){
+      this.chart_data_optimized &#x3D; changes.chart_data_optimized.currentValue;
+      this.chartDataOptimized &#x3D; this.setOptimizedChartData(this.chart_type);
+      this.chart.data.datasets.find(data &#x3D;&gt; data.label &#x3D;&#x3D; &quot;Optimized&quot;).data &#x3D; this.chartDataOptimized;
+      update &#x3D; true; 
+    }
+    
+    
+    if(this.chart_data_selected){
+      //var x2 &#x3D; this.chart_type &#x3D;&#x3D; &#x27;dp&#x27; ? this.chart_data_selected[this.chart_data_selected.length-1].time : this.chart_data_selected[this.chart_data_selected.length-1].dust;
+      var x2 &#x3D; this.chart_data_selected[this.chart_data_selected.length-1].time
+      this.verticalLimitChartData &#x3D; [
+        {x:0,y:this.limit_dp},
+        {x:Math.ceil(x2),y:this.limit_dp}
+      ]
+      this.chart.data.datasets[0].data &#x3D; this.verticalLimitChartData;
+    }
+    
+    if(update){
+      this.orderCharts();
+      this.chart.update();
+    }
+  }
+
+  orderCharts(){
+    this.datas &#x3D; [
+      { 
+        dp_value:this.top_current_dp,
+        name:&#x27;current&#x27;,
+        data:this.chartData,
+        label:&quot;Current&quot;,
+        color:&#x27;#003A70&#x27;,
+      },
+      {
+        dp_value:this.top_optimized_dp,
+        name:&#x27;optimized&#x27;,
+        data:this.chartDataOptimized,
+        label:&quot;Optimized&quot;,
+        color:&#x27;#199AD8&#x27;,
+      },
+      {
+        dp_value:this.top_selected_dp,
+        name:&#x27;selected&#x27;,
+        data:this.chartDataSelected,
+        label:&quot;Selected&quot;,
+        color:&#x27;#c7d42d&#x27;,
+      }
+    ]; 
+    this.datas.sort(function(a, b) {  return a.dp_value - b.dp_value; });
+
+    if(this.chart){
+      this.chart.data.datasets[1].data &#x3D; this.datas[0].data;
+      this.chart.data.datasets[2].data &#x3D; this.datas[1].data;
+      this.chart.data.datasets[3].data &#x3D; this.datas[2].data;
+
+      this.chart.data.datasets[1].label &#x3D; this.datas[0].label;
+      this.chart.data.datasets[2].label &#x3D; this.datas[1].label;
+      this.chart.data.datasets[3].label &#x3D; this.datas[2].label;
+
+      this.chart.data.datasets[1].backgroundColor &#x3D; this.datas[0].color;
+      this.chart.data.datasets[2].backgroundColor &#x3D; this.datas[1].color;
+      this.chart.data.datasets[3].backgroundColor &#x3D; this.datas[2].color;
+
+    };
+  }
+
+  setSelectedChart(type){
+    var chart_selected &#x3D; [];
+    for (let i &#x3D; 0; i &lt; this.chart_data_selected.length; i++) {
+      var point &#x3D; {
+        &#x27;x&#x27;:Number.parseFloat(this.chart_data_selected[i].time),
+        &#x27;y&#x27;:parseFloat(this.chart_data_selected[i].drop_pressure),
+        &#x27;z&#x27;:Number.parseFloat(this.chart_data_selected[i].dust)
+      }
+      chart_selected.push(point);
+    }
+    return chart_selected;
+  }
+
+  setCurrentChartData(type){
+    var chart_current &#x3D; [];
+    for (let i &#x3D; 0; i &lt; this.chart_data.length; i++) {
+      var point &#x3D; {
+        &#x27;x&#x27;:Number.parseFloat(this.chart_data[i].time),
+        &#x27;y&#x27;:parseFloat(this.chart_data[i].drop_pressure),
+        &#x27;z&#x27;:Number.parseFloat(this.chart_data[i].dust)
+      }
+      chart_current.push(point); 
+    }
+    //this.max_x &#x3D; type &#x3D;&#x3D; &#x27;dp&#x27; ? this.chart_data[this.chart_data.length-1].time : this.chart_data[this.chart_data.length-1].dust
+    return chart_current
+  }
+
+  setOptimizedChartData(type){
+    var chart_optimized &#x3D; [];
+    for (let i &#x3D; 0; i &lt; this.chart_data_optimized.length; i++) {
+      var point &#x3D; {
+        &#x27;x&#x27;:Number.parseFloat(this.chart_data_optimized[i].time),
+        &#x27;y&#x27;:parseFloat(this.chart_data_optimized[i].drop_pressure),
+        &#x27;z&#x27;:Number.parseFloat(this.chart_data_optimized[i].dust)
+
+      }
+      chart_optimized.push(point);
+    }
+    return chart_optimized
+  }
+
+  updateChartTicks(max,step) {
+    setTimeout(() &#x3D;&gt; {
+      if(!this.already_fixed_x_axis){
+        this.already_fixed_x_axis &#x3D; true;
+        this.chart.options.scales.xAxes[1].ticks.min &#x3D; 0;
+        this.chart.options.scales.xAxes[1].ticks.max &#x3D; max;
+        this.chart.options.scales.xAxes[1].ticks.stepSize &#x3D; step;
+        this.chart.update();
+      }
+    }, 250); 
+  };
+
+  initChart(global_data){
+    var id &#x3D; this.chart_id;
+    var ctx:HTMLElement &#x3D; &lt;HTMLElement&gt; document.getElementById(id);
+    ctx.style.backgroundColor &#x3D; &#x27;#FFF&#x27;;
+    ctx.style.padding &#x3D; &#x27;10px&#x27;;
+
+    var canvas : any &#x3D; document.getElementById(id);
+    var ctx2 &#x3D; canvas.getContext(&quot;2d&quot;);
+    
+    Chart.Legend.prototype.afterFit &#x3D; function() {
+      this.height &#x3D; this.height + 10;
+    };
+    
+    this.chart &#x3D; new Chart(ctx2, {
+        type: &#x27;line&#x27;,
+        pointBackgroundColor: &quot;#55bae7&quot;,
+        pointBorderColor: &quot;#55bae7&quot;,
+        data: {
+            datasets: [
+              {
+                label:&#x27;0&#x27;,
+                data:this.verticalLimitChartData,
+                pointRadius:&#x27;0&#x27;,
+                borderColor:&#x27;#ffa629&#x27;,
+                borderWidth:3,
+                fill:false,
+                backgroundColor:&#x27;#f3f3f3&#x27;
+              },
+              {
+                label:this.datas[0].label,
+                data: this.datas[0].data,
+                backgroundColor:this.datas[0].color,
+                borderWidth:1,
+                lineTension:0,
+                borderColor:&#x27;#1C036F&#x27;,
+                pointBorderColor: &quot;#222&quot;,
+                pointRadius:&#x27;0&#x27;,
+                clip:-1,
+              },
+              {
+                label:this.datas[1].label,
+                data: this.datas[1].data,
+                backgroundColor:this.datas[1].color,
+                borderWidth:1,
+                lineTension:0,
+                borderColor:&#x27;#1C036F&#x27;,
+                pointBorderColor: &quot;#222&quot;,
+                pointRadius:&#x27;0&#x27;,
+                clip:-1,
+              },
+              {
+                label:this.datas[2].label,
+                data: this.datas[2].data,
+                backgroundColor:this.datas[2].color,
+                borderWidth:1,
+                lineTension:0,
+                borderColor:&#x27;#1C036F&#x27;,
+                pointBorderColor: &quot;#222&quot;,
+                pointRadius:&#x27;0&#x27;,
+                clip:-1,
+              },
+            ]
+        },
+        options: {
+          legend: {
+            align:&#x27;start&#x27;,
+            labels: {
+              filter: function(item, chart) {
+                // Logic to remove a particular legend item goes here
+                return !item.text.includes(&#x27;0&#x27;);
+              },
+              fontFamily:&#x27;lato&#x27;,
+              fontSize:11.5
+            },
+          },
+          elements: {
+            line: {
+              tension: 0.4
+            }
+          },
+          tooltips:{
+            callbacks: {
+              title:function(tooltipItem) {
+                var label &#x3D; &#x27;Dp value: &#x27; + Number.parseFloat(tooltipItem[0].yLabel).toFixed(3);
+                return label;
+              },
+              label: function(tooltipItem){
+                var value &#x3D; Number.parseFloat(tooltipItem.xLabel).toFixed(2);
+                return &#x27;Time: &#x27;  + value + &#x27; months&#x27;;
+              },
+              afterBody: (tooltipItem,data) &#x3D;&gt; {
+                var value &#x3D; &#x27;&#x27;;
+                if(this.chart_type &#x3D;&#x3D; &#x27;dust&#x27;){                  
+                  value &#x3D; data.datasets[tooltipItem[0].datasetIndex].data.find(point &#x3D;&gt; point.x &#x3D;&#x3D; tooltipItem[0].xLabel).z.toFixed(2);
+                  value &#x3D;  &#x27;Dust: &#x27; + value + &#x27; grams&#x27;
+                }
+                return value;
+              }
+            }
+            // callbacks:{
+            //     label:function(tooltipItem) {
+            //         var label &#x3D; &#x27;Dp value: &#x27; + Number.parseFloat(tooltipItem.yLabel).toFixed(3);
+            //         return label;
+            //     },
+            //     title: function(tooltipItem){
+            //       console.log(tooltipItem);
+            //       var value &#x3D; Number.parseFloat(tooltipItem[0].xLabel).toFixed(2);
+            //       var value2 &#x3D; Number.parseFloat(tooltipItem[0].x).toFixed(2);
+            //       return &#x27;Time: &#x27;  + value + &#x27; /n&#x27; + &#x27;Dust: &#x27; + value2;
+            //     }
+            // },
+          },
+          scales: {
+              xAxes: [
+                {
+                  id:&#x27;xAxis1&#x27;,
+                  type: &#x27;linear&#x27;,
+                  position: &#x27;bottom&#x27;,
+                  scaleLabel: {
+                    display: true,
+                    labelString:&#x27;Time of Change in Months&#x27;,
+                    fontColor:&#x27;#222&#x27;,
+                    fontSize:10,
+                  },
+                  ticks: {
+                    //stepSize: 2,
+                    fontSize:10,
+                    callback: function(value, index, values) {
+                      return Number.parseFloat(value).toFixed(1);
+                    },
+                    max:this.chart_data[this.chart_data.length - 1].time
+                  },
+                },
+                {
+                  id:&#x27;xAxis2&#x27;,
+                  position: &#x27;bottom&#x27;,
+                  type:&quot;linear&quot;,
+                  scaleLabel: {
+                    display: true,
+                    labelString:&#x27;Dust Fed (in grams)&#x27;,
+                    fontColor:&#x27;#222&#x27;,
+                    fontSize:10,
+                  },
+                  ticks: {
+                    //stepSize: 2,
+                    fontSize:10,
+                    callback: function(value, index, values) {
+                      return Number.parseFloat(value).toFixed(1);
+                    },
+                    //max:this.chart_data[this.chart_data.length - 1].dust
+                  },
+                  afterBuildTicks: (scale) &#x3D;&gt; {
+                    var val_1 &#x3D; Math.ceil((this.chart_data[this.chart_data.length-1]).dust) / 5;
+                    //var val_2 &#x3D; Math.floor(Math.abs((this.chart_data[this.chart_data.length-1]) - (this.chart_data[this.chart_data.length-3]).dust))
+                    let new_scale &#x3D; [0];
+                    for (let index &#x3D; 0; index &lt; 5; index++) {
+                      new_scale.push(new_scale[index] + val_1);
+                    }
+                    this.updateChartTicks(new_scale[new_scale.length-1],val_1);
+                    return;
+                  },
+                },
+              ],
+              yAxes: [{
+                scaleLabel: {
+                  display: true,
+                  labelString: &#x27;Pressure Drop (inch of WC)&#x27;,
+                  fontColor:&#x27;#222&#x27;,
+                  fontSize:10,
+                },
+                ticks: {
+                  beginAtZero: true,
+                  fontSize:10,
+                  //stepSize:0.5
+                  callback: function(value, index, values) {
+                    return Number.parseFloat(value).toFixed(2);
+                  }
+                },
+              },
+            ],
+          }
+        }
+    });
+    
+    
+
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;chart-container&quot;&gt;
+    &lt;canvas id&#x3D;&quot;{{ chart_id }}&quot;  class&#x3D;&quot;my-chart&quot;&gt;&lt;/canvas&gt;    
+&lt;/div&gt;  </code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./chart-dp-vs-time.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">
+.chart-container{
+    width: 100%;
+    height: auto;
+    max-height: 70%;
+    padding-top:0px;
+    .my-chart{
+        padding-top: 20px;
+        height: auto !important;
+        width: 95% !important;
+        margin-left: 0%;
+    }
+}
+
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="chart-container">    <canvas id="{{ chart_id }}"  class="my-chart"></canvas>    </div>  </div>'
+    var COMPONENTS = [{'name': 'AboutComponent', 'selector': 'app-about'},{'name': 'AdvancedFilterComponent', 'selector': 'app-advanced-filter'},{'name': 'AdvancedSearchComponent', 'selector': 'app-advanced-search'},{'name': 'AirFlowDialogComponent', 'selector': 'airflow-dialog'},{'name': 'AirflowVsDpComponent', 'selector': 'app-airflow-vs-dp'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AreaChartComponent', 'selector': 'app-area-chart'},{'name': 'BarChartComponent', 'selector': 'app-bar-chart'},{'name': 'BeforePrintDialogComponent', 'selector': 'app-before-print-dialog'},{'name': 'BillingsComponent', 'selector': 'app-billings'},{'name': 'BottomPaginatorComponent', 'selector': 'app-bottom-paginator'},{'name': 'CaseActionsComponent', 'selector': 'app-case-actions'},{'name': 'CaseCostComponent', 'selector': 'app-case-cost'},{'name': 'CaseListComponent', 'selector': 'app-case-list'},{'name': 'CaseSelectorComponent', 'selector': 'app-case-selector'},{'name': 'CaseStudyProfileComponent', 'selector': 'app-case-study-profile'},{'name': 'CaseTimeLineComponent', 'selector': 'app-case-time-line'},{'name': 'ChangeCaseDialogComponent', 'selector': 'app-change-case-dialog'},{'name': 'ChangeoutListComponent', 'selector': 'app-changeout-list'},{'name': 'ChangeProviderDialogComponent', 'selector': 'app-change-provider-dialog'},{'name': 'ChartAirflowVsDpComponent', 'selector': 'app-chart-airflow-vs-dp'},{'name': 'ChartCostVsTimeComponent', 'selector': 'app-chart-cost-vs-time'},{'name': 'ChartDpVsTimeComponent', 'selector': 'app-chart-dp-vs-time'},{'name': 'ChartDustVsDpComponent', 'selector': 'app-chart-dust-vs-dp'},{'name': 'ChartReviewComponent', 'selector': 'app-chart-review'},{'name': 'CompanyComponent', 'selector': 'app-company'},{'name': 'ComparisonBarChartComponent', 'selector': 'app-comparison-bar-chart'},{'name': 'ComparisonDpVsTimeChartComponent', 'selector': 'app-comparison-dp-vs-time-chart'},{'name': 'ComparisonListComponent', 'selector': 'app-comparison-list'},{'name': 'ComparisonResultsComponent', 'selector': 'app-comparison-results'},{'name': 'ConfirmDialogComponent', 'selector': 'app-confirm-dialog'},{'name': 'ConfirmRegisterPageComponent', 'selector': 'app-confirm-register-page'},{'name': 'ContactComponent', 'selector': 'app-contact'},{'name': 'ContactComponentComponent', 'selector': 'app-contact-component'},{'name': 'CreditCarDListPageComponent', 'selector': 'app-credit-cart-list-page'},{'name': 'CreditsSummaryComponent', 'selector': 'app-credits-summary'},{'name': 'CurrentCycleValuesComponent', 'selector': 'app-current-cycle-values'},{'name': 'CustomizeDashboardComponent', 'selector': 'app-customize-dashboard'},{'name': 'CustomSnackBarComponent', 'selector': 'app-custom-snack-bar'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DialogDeleteConfirmation', 'selector': ''},{'name': 'DustVsDpComponent', 'selector': 'app-dust-vs-dp'},{'name': 'EmptyListComponent', 'selector': 'app-empty-list'},{'name': 'ErrorDialogComponent', 'selector': 'app-error-dialog'},{'name': 'FaqsComponent', 'selector': 'app-faqs'},{'name': 'FeedbackDialogComponent', 'selector': 'app-feedback-dialog'},{'name': 'FilterDetailsComponent', 'selector': 'app-filter-details'},{'name': 'FilterFinderComponent', 'selector': 'app-filter-finder'},{'name': 'FilterListComponent', 'selector': 'app-filter-list'},{'name': 'FilterListReviewComponent', 'selector': 'app-filter-list-review'},{'name': 'FilterSelectorComponent', 'selector': 'app-filter-selector'},{'name': 'FilterSummaryComponent', 'selector': 'app-filter-summary'},{'name': 'FilterTermsConditionsComponent', 'selector': 'app-filter-terms-conditions'},{'name': 'FilterTestReportsComponent', 'selector': 'app-filter-test-reports'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'FrequencyChartComponent', 'selector': 'app-frequency-chart'},{'name': 'GaugeChartComponent', 'selector': 'app-gauge-chart'},{'name': 'GaugeComponentComponent', 'selector': 'app-gauge-component'},{'name': 'GeneralErrorComponent', 'selector': 'app-general-error'},{'name': 'GeneralNewsComponent', 'selector': 'app-general-news'},{'name': 'GenericListComponent', 'selector': 'app-generic-list'},{'name': 'HeaderGeneralComponent', 'selector': 'app-header-general'},{'name': 'HeaderLoggedComponent', 'selector': 'app-header-logged'},{'name': 'HistogramChartComponent', 'selector': 'app-histogram-chart'},{'name': 'HistogramComponent', 'selector': 'app-histogram'},{'name': 'HoboDashboardComponent', 'selector': 'app-hobo-dashboard'},{'name': 'HomeCounterComponent', 'selector': 'app-home-counter'},{'name': 'HomePageComponent', 'selector': 'app-home-page'},{'name': 'InstrumentationComponent', 'selector': 'app-instrumentation'},{'name': 'InstrumentComponent', 'selector': 'app-instrument-list'},{'name': 'InstrumentHelpComponent', 'selector': 'app-instrument-help'},{'name': 'InstrumentIndicatorComponent', 'selector': 'app-instrument-indicator'},{'name': 'InstrumentSelectorComponent', 'selector': 'app-instrument-selector'},{'name': 'InstumentsListComponent', 'selector': 'app-instuments-list'},{'name': 'InvoiceComponent', 'selector': 'app-invoice'},{'name': 'LandingPageComponent', 'selector': 'app-landing-page'},{'name': 'LeaveDialogComponent', 'selector': 'app-leave-dialog'},{'name': 'LoaderComponent', 'selector': 'app-loader'},{'name': 'LoginPageComponent', 'selector': 'app-login-page'},{'name': 'LoginPageSonicuComponent', 'selector': 'app-provider-login'},{'name': 'MervChartComponent', 'selector': 'app-merv-chart'},{'name': 'MobilePlaceholderComponent', 'selector': 'app-mobile-placeholder'},{'name': 'ModelFilterFormComponent', 'selector': 'app-model-filter-form'},{'name': 'MonitoringComponent', 'selector': 'app-monitoring'},{'name': 'NewCardComponent', 'selector': 'app-new-card'},{'name': 'NewCaseComponent', 'selector': 'app-new-case'},{'name': 'NewComparisonComponent', 'selector': 'app-new-comparison'},{'name': 'NewInstrumentationComponent', 'selector': 'app-new-instrumentation'},{'name': 'NewPasswordComponent', 'selector': 'app-new-password'},{'name': 'NotificationsInboxComponent', 'selector': 'app-notifications-inbox'},{'name': 'NotificationsListComponent', 'selector': 'app-notifications-list'},{'name': 'NotificationsSettingsComponent', 'selector': 'app-notifications-settings'},{'name': 'OptimizationResultsComponent', 'selector': 'app-optimization-results'},{'name': 'PaginatorComponent', 'selector': 'app-paginator'},{'name': 'PairedCaseInstrumentComponent', 'selector': 'app-paired-list'},{'name': 'PaymentDialogComponent', 'selector': 'app-payment-dialog'},{'name': 'PdfHelperDialogComponent', 'selector': 'app-pdf-helper-dialog'},{'name': 'PdfViewerComponent', 'selector': 'app-pdf-viewer'},{'name': 'PersonalInformationComponent', 'selector': 'app-personal-information'},{'name': 'PieChartComponent', 'selector': 'app-pie-chart'},{'name': 'PlansListComponent', 'selector': 'app-plans-list'},{'name': 'PopOverComponent', 'selector': 'app-pop-over'},{'name': 'ProductComponent', 'selector': 'app-product'},{'name': 'ProfilePageComponent', 'selector': 'app-profile-page'},{'name': 'ProfileSelectionComponent', 'selector': 'app-profile-selection'},{'name': 'RecoverPasswordPageComponent', 'selector': 'app-recover-password-page'},{'name': 'RedirectDialogComponent', 'selector': 'app-redirect-dialog'},{'name': 'RegisterPageComponent', 'selector': 'app-register-page'},{'name': 'ReplaceCostDialogComponent', 'selector': 'app-replace-cost-dialog'},{'name': 'ReportFileDropperComponent', 'selector': 'app-report-file-dropper'},{'name': 'ReportRejectedComponent', 'selector': 'app-report-rejected'},{'name': 'ReportReviewComponent', 'selector': 'app-report-review'},{'name': 'RequestFilterComponent', 'selector': 'app-request-filter'},{'name': 'RequestFilterOptionsComponent', 'selector': 'app-request-filter-options'},{'name': 'SellersComponent', 'selector': 'app-sellers'},{'name': 'SharedReportsComponent', 'selector': 'app-shared-reports'},{'name': 'SingleFormComponent', 'selector': 'app-single-form'},{'name': 'StripePaymentCreationComponent', 'selector': 'app-stripe-payment-creation'},{'name': 'SubscriptionDialogComponent', 'selector': 'app-subscription-dialog'},{'name': 'SubscriptionsListComponent', 'selector': 'app-subscriptions-list'},{'name': 'SuccessDialogComponent', 'selector': 'app-success-dialog'},{'name': 'SystemInformationComponent', 'selector': 'app-system-information'},{'name': 'SystemInformationSummaryComponent', 'selector': 'app-system-information-summary'},{'name': 'TableCostSummaryComponent', 'selector': 'app-table-cost-summary'},{'name': 'TermsAndConditionsComponent', 'selector': 'app-terms-and-conditions'},{'name': 'UploadReportComponent', 'selector': 'app-upload-report'},{'name': 'UserOverviewComponent', 'selector': 'app-user-overview'},{'name': 'UserReportsComponent', 'selector': 'app-user-reports'},{'name': 'UserSharedReportsComponent', 'selector': 'app-users-shared-reports'},{'name': 'UserWelcomeComponent', 'selector': 'app-user-welcome'},{'name': 'ValidatorMenuComponent', 'selector': 'app-validator-menu'},{'name': 'VersionComponent', 'selector': 'app-version'},{'name': 'VerticalSwipperComponent', 'selector': 'app-vertical-swipper'}];
+    var DIRECTIVES = [{'name': 'DragDirective', 'selector': '[appDrag]'},{'name': 'FocusMeDirective', 'selector': '[focusMe]'},{'name': 'HighlightDirective', 'selector': '[appHighlight]'}];
+    var ACTUAL_COMPONENT = {'name': 'ChartDpVsTimeComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'ChartDpVsTimeComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

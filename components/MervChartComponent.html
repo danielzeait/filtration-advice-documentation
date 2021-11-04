@@ -1,0 +1,1588 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>howk documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">howk documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  MervChartComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/merv-chart/merv-chart.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-merv-chart</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./merv-chart.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./merv-chart.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#filter_selected" >filter_selected</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#filterControl" >filterControl</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#merv_rows" >merv_rows</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#model_filters" >model_filters</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#modelFilterOptions" >modelFilterOptions</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#original_filters" >original_filters</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_filterFilters" >_filterFilters</a>
+                            </li>
+                            <li>
+                                <a href="#_setMervFilter" >_setMervFilter</a>
+                            </li>
+                            <li>
+                                <a href="#clearFilter" >clearFilter</a>
+                            </li>
+                            <li>
+                                <a href="#getFilters" >getFilters</a>
+                            </li>
+                            <li>
+                                <a href="#ngAfterViewChecked" >ngAfterViewChecked</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#removeFromDashboard" >removeFromDashboard</a>
+                            </li>
+                            <li>
+                                <a href="#setFilterOptions" >setFilterOptions</a>
+                            </li>
+                            <li>
+                                <a href="#setMervChart" >setMervChart</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#remove" >remove</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(filterService: <a href="../injectables/FilterProvider.html" target="_self">FilterProvider</a>, cdr: <a href="https://angular.io/api/core/ChangeDetectorRef" target="_blank">ChangeDetectorRef</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>filterService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/FilterProvider.html" target="_self" >FilterProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>cdr</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/core/ChangeDetectorRef" target="_blank" >ChangeDetectorRef</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+    <section>
+    <h3 id="outputs">Outputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="remove"></a>
+                        <b>remove</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:13</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_filterFilters"></a>
+                    <span class="name">
+                        <span class="modifier">Private</span>
+                        <span ><b>_filterFilters</b></span>
+                        <a href="#_filterFilters"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>_filterFilters(value: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>, array: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="221"
+                            class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:221</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>value</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>array</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>string[]</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_setMervFilter"></a>
+                    <span class="name">
+                        <span ><b>_setMervFilter</b></span>
+                        <a href="#_setMervFilter"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>_setMervFilter(filter)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="229"
+                            class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:229</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>filter</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="clearFilter"></a>
+                    <span class="name">
+                        <span ><b>clearFilter</b></span>
+                        <a href="#clearFilter"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>clearFilter()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="203"
+                            class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:203</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getFilters"></a>
+                    <span class="name">
+                        <span ><b>getFilters</b></span>
+                        <a href="#getFilters"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getFilters()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="193"
+                            class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:193</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngAfterViewChecked"></a>
+                    <span class="name">
+                        <span ><b>ngAfterViewChecked</b></span>
+                        <a href="#ngAfterViewChecked"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngAfterViewChecked()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="27"
+                            class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:27</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="22"
+                            class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:22</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="removeFromDashboard"></a>
+                    <span class="name">
+                        <span ><b>removeFromDashboard</b></span>
+                        <a href="#removeFromDashboard"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>removeFromDashboard()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="188"
+                            class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:188</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setFilterOptions"></a>
+                    <span class="name">
+                        <span ><b>setFilterOptions</b></span>
+                        <a href="#setFilterOptions"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setFilterOptions()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="211"
+                            class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:211</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setMervChart"></a>
+                    <span class="name">
+                        <span ><b>setMervChart</b></span>
+                        <a href="#setMervChart"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setMervChart()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="31"
+                            class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:31</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filter_selected"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>filter_selected</b></span>
+                        <a href="#filter_selected"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:19</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filterControl"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>filterControl</b></span>
+                        <a href="#filterControl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new FormControl()</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:17</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="merv_rows"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>merv_rows</b></span>
+                        <a href="#merv_rows"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:14</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="model_filters"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>model_filters</b></span>
+                        <a href="#model_filters"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:15</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="modelFilterOptions"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>modelFilterOptions</b></span>
+                        <a href="#modelFilterOptions"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Observable&lt;string[]&gt;</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:18</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="original_filters"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>original_filters</b></span>
+                        <a href="#original_filters"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/components/merv-chart/merv-chart.component.ts:16</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, Output, EventEmitter, ChangeDetectorRef } from &#x27;@angular/core&#x27;;
+import { Observable } from &#x27;rxjs&#x27;;
+import { startWith, map } from &#x27;rxjs/operators&#x27;;
+import { FilterProvider } from &#x27;src/app/providers/filter.service&#x27;;
+import { FormControl } from &#x27;@angular/forms&#x27;;
+
+@Component({
+  selector: &#x27;app-merv-chart&#x27;,
+  templateUrl: &#x27;./merv-chart.component.html&#x27;,
+  styleUrls: [&#x27;./merv-chart.component.scss&#x27;]
+})
+export class MervChartComponent implements OnInit {
+  @Output() remove &#x3D; new EventEmitter(); 
+  public merv_rows:any;
+  public model_filters: any;
+  public original_filters:any;
+  public filterControl &#x3D; new FormControl();
+  public modelFilterOptions: Observable&lt;string[]&gt;;
+  public filter_selected:any&#x3D;{};
+  constructor(private filterService:FilterProvider,private cdr:ChangeDetectorRef) { }
+
+  ngOnInit() {
+    this.getFilters();
+    this.setMervChart();
+  }
+
+  ngAfterViewChecked() {
+    this.cdr.detectChanges();
+  }
+
+  setMervChart(){
+    this.merv_rows &#x3D; [
+      {
+        height:&#x27;110px&#x27;,
+        row_selected:false,
+        background_color:&#x27;#6ABBE8&#x27;,
+        numbers:[
+          {value:1,selected:false,index:1},
+          {value:2,selected:false,index:2},
+          {value:3,selected:false,index:3},
+          {value:4,selected:false,index:4},
+        ],
+        small:[
+          {value:&#x27;-&#x27;,selected:false,index:1},
+          {value:&#x27;-&#x27;,selected:false,index:2},
+          {value:&#x27;-&#x27;,selected:false,index:3},
+          {value:&#x27;-&#x27;,selected:false,index:4},
+        ],
+        medium:[
+          {value:&#x27;-&#x27;,selected:false,index:1},
+          {value:&#x27;-&#x27;,selected:false,index:2},
+          {value:&#x27;-&#x27;,selected:false,index:3},
+          {value:&#x27;-&#x27;,selected:false,index:4},
+        ],
+        large:[
+          {value:&#x27;&lt; 20%&#x27;,selected:false,index:1},
+          {value:&#x27;&lt; 20%&#x27;,selected:false,index:2},
+          {value:&#x27;&lt; 20%&#x27;,selected:false,index:3},
+          {value:&#x27;&lt; 20%&#x27;,selected:false,index:4},
+        ],
+        images:[
+          &quot;../../../assets/imgs/dust_lint.png&quot;,
+          &quot;../../../assets/imgs/dust_mites.png&quot;,
+          &quot;../../../assets/imgs/pollen.png&quot;,
+          &quot;&quot;,
+          &quot;&quot;,
+          &quot;&quot;,
+          &quot;&quot;,
+        ]
+      },
+      {
+        height:&#x27;110px&#x27;,
+        row_selected:false,
+        background_color:&#x27;#1198DA&#x27;,
+        numbers:[
+          {value:5,selected:false,index:5},
+          {value:6,selected:false,index:6},
+          {value:7,selected:false,index:7},
+        ],
+        small:[
+          {value:&#x27;-&#x27;,selected:false,index:5},
+          {value:&#x27;-&#x27;,selected:false,index:6},
+          {value:&#x27;-&#x27;,selected:false,index:7},
+        ],
+        medium:[
+          {value:&#x27;-&#x27;,selected:false,index:5},
+          {value:&#x27;-&#x27;,selected:false,index:6},
+          {value:&#x27;-&#x27;,selected:false,index:7},
+        ],
+        large:[
+          {value:&#x27;20% and up&#x27;,selected:false,index:5},
+          {value:&#x27;20% and up&#x27;,selected:false,index:6},
+          {value:&#x27;20% and up&#x27;,selected:false,index:7},
+        ],
+        images:[
+          &quot;../../../assets/imgs/dust_lint.png&quot;,
+          &quot;../../../assets/imgs/dust_mites.png&quot;,
+          &quot;../../../assets/imgs/pollen.png&quot;,
+          &quot;../../../assets/imgs/mold.png&quot;,
+          &quot;&quot;,
+          &quot;&quot;,
+          &quot;&quot;,
+        ]
+      },
+      {
+        height:&#x27;120px&#x27;,
+        row_selected:false,
+        background_color:&#x27;#0269B3&#x27;,
+        numbers:[
+          {value:8,selected:false,index:8},
+          {value:9,selected:false,index:9},
+          {value:10,selected:false,index:10},
+          {value:11,selected:false,index:11},
+          {value:12,selected:false,index:12},
+        ],
+        small:[
+          {value:&#x27;-&#x27;,selected:false,index:8},
+          {value:&#x27;-&#x27;,selected:false,index:9},
+          {value:&#x27;-&#x27;,selected:false,index:10},
+          {value:&#x27;20% and up&#x27;,selected:false,index:11},
+          {value:&#x27;35% and up&#x27;,selected:false,index:12},
+        ],
+        medium:[
+          {value:&#x27;20% and up&#x27;, selected:false,index:8},
+          {value:&#x27;35% and up&#x27;, selected:false,index:9},
+          {value:&#x27;50% and up&#x27;, selected:false,index:10},
+          {value:&#x27;65% and up&#x27;, selected:false,index:11},
+          {value:&#x27;80% and up&#x27;, selected:false,index:12},
+        ],
+        large:[
+          {value:&#x27;70% and up&#x27;,selected:false,index:8},
+          {value:&#x27;75% and up&#x27;,selected:false,index:9},
+          {value:&#x27;80% and up&#x27;,selected:false,index:10},
+          {value:&#x27;85% and up&#x27;,selected:false,index:11},
+          {value:&#x27;90% and up&#x27;,selected:false,index:12},
+        ],
+        images:[
+          &quot;../../../assets/imgs/dust_lint.png&quot;,
+          &quot;../../../assets/imgs/dust_mites.png&quot;,
+          &quot;../../../assets/imgs/pollen.png&quot;,
+          &quot;../../../assets/imgs/mold.png&quot;,
+          &quot;../../../assets/imgs/pet_dander.png&quot;,
+          &quot;../../../assets/imgs/bacteria.png&quot;,
+          &quot;&quot;,
+        ]
+      },
+      {
+        height:&#x27;120px&#x27;,
+        row_selected:false,
+        background_color:&#x27;#015196&#x27;,
+        numbers:[
+          {value:13,selected:false,index:13},
+          {value:14,selected:false,index:14},
+          {value:15,selected:false,index:15},
+          {value:&#x27;16+&#x27;,selected:false,index:16},
+        ],
+        small:[
+          {value:&#x27;50% and up&#x27;,selected:false,index:13},
+          {value:&#x27;75% and up&#x27;,selected:false,index:14},
+          {value:&#x27;85% and up&#x27;,selected:false,index:15},
+          {value:&#x27;95% and up&#x27;,selected:false,index:16},
+        ],
+        medium:[
+          {value:&#x27;85% and up&#x27;,selected:false,index:13},
+          {value:&#x27;90% and up&#x27;,selected:false,index:14},
+          {value:&#x27;90% and up&#x27;,selected:false,index:15},
+          {value:&#x27;90% and up&#x27;,selected:false,index:16},
+        ],
+        large:[
+          {value:&#x27;90% and up&#x27;,selected:false,index:13},
+          {value:&#x27;95% and up&#x27;,selected:false,index:14},
+          {value:&#x27;95% and up&#x27;,selected:false,index:15},
+          {value:&#x27;95% and up&#x27;,selected:false,index:16},
+        ],
+        images:[
+          &quot;../../../assets/imgs/dust_lint.png&quot;,
+          &quot;../../../assets/imgs/dust_mites.png&quot;,
+          &quot;../../../assets/imgs/pollen.png&quot;,
+          &quot;../../../assets/imgs/mold.png&quot;,
+          &quot;../../../assets/imgs/pet_dander.png&quot;,
+          &quot;../../../assets/imgs/bacteria.png&quot;,
+          &quot;../../../assets/imgs/attached_viruses.png&quot;,
+        ]
+      }
+    ]
+  }
+
+  removeFromDashboard(){
+    this.remove.emit();
+  }
+
+  
+  getFilters(){
+    this.filterService.getAllPublicFilters().subscribe(
+      (filters)&#x3D;&gt;{
+        this.model_filters &#x3D; filters;
+        this.original_filters &#x3D; [...filters];
+        this.setFilterOptions();
+      }
+    )
+  }
+    
+  clearFilter(){
+    this.filterControl &#x3D; new FormControl();
+    this.filter_selected &#x3D; {};
+    this.model_filters &#x3D; [...this.original_filters];
+    this.setMervChart();
+    this.setFilterOptions();
+  }
+  
+  setFilterOptions(){
+    this.modelFilterOptions &#x3D; this.filterControl.valueChanges
+      .pipe(
+      startWith(&#x27;&#x27;),
+      map(value &#x3D;&gt; this._filterFilters(value,this.model_filters))
+    );
+    setTimeout(() &#x3D;&gt; {
+    }, 1000);
+  }
+
+  private _filterFilters(value: any,array:any): string[] {
+    if (typeof value &#x3D;&#x3D;&#x3D; &#x27;string&#x27;) {
+      const filterValue &#x3D; value ? value.toLowerCase() : &#x27;&#x27;;
+      let option &#x3D; array.filter(option &#x3D;&gt; option ? option.name.toLowerCase().includes(filterValue) : &#x27;&#x27;);
+      return option
+    }
+  }
+
+  _setMervFilter(filter){
+    if(filter){
+      this.filter_selected &#x3D; {...filter};
+      this.merv_rows.map(merv_row &#x3D;&gt; {
+        merv_row.row_selected &#x3D; false;
+        merv_row.numbers.map(number&#x3D;&gt;number.selected &#x3D; false);
+        merv_row.small.map(sm&#x3D;&gt;sm.selected &#x3D; false);
+        merv_row.medium.map(md&#x3D;&gt;md.selected &#x3D; false);
+        merv_row.large.map(lg&#x3D;&gt;lg.selected &#x3D; false);
+      })
+  
+      this.merv_rows.map(merv_row &#x3D;&gt; {
+        let number_row &#x3D; merv_row.numbers.find(row&#x3D;&gt;row.index &#x3D;&#x3D; this.filter_selected.merv_rating);
+        if (number_row) { number_row.selected &#x3D; true; merv_row.row_selected &#x3D; true };
+  
+        let number_small &#x3D; merv_row.small.find(row&#x3D;&gt;row.index &#x3D;&#x3D; this.filter_selected.merv_rating);
+        if (number_small) { number_small.selected &#x3D; true;merv_row.row_selected &#x3D; true };
+        
+        let number_med &#x3D; merv_row.medium.find(row&#x3D;&gt;row.index &#x3D;&#x3D; this.filter_selected.merv_rating);
+        if (number_med) {number_med.selected &#x3D; true;merv_row.row_selected &#x3D; true};
+        
+        let number_lg &#x3D; merv_row.large.find(row&#x3D;&gt;row.index &#x3D;&#x3D; this.filter_selected.merv_rating);
+        if (number_lg)  {number_lg.selected &#x3D; true;merv_row.row_selected &#x3D; true};
+        
+      })
+    }
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;merv-overview&quot;&gt;
+    &lt;button class&#x3D;&quot;button-more&quot; [matMenuTriggerFor]&#x3D;&quot;menu&quot;&gt;&lt;mat-icon&gt;more_vert&lt;/mat-icon&gt;&lt;/button&gt;
+    &lt;mat-menu #menu&#x3D;&quot;matMenu&quot;&gt;
+        &lt;button mat-menu-item (click)&#x3D;&quot;removeFromDashboard()&quot;&gt; 
+            &lt;span&gt;Remove from dashboard&lt;/span&gt;
+        &lt;/button&gt;
+    &lt;/mat-menu&gt;
+    &lt;mat-grid-list class&#x3D;&quot;merv-header header-radius&quot; cols&#x3D;&quot;12&quot; rowHeight&#x3D;&quot;60px&quot;&gt;
+        &lt;mat-grid-tile [colspan]&#x3D;&quot;1&quot;&gt;&lt;/mat-grid-tile&gt;
+        &lt;mat-grid-tile [colspan]&#x3D;&quot;10&quot;&gt;
+            &lt;div class&#x3D;&quot;merv-section&quot; style&#x3D;&quot;border-right: none;&quot;&gt;
+                &lt;div class&#x3D;&quot;searchbar-container&quot; &gt;
+                    &lt;input
+                        type&#x3D;&quot;text&quot; 
+                        name&#x3D;&quot;filter_selected&quot;
+                        matInput
+                        [value]&#x3D;&quot;filter_selected ? filter_selected.name : &#x27;&#x27;&quot;
+                        [formControl]&#x3D;&quot;filterControl&quot;
+                        [matAutocomplete]&#x3D;&quot;auto&quot; 
+                        placeholder&#x3D;&quot;Search for a filter model&quot; &gt;
+                        &lt;mat-autocomplete #auto&#x3D;&quot;matAutocomplete&quot; style&#x3D;&quot;margin-top: 5px !important;&quot;&gt;
+                            &lt;mat-option *ngFor&#x3D;&quot;let filter of modelFilterOptions | async&quot; [value]&#x3D;&quot;filter&quot; (onSelectionChange)&#x3D;&quot;_setMervFilter(filter)&quot;&gt;
+                                &lt;div class&#x3D;&quot;custom-option&quot;&gt;
+                                    &lt;img src&#x3D;&quot;{{filter.picture}}&quot;&gt;
+                                    {{filter.name}}; MERV: {{ filter.merv_rating }}; {{ filter.frame_type | titlePipe }}; {{ filter.size_depth }} inches deep; {{ filter.manufacturer.name }}
+                                &lt;/div&gt;
+                            &lt;/mat-option&gt;
+                        &lt;/mat-autocomplete&gt;
+                    &lt;mat-icon&gt;search&lt;/mat-icon&gt;
+                    &lt;button *ngIf&#x3D;&quot;filter_selected &amp;&amp; filter_selected.picture&quot; class&#x3D;&quot;button-clear&quot; (click)&#x3D;&quot;clearFilter()&quot;&gt;Clear search &lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/mat-grid-tile&gt;
+        &lt;mat-grid-tile [colspan]&#x3D;&quot;1&quot;&gt;&lt;/mat-grid-tile&gt;
+    &lt;/mat-grid-list&gt;    
+    
+    &lt;div  class&#x3D;&quot;filter-selected&quot; *ngIf&#x3D;&quot;filter_selected &amp;&amp; filter_selected.picture&quot;&gt;
+        &lt;div&gt;
+            &lt;img src&#x3D;&quot;{{ filter_selected.picture }}&quot;&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;h4&gt; {{ filter_selected.name }}&lt;/h4&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;h4&gt; MERV &lt;br&gt; &lt;span&gt; {{ filter_selected.merv_rating }} &lt;/span&gt;&lt;/h4&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;h4&gt; Manufacturer &lt;br&gt; &lt;span&gt; {{ filter_selected.manufacturer.name | titlePipe }} &lt;/span&gt;&lt;/h4&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;h4&gt; Depth Size &lt;br&gt; &lt;span&gt; {{ filter_selected.size_depth }} &quot; &lt;/span&gt;&lt;/h4&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;h4&gt; Frame Type &lt;br&gt; &lt;span&gt; {{ filter_selected.frame_type | titlePipe }} &lt;/span&gt;&lt;/h4&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;mat-grid-list class&#x3D;&quot;merv-header&quot; cols&#x3D;&quot;12&quot; rowHeight&#x3D;&quot;100px&quot; [class.no-margen]&#x3D;&quot;filter_selected &amp;&amp; filter_selected.picture&quot;&gt;
+        &lt;mat-grid-tile [colspan]&#x3D;&quot;1&quot;&gt;
+            &lt;div class&#x3D;&quot;merv-section&quot;&gt;
+                &lt;h2&gt;MERV&lt;/h2&gt;
+            &lt;/div&gt;
+        &lt;/mat-grid-tile&gt;
+        &lt;mat-grid-tile [colspan]&#x3D;&quot;1&quot;&gt;
+            &lt;div class&#x3D;&quot;merv-section&quot; style&#x3D;&quot;border-right: none;&quot;&gt;
+                &lt;h4&gt; Small &lt;br&gt; &lt;span&gt;0.3 - 1.0 μm&lt;/span&gt; &lt;/h4&gt;
+            &lt;/div&gt;
+        &lt;/mat-grid-tile&gt;
+        &lt;mat-grid-tile [colspan]&#x3D;&quot;1&quot;&gt;
+            &lt;div class&#x3D;&quot;merv-section&quot; style&#x3D;&quot;border-right: none;&quot;&gt;
+                &lt;h4&gt; Medium &lt;br&gt; &lt;span&gt;1.0 - 3.0 μm&lt;/span&gt;&lt;/h4&gt;
+            &lt;/div&gt;
+        &lt;/mat-grid-tile&gt;
+        &lt;mat-grid-tile [colspan]&#x3D;&quot;1&quot;&gt;
+            &lt;div class&#x3D;&quot;merv-section&quot; style&#x3D;&quot;border-right: none;&quot;&gt;
+                &lt;h4&gt; Large &lt;br&gt; &lt;span&gt;3.0 - 10.0 μm&lt;/span&gt;&lt;/h4&gt;
+            &lt;/div&gt;
+        &lt;/mat-grid-tile&gt;
+        &lt;mat-grid-tile [colspan]&#x3D;&quot;8&quot;&gt;
+            &lt;div class&#x3D;&quot;merv-section&quot; style&#x3D;&quot;border-right: none;&quot;&gt;
+                &lt;h3&gt; HVAC Filter Efectiveness &lt;span&gt; *All meassurements are in microns units&lt;/span&gt; &lt;/h3&gt;
+            &lt;/div&gt;
+        &lt;/mat-grid-tile&gt;
+    &lt;/mat-grid-list&gt;    
+
+    &lt;mat-grid-list *ngFor&#x3D;&quot;let merv of merv_rows&quot; class&#x3D;&quot;merv-row&quot; [style.background]&#x3D;&quot;merv.background_color&quot; cols&#x3D;&quot;12&quot; [rowHeight]&#x3D;&quot;merv.height&quot;&gt;
+        &lt;mat-grid-tile [colspan]&#x3D;&quot;1&quot;&gt;
+            &lt;div class&#x3D;&quot;merv-section&quot;&gt;
+                &lt;div *ngFor&#x3D;&quot;let n of merv.numbers&quot;&gt;
+                    &lt;mat-icon *ngIf&#x3D;&quot;n.selected&quot; class&#x3D;&quot;indicator&quot;&gt;arrow_right_alt&lt;/mat-icon&gt; 
+                    &lt;p [class.selected]&#x3D;&quot;n.selected&quot;&gt;{{ n.value }} 
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/mat-grid-tile&gt;
+        &lt;mat-grid-tile [colspan]&#x3D;&quot;1&quot;&gt;
+            &lt;div class&#x3D;&quot;merv-section&quot;&gt;
+                &lt;p *ngFor&#x3D;&quot;let sm of merv.small&quot; [class.selected]&#x3D;&quot;sm.selected&quot;&gt;{{ sm.value }}&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/mat-grid-tile&gt;
+        &lt;mat-grid-tile [colspan]&#x3D;&quot;1&quot;&gt;
+            &lt;div class&#x3D;&quot;merv-section&quot;&gt;
+                &lt;p *ngFor&#x3D;&quot;let md of merv.medium&quot; [class.selected]&#x3D;&quot;md.selected&quot;&gt;{{ md.value }}&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/mat-grid-tile&gt;
+        &lt;mat-grid-tile [colspan]&#x3D;&quot;1&quot;&gt;
+            &lt;div class&#x3D;&quot;merv-section&quot;&gt;
+                &lt;p *ngFor&#x3D;&quot;let lg of merv.large&quot; [class.selected]&#x3D;&quot;lg.selected&quot;&gt;{{ lg.value }}&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/mat-grid-tile&gt;
+        &lt;mat-grid-tile [colspan]&#x3D;&quot;8&quot;&gt;
+            &lt;div class&#x3D;&quot;merv-section&quot; style&#x3D;&quot;border-right: none;&quot;&gt;
+                &lt;div class&#x3D;&quot;merv-images&quot; [class.selected]&#x3D;&quot;merv.row_selected&quot;&gt;
+                    &lt;img *ngFor&#x3D;&quot;let img of merv.images; let i &#x3D; index&quot; src&#x3D;&quot;{{ img }}&quot; [style.width]&#x3D;&quot;i &#x3D;&#x3D; 6 ? &#x27;70px&#x27; : &#x27;50px&#x27;&quot;&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/mat-grid-tile&gt;
+    &lt;/mat-grid-list&gt;    
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./merv-chart.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.merv-overview{
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  background-color: #003A70;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.header-radius{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.button-more{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #fff;
+    background: none;
+    border: none;
+    z-index: 99;
+}
+
+.button-clear{
+  border-radius: 8px;
+  width: 120px;
+  height: 30px;
+}
+  
+button.mat-menu-item {
+  width: 100%;
+  font-size: 11px;
+  line-height: 0px;
+}
+
+::ng-deep .mat-menu-panel {
+  min-width: 170px !important;
+  max-width: 280px;
+} 
+
+.filter-selected{
+  background-color: #7D7D7D;
+  display: flex;
+  gap: 5%;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+  img{
+    width: 54px;
+    height: 54px;
+  }
+  h4{
+    margin-top: 0;
+    font-size: 12px;
+    text-align: left;
+    color: white;
+    span{
+      font-size: 11px;
+      font-weight: normal;
+    }
+  }
+}
+
+.merv-row{
+}
+
+::ng-deep .mat-autocomplete-panel.mat-autocomplete-visible {
+  visibility: visible;
+  margin-top: 10px !important;
+}
+
+.custom-option{
+  display: -webkit-flex;;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid #ccc;
+  img{
+    width: 34px;
+    margin-right: 10px;
+  }   
+}
+
+.mat-option{
+  height: 35px;
+  padding: 0px 10px;
+  font-size: 12px;
+}
+
+.merv-header{
+  background-color: #7D7D7D;
+  h2,h3,h4,h5,h6{
+    color: white;
+  }
+  h2{
+    text-orientation: upright;
+    writing-mode: tb;
+    text-align: center;
+    margin-bottom: 7.5px !important;
+  }
+  h3{
+    position: absolute;
+    left: 15px;
+    width: 90%;
+    text-align: left;
+    span{
+      font-size: 12px;
+      font-weight: normal;
+      float: right;
+      margin-top: 5px;
+    }
+  }
+  h4{
+    margin-bottom: 5px;
+    span{
+      font-size: 10px;
+      font-weight: normal;
+    }
+  }
+  .merv-section{
+    border-right: none;
+    height: 100%;
+    display: -webkit-flex;;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 12px;
+  }
+}
+
+.merv-section{
+  padding-top:10px;
+  padding-bottom:10px;
+  border-right: 0.5px solid white;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: grid;
+  p{
+    color: white;
+    font-size: 10px;
+    margin: 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+
+
+.merv-images{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-flex;;
+  align-items: center;
+  justify-content: start;
+  padding-left: 10px;
+  img{
+    width: 50px;
+    align-self: center;
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+  }
+}
+
+.searchbar-container {
+  position: relative;
+  background-color: white;
+  border-radius: 8px;
+  display: -webkit-flex;;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+  height: 30px;
+  border: 1px solid #999;
+  width: 100%;
+  mat-icon{
+    position: absolute;
+    left: 5px;
+    top: 3.5px;
+    color: #707070;
+    font-size: 20px;
+  }
+}
+
+.no-margen{
+  margin-top: -60px;
+  background-color: transparent;
+}
+
+.selected{
+  background-color: dimgrey;
+}
+
+.indicator{
+  color: white;
+  position: absolute;
+  left: 2px;
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="merv-overview">    <button class="button-more" [matMenuTriggerFor]="menu"><mat-icon>more_vert</mat-icon></button>    <mat-menu #menu="matMenu">        <button mat-menu-item (click)="removeFromDashboard()">             <span>Remove from dashboard</span>        </button>    </mat-menu>    <mat-grid-list class="merv-header header-radius" cols="12" rowHeight="60px">        <mat-grid-tile [colspan]="1"></mat-grid-tile>        <mat-grid-tile [colspan]="10">            <div class="merv-section" style="border-right: none;">                <div class="searchbar-container" >                    <input                        type="text"                         name="filter_selected"                        matInput                        [value]="filter_selected ? filter_selected.name : \'\'"                        [formControl]="filterControl"                        [matAutocomplete]="auto"                         placeholder="Search for a filter model" >                        <mat-autocomplete #auto="matAutocomplete" style="margin-top: 5px !important;">                            <mat-option *ngFor="let filter of modelFilterOptions | async" [value]="filter" (onSelectionChange)="_setMervFilter(filter)">                                <div class="custom-option">                                    <img src="{{filter.picture}}">                                    {{filter.name}}; MERV: {{ filter.merv_rating }}; {{ filter.frame_type | titlePipe }}; {{ filter.size_depth }} inches deep; {{ filter.manufacturer.name }}                                </div>                            </mat-option>                        </mat-autocomplete>                    <mat-icon>search</mat-icon>                    <button *ngIf="filter_selected && filter_selected.picture" class="button-clear" (click)="clearFilter()">Clear search </button>                </div>            </div>        </mat-grid-tile>        <mat-grid-tile [colspan]="1"></mat-grid-tile>    </mat-grid-list>            <div  class="filter-selected" *ngIf="filter_selected && filter_selected.picture">        <div>            <img src="{{ filter_selected.picture }}">        </div>        <div>            <h4> {{ filter_selected.name }}</h4>        </div>        <div>            <h4> MERV <br> <span> {{ filter_selected.merv_rating }} </span></h4>        </div>        <div>            <h4> Manufacturer <br> <span> {{ filter_selected.manufacturer.name | titlePipe }} </span></h4>        </div>        <div>            <h4> Depth Size <br> <span> {{ filter_selected.size_depth }} " </span></h4>        </div>        <div>            <h4> Frame Type <br> <span> {{ filter_selected.frame_type | titlePipe }} </span></h4>        </div>    </div>        <mat-grid-list class="merv-header" cols="12" rowHeight="100px" [class.no-margen]="filter_selected && filter_selected.picture">        <mat-grid-tile [colspan]="1">            <div class="merv-section">                <h2>MERV</h2>            </div>        </mat-grid-tile>        <mat-grid-tile [colspan]="1">            <div class="merv-section" style="border-right: none;">                <h4> Small <br> <span>0.3 - 1.0 μm</span> </h4>            </div>        </mat-grid-tile>        <mat-grid-tile [colspan]="1">            <div class="merv-section" style="border-right: none;">                <h4> Medium <br> <span>1.0 - 3.0 μm</span></h4>            </div>        </mat-grid-tile>        <mat-grid-tile [colspan]="1">            <div class="merv-section" style="border-right: none;">                <h4> Large <br> <span>3.0 - 10.0 μm</span></h4>            </div>        </mat-grid-tile>        <mat-grid-tile [colspan]="8">            <div class="merv-section" style="border-right: none;">                <h3> HVAC Filter Efectiveness <span> *All meassurements are in microns units</span> </h3>            </div>        </mat-grid-tile>    </mat-grid-list>        <mat-grid-list *ngFor="let merv of merv_rows" class="merv-row" [style.background]="merv.background_color" cols="12" [rowHeight]="merv.height">        <mat-grid-tile [colspan]="1">            <div class="merv-section">                <div *ngFor="let n of merv.numbers">                    <mat-icon *ngIf="n.selected" class="indicator">arrow_right_alt</mat-icon>                     <p [class.selected]="n.selected">{{ n.value }}                     </p>                </div>            </div>        </mat-grid-tile>        <mat-grid-tile [colspan]="1">            <div class="merv-section">                <p *ngFor="let sm of merv.small" [class.selected]="sm.selected">{{ sm.value }}</p>            </div>        </mat-grid-tile>        <mat-grid-tile [colspan]="1">            <div class="merv-section">                <p *ngFor="let md of merv.medium" [class.selected]="md.selected">{{ md.value }}</p>            </div>        </mat-grid-tile>        <mat-grid-tile [colspan]="1">            <div class="merv-section">                <p *ngFor="let lg of merv.large" [class.selected]="lg.selected">{{ lg.value }}</p>            </div>        </mat-grid-tile>        <mat-grid-tile [colspan]="8">            <div class="merv-section" style="border-right: none;">                <div class="merv-images" [class.selected]="merv.row_selected">                    <img *ngFor="let img of merv.images; let i = index" src="{{ img }}" [style.width]="i == 6 ? \'70px\' : \'50px\'">                </div>            </div>        </mat-grid-tile>    </mat-grid-list>    </div></div>'
+    var COMPONENTS = [{'name': 'AboutComponent', 'selector': 'app-about'},{'name': 'AdvancedFilterComponent', 'selector': 'app-advanced-filter'},{'name': 'AdvancedSearchComponent', 'selector': 'app-advanced-search'},{'name': 'AirFlowDialogComponent', 'selector': 'airflow-dialog'},{'name': 'AirflowVsDpComponent', 'selector': 'app-airflow-vs-dp'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AreaChartComponent', 'selector': 'app-area-chart'},{'name': 'BarChartComponent', 'selector': 'app-bar-chart'},{'name': 'BeforePrintDialogComponent', 'selector': 'app-before-print-dialog'},{'name': 'BillingsComponent', 'selector': 'app-billings'},{'name': 'BottomPaginatorComponent', 'selector': 'app-bottom-paginator'},{'name': 'CaseActionsComponent', 'selector': 'app-case-actions'},{'name': 'CaseCostComponent', 'selector': 'app-case-cost'},{'name': 'CaseListComponent', 'selector': 'app-case-list'},{'name': 'CaseSelectorComponent', 'selector': 'app-case-selector'},{'name': 'CaseStudyProfileComponent', 'selector': 'app-case-study-profile'},{'name': 'CaseTimeLineComponent', 'selector': 'app-case-time-line'},{'name': 'ChangeCaseDialogComponent', 'selector': 'app-change-case-dialog'},{'name': 'ChangeoutListComponent', 'selector': 'app-changeout-list'},{'name': 'ChangeProviderDialogComponent', 'selector': 'app-change-provider-dialog'},{'name': 'ChartAirflowVsDpComponent', 'selector': 'app-chart-airflow-vs-dp'},{'name': 'ChartCostVsTimeComponent', 'selector': 'app-chart-cost-vs-time'},{'name': 'ChartDpVsTimeComponent', 'selector': 'app-chart-dp-vs-time'},{'name': 'ChartDustVsDpComponent', 'selector': 'app-chart-dust-vs-dp'},{'name': 'ChartReviewComponent', 'selector': 'app-chart-review'},{'name': 'CompanyComponent', 'selector': 'app-company'},{'name': 'ComparisonBarChartComponent', 'selector': 'app-comparison-bar-chart'},{'name': 'ComparisonDpVsTimeChartComponent', 'selector': 'app-comparison-dp-vs-time-chart'},{'name': 'ComparisonListComponent', 'selector': 'app-comparison-list'},{'name': 'ComparisonResultsComponent', 'selector': 'app-comparison-results'},{'name': 'ConfirmDialogComponent', 'selector': 'app-confirm-dialog'},{'name': 'ConfirmRegisterPageComponent', 'selector': 'app-confirm-register-page'},{'name': 'ContactComponent', 'selector': 'app-contact'},{'name': 'ContactComponentComponent', 'selector': 'app-contact-component'},{'name': 'CreditCarDListPageComponent', 'selector': 'app-credit-cart-list-page'},{'name': 'CreditsSummaryComponent', 'selector': 'app-credits-summary'},{'name': 'CurrentCycleValuesComponent', 'selector': 'app-current-cycle-values'},{'name': 'CustomizeDashboardComponent', 'selector': 'app-customize-dashboard'},{'name': 'CustomSnackBarComponent', 'selector': 'app-custom-snack-bar'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DialogDeleteConfirmation', 'selector': ''},{'name': 'DustVsDpComponent', 'selector': 'app-dust-vs-dp'},{'name': 'EmptyListComponent', 'selector': 'app-empty-list'},{'name': 'ErrorDialogComponent', 'selector': 'app-error-dialog'},{'name': 'FaqsComponent', 'selector': 'app-faqs'},{'name': 'FeedbackDialogComponent', 'selector': 'app-feedback-dialog'},{'name': 'FilterDetailsComponent', 'selector': 'app-filter-details'},{'name': 'FilterFinderComponent', 'selector': 'app-filter-finder'},{'name': 'FilterListComponent', 'selector': 'app-filter-list'},{'name': 'FilterListReviewComponent', 'selector': 'app-filter-list-review'},{'name': 'FilterSelectorComponent', 'selector': 'app-filter-selector'},{'name': 'FilterSummaryComponent', 'selector': 'app-filter-summary'},{'name': 'FilterTermsConditionsComponent', 'selector': 'app-filter-terms-conditions'},{'name': 'FilterTestReportsComponent', 'selector': 'app-filter-test-reports'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'FrequencyChartComponent', 'selector': 'app-frequency-chart'},{'name': 'GaugeChartComponent', 'selector': 'app-gauge-chart'},{'name': 'GaugeComponentComponent', 'selector': 'app-gauge-component'},{'name': 'GeneralErrorComponent', 'selector': 'app-general-error'},{'name': 'GeneralNewsComponent', 'selector': 'app-general-news'},{'name': 'GenericListComponent', 'selector': 'app-generic-list'},{'name': 'HeaderGeneralComponent', 'selector': 'app-header-general'},{'name': 'HeaderLoggedComponent', 'selector': 'app-header-logged'},{'name': 'HistogramChartComponent', 'selector': 'app-histogram-chart'},{'name': 'HistogramComponent', 'selector': 'app-histogram'},{'name': 'HoboDashboardComponent', 'selector': 'app-hobo-dashboard'},{'name': 'HomeCounterComponent', 'selector': 'app-home-counter'},{'name': 'HomePageComponent', 'selector': 'app-home-page'},{'name': 'InstrumentationComponent', 'selector': 'app-instrumentation'},{'name': 'InstrumentComponent', 'selector': 'app-instrument-list'},{'name': 'InstrumentHelpComponent', 'selector': 'app-instrument-help'},{'name': 'InstrumentIndicatorComponent', 'selector': 'app-instrument-indicator'},{'name': 'InstrumentSelectorComponent', 'selector': 'app-instrument-selector'},{'name': 'InstumentsListComponent', 'selector': 'app-instuments-list'},{'name': 'InvoiceComponent', 'selector': 'app-invoice'},{'name': 'LandingPageComponent', 'selector': 'app-landing-page'},{'name': 'LeaveDialogComponent', 'selector': 'app-leave-dialog'},{'name': 'LoaderComponent', 'selector': 'app-loader'},{'name': 'LoginPageComponent', 'selector': 'app-login-page'},{'name': 'LoginPageSonicuComponent', 'selector': 'app-provider-login'},{'name': 'MervChartComponent', 'selector': 'app-merv-chart'},{'name': 'MobilePlaceholderComponent', 'selector': 'app-mobile-placeholder'},{'name': 'ModelFilterFormComponent', 'selector': 'app-model-filter-form'},{'name': 'MonitoringComponent', 'selector': 'app-monitoring'},{'name': 'NewCardComponent', 'selector': 'app-new-card'},{'name': 'NewCaseComponent', 'selector': 'app-new-case'},{'name': 'NewComparisonComponent', 'selector': 'app-new-comparison'},{'name': 'NewInstrumentationComponent', 'selector': 'app-new-instrumentation'},{'name': 'NewPasswordComponent', 'selector': 'app-new-password'},{'name': 'NotificationsInboxComponent', 'selector': 'app-notifications-inbox'},{'name': 'NotificationsListComponent', 'selector': 'app-notifications-list'},{'name': 'NotificationsSettingsComponent', 'selector': 'app-notifications-settings'},{'name': 'OptimizationResultsComponent', 'selector': 'app-optimization-results'},{'name': 'PaginatorComponent', 'selector': 'app-paginator'},{'name': 'PairedCaseInstrumentComponent', 'selector': 'app-paired-list'},{'name': 'PaymentDialogComponent', 'selector': 'app-payment-dialog'},{'name': 'PdfHelperDialogComponent', 'selector': 'app-pdf-helper-dialog'},{'name': 'PdfViewerComponent', 'selector': 'app-pdf-viewer'},{'name': 'PersonalInformationComponent', 'selector': 'app-personal-information'},{'name': 'PieChartComponent', 'selector': 'app-pie-chart'},{'name': 'PlansListComponent', 'selector': 'app-plans-list'},{'name': 'PopOverComponent', 'selector': 'app-pop-over'},{'name': 'ProductComponent', 'selector': 'app-product'},{'name': 'ProfilePageComponent', 'selector': 'app-profile-page'},{'name': 'ProfileSelectionComponent', 'selector': 'app-profile-selection'},{'name': 'RecoverPasswordPageComponent', 'selector': 'app-recover-password-page'},{'name': 'RedirectDialogComponent', 'selector': 'app-redirect-dialog'},{'name': 'RegisterPageComponent', 'selector': 'app-register-page'},{'name': 'ReplaceCostDialogComponent', 'selector': 'app-replace-cost-dialog'},{'name': 'ReportFileDropperComponent', 'selector': 'app-report-file-dropper'},{'name': 'ReportRejectedComponent', 'selector': 'app-report-rejected'},{'name': 'ReportReviewComponent', 'selector': 'app-report-review'},{'name': 'RequestFilterComponent', 'selector': 'app-request-filter'},{'name': 'RequestFilterOptionsComponent', 'selector': 'app-request-filter-options'},{'name': 'SellersComponent', 'selector': 'app-sellers'},{'name': 'SharedReportsComponent', 'selector': 'app-shared-reports'},{'name': 'SingleFormComponent', 'selector': 'app-single-form'},{'name': 'StripePaymentCreationComponent', 'selector': 'app-stripe-payment-creation'},{'name': 'SubscriptionDialogComponent', 'selector': 'app-subscription-dialog'},{'name': 'SubscriptionsListComponent', 'selector': 'app-subscriptions-list'},{'name': 'SuccessDialogComponent', 'selector': 'app-success-dialog'},{'name': 'SystemInformationComponent', 'selector': 'app-system-information'},{'name': 'SystemInformationSummaryComponent', 'selector': 'app-system-information-summary'},{'name': 'TableCostSummaryComponent', 'selector': 'app-table-cost-summary'},{'name': 'TermsAndConditionsComponent', 'selector': 'app-terms-and-conditions'},{'name': 'UploadReportComponent', 'selector': 'app-upload-report'},{'name': 'UserOverviewComponent', 'selector': 'app-user-overview'},{'name': 'UserReportsComponent', 'selector': 'app-user-reports'},{'name': 'UserSharedReportsComponent', 'selector': 'app-users-shared-reports'},{'name': 'UserWelcomeComponent', 'selector': 'app-user-welcome'},{'name': 'ValidatorMenuComponent', 'selector': 'app-validator-menu'},{'name': 'VersionComponent', 'selector': 'app-version'},{'name': 'VerticalSwipperComponent', 'selector': 'app-vertical-swipper'}];
+    var DIRECTIVES = [{'name': 'DragDirective', 'selector': '[appDrag]'},{'name': 'FocusMeDirective', 'selector': '[focusMe]'},{'name': 'HighlightDirective', 'selector': '[appHighlight]'}];
+    var ACTUAL_COMPONENT = {'name': 'MervChartComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'MervChartComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

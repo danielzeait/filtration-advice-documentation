@@ -1,0 +1,4205 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>howk documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css" media="(prefers-color-scheme: dark)">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">howk documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  CaseListComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/modules/cases/case-list/case-list.component.ts</code>
+</p>
+
+
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>Empty component for list of cases</p>
+
+    </p>
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-case-list</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./case-list.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./case-list.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#_refineCases" >_refineCases</a>
+                            </li>
+                            <li>
+                                <a href="#_setCases" >_setCases</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#bottom_paginator_data" >bottom_paginator_data</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#case_data" >case_data</a>
+                            </li>
+                            <li>
+                                <a href="#case_list_margin" >case_list_margin</a>
+                            </li>
+                            <li>
+                                <a href="#case_list_width" >case_list_width</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#cases" >cases</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#dialog" >dialog</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#display_value" >display_value</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#empty_refine" >empty_refine</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#hide_check" >hide_check</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#innerWidth" >innerWidth</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#isImgLoaded" >isImgLoaded</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#isSearching" >isSearching</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#jumpToPageOption" >jumpToPageOption</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#length" >length</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#list_url" >list_url</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#num_cols" >num_cols</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#numPages" >numPages</a>
+                            </li>
+                            <li>
+                                <a href="#optimization_plan" >optimization_plan</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#order_date" >order_date</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#original_cases" >original_cases</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#pageEvent" >pageEvent</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#pageSize" >pageSize</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#pageSizeOptions" >pageSizeOptions</a>
+                            </li>
+                            <li>
+                                <a href="#paginator" >paginator</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#search" >search</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#searchedWords$" >searchedWords$</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#searchedWordsControl" >searchedWordsControl</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#server_name" >server_name</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#_attemptDeleteCase" >_attemptDeleteCase</a>
+                            </li>
+                            <li>
+                                <a href="#_compareCase" >_compareCase</a>
+                            </li>
+                            <li>
+                                <a href="#_deleteStudyCase" >_deleteStudyCase</a>
+                            </li>
+                            <li>
+                                <a href="#_duplicateCase" >_duplicateCase</a>
+                            </li>
+                            <li>
+                                <a href="#_editCase" >_editCase</a>
+                            </li>
+                            <li>
+                                <a href="#_getCaseList" >_getCaseList</a>
+                            </li>
+                            <li>
+                                <a href="#_getCaseListByUrl" >_getCaseListByUrl</a>
+                            </li>
+                            <li>
+                                <a href="#_goNewCase" >_goNewCase</a>
+                            </li>
+                            <li>
+                                <a href="#_orderCaseList" >_orderCaseList</a>
+                            </li>
+                            <li>
+                                <a href="#_refreshCaseStatus" >_refreshCaseStatus</a>
+                            </li>
+                            <li>
+                                <a href="#_viewOptimization" >_viewOptimization</a>
+                            </li>
+                            <li>
+                                <a href="#clearSearch" >clearSearch</a>
+                            </li>
+                            <li>
+                                <a href="#filterView" >filterView</a>
+                            </li>
+                            <li>
+                                <a href="#getContentSize" >getContentSize</a>
+                            </li>
+                            <li>
+                                <a href="#getPaymentObject" >getPaymentObject</a>
+                            </li>
+                            <li>
+                                <a href="#handleManualPage" >handleManualPage</a>
+                            </li>
+                            <li>
+                                <a href="#handlePage" >handlePage</a>
+                            </li>
+                            <li>
+                                <a href="#ngAfterViewChecked" >ngAfterViewChecked</a>
+                            </li>
+                            <li>
+                                <a href="#ngAfterViewInit" >ngAfterViewInit</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#onResize" >onResize</a>
+                            </li>
+                            <li>
+                                <a href="#pinCaseToDashboard" >pinCaseToDashboard</a>
+                            </li>
+                            <li>
+                                <a href="#refreshPaginatorOptions" >refreshPaginatorOptions</a>
+                            </li>
+                            <li>
+                                <a href="#removeFromDashboard" >removeFromDashboard</a>
+                            </li>
+                            <li>
+                                <a href="#setPageSizeOptions" >setPageSizeOptions</a>
+                            </li>
+                            <li>
+                                <a href="#setPaginatorOptions" >setPaginatorOptions</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>HostListeners</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#window:resize" >window:resize</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(dialog: MatDialog, caseProvider: <a href="../injectables/CaseProvider.html" target="_self">CaseProvider</a>, meta: <a href="../injectables/MetaDataProvider.html" target="_self">MetaDataProvider</a>, authProvider: <a href="../injectables/AuthProvider.html" target="_self">AuthProvider</a>, cdr: <a href="https://angular.io/api/core/ChangeDetectorRef" target="_blank">ChangeDetectorRef</a>, paymentProvider: <a href="../injectables/PaymentProvider.html" target="_self">PaymentProvider</a>, handlerError: <a href="../injectables/CustomErrorHandler.html" target="_self">CustomErrorHandler</a>, dashboardProvider: <a href="../injectables/DashboardProvider.html" target="_self">DashboardProvider</a>, navigator: <a href="../injectables/NavigationProvider.html" target="_self">NavigationProvider</a>, responsiveProvider: <a href="../injectables/ResponsiveProvider.html" target="_self">ResponsiveProvider</a>, _snackBar: MatSnackBar, commonProvider: <a href="../injectables/CommonProvider.html" target="_self">CommonProvider</a>, utils: <a href="../injectables/UtilsFunctions.html" target="_self">UtilsFunctions</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="65" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:65</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>dialog</td>
+                                                  
+                                                        <td>
+                                                                    <code>MatDialog</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>caseProvider</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CaseProvider.html" target="_self" >CaseProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>meta</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/MetaDataProvider.html" target="_self" >MetaDataProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>authProvider</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuthProvider.html" target="_self" >AuthProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>cdr</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/core/ChangeDetectorRef" target="_blank" >ChangeDetectorRef</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>paymentProvider</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/PaymentProvider.html" target="_self" >PaymentProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>handlerError</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CustomErrorHandler.html" target="_self" >CustomErrorHandler</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>dashboardProvider</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/DashboardProvider.html" target="_self" >DashboardProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>navigator</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/NavigationProvider.html" target="_self" >NavigationProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>responsiveProvider</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/ResponsiveProvider.html" target="_self" >ResponsiveProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_snackBar</td>
+                                                  
+                                                        <td>
+                                                                    <code>MatSnackBar</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>commonProvider</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/CommonProvider.html" target="_self" >CommonProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>utils</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UtilsFunctions.html" target="_self" >UtilsFunctions</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+    <section>
+    <h3>HostListeners</h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="window:resize"></a>
+                    <span class="name">
+                        <span ><b>window:resize</b></span>
+                        <a href="#window:resize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <i>Arguments : </i><code>'$event' </code>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>window:resize(event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="93"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:93</a></div>
+                </td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_attemptDeleteCase"></a>
+                    <span class="name">
+                        <span ><b>_attemptDeleteCase</b></span>
+                        <a href="#_attemptDeleteCase"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>_attemptDeleteCase(study_case: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="147"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:147</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>TODO:  _attemptDeleteCase
+Try to delete a study case selected, but pop up a warning to confir
+if confirm then delete case</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>study_case</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_compareCase"></a>
+                    <span class="name">
+                        <span ><b>_compareCase</b></span>
+                        <a href="#_compareCase"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>_compareCase(study_case)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="199"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:199</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>TODO:  _compareCase
+Go to comparison with selected case to compare</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>study_case</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_deleteStudyCase"></a>
+                    <span class="name">
+                        <span ><b>_deleteStudyCase</b></span>
+                        <a href="#_deleteStudyCase"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>_deleteStudyCase(case_id)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="212"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:212</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>TODO: _deleteStudyCase
+Given a study case delete selected study case</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>case_id</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_duplicateCase"></a>
+                    <span class="name">
+                        <span ><b>_duplicateCase</b></span>
+                        <a href="#_duplicateCase"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>_duplicateCase(study_case)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="231"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:231</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>TODO: _duplicateCase
+Given a study case duplicate selected case</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>study_case</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_editCase"></a>
+                    <span class="name">
+                        <span ><b>_editCase</b></span>
+                        <a href="#_editCase"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>_editCase(study_case)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="256"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:256</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>TODO: _editCase
+Given a study case go to new case form with data to edit</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>study_case</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_getCaseList"></a>
+                    <span class="name">
+                        <span ><b>_getCaseList</b></span>
+                        <a href="#_getCaseList"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>_getCaseList()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="269"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:269</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>TODO: _getCaseList
+Get the study case list for a user</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_getCaseListByUrl"></a>
+                    <span class="name">
+                        <span ><b>_getCaseListByUrl</b></span>
+                        <a href="#_getCaseListByUrl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>_getCaseListByUrl(url)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="281"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:281</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>TODO: _getCaseListByUrl
+Given a URL from paginator get the study cases based on page and size</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>url</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_goNewCase"></a>
+                    <span class="name">
+                        <span ><b>_goNewCase</b></span>
+                        <a href="#_goNewCase"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>_goNewCase()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="371"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:371</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><div><pre class="line-numbers"><code class="language-none">                     NAVIGATION                             *</code></pre></div></div>
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_orderCaseList"></a>
+                    <span class="name">
+                        <span ><b>_orderCaseList</b></span>
+                        <a href="#_orderCaseList"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>_orderCaseList()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="442"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:442</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_refreshCaseStatus"></a>
+                    <span class="name">
+                        <span ><b>_refreshCaseStatus</b></span>
+                        <a href="#_refreshCaseStatus"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>_refreshCaseStatus(study_case, status)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="331"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:331</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>TODO: _refreshCaseStatus
+Gven a  case, refresh the status of the case</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>study_case</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>status</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_viewOptimization"></a>
+                    <span class="name">
+                        <span ><b>_viewOptimization</b></span>
+                        <a href="#_viewOptimization"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>_viewOptimization(case_data: <a href="../classes/System.html" target="_self">System</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="382"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:382</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>case_data</td>
+                                    <td>
+                                                <code><a href="../classes/System.html" target="_self" >System</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="clearSearch"></a>
+                    <span class="name">
+                        <span ><b>clearSearch</b></span>
+                        <a href="#clearSearch"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>clearSearch()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="184"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:184</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filterView"></a>
+                    <span class="name">
+                        <span ><b>filterView</b></span>
+                        <a href="#filterView"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>filterView()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="428"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:428</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getContentSize"></a>
+                    <span class="name">
+                        <span ><b>getContentSize</b></span>
+                        <a href="#getContentSize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getContentSize()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="128"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:128</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getPaymentObject"></a>
+                    <span class="name">
+                        <span ><b>getPaymentObject</b></span>
+                        <a href="#getPaymentObject"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getPaymentObject()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="120"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:120</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="handleManualPage"></a>
+                    <span class="name">
+                        <span ><b>handleManualPage</b></span>
+                        <a href="#handleManualPage"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>handleManualPage(event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="411"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:411</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="handlePage"></a>
+                    <span class="name">
+                        <span ><b>handlePage</b></span>
+                        <a href="#handlePage"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>handlePage(event)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="406"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:406</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngAfterViewChecked"></a>
+                    <span class="name">
+                        <span ><b>ngAfterViewChecked</b></span>
+                        <a href="#ngAfterViewChecked"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngAfterViewChecked()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="116"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:116</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngAfterViewInit"></a>
+                    <span class="name">
+                        <span ><b>ngAfterViewInit</b></span>
+                        <a href="#ngAfterViewInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngAfterViewInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="109"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:109</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="97"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:97</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onResize"></a>
+                    <span class="name">
+                        <span ><b>onResize</b></span>
+                        <a href="#onResize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>onResize(event)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@HostListener(&#x27;window:resize&#x27;, [&#x27;$event&#x27;])<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="93"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:93</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pinCaseToDashboard"></a>
+                    <span class="name">
+                        <span ><b>pinCaseToDashboard</b></span>
+                        <a href="#pinCaseToDashboard"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>pinCaseToDashboard(case_study)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="419"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:419</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>case_study</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="refreshPaginatorOptions"></a>
+                    <span class="name">
+                        <span ><b>refreshPaginatorOptions</b></span>
+                        <a href="#refreshPaginatorOptions"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>refreshPaginatorOptions(cases)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="401"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:401</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>cases</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="removeFromDashboard"></a>
+                    <span class="name">
+                        <span ><b>removeFromDashboard</b></span>
+                        <a href="#removeFromDashboard"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>removeFromDashboard(case_study)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="424"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:424</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>case_study</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setPageSizeOptions"></a>
+                    <span class="name">
+                        <span ><b>setPageSizeOptions</b></span>
+                        <a href="#setPageSizeOptions"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setPageSizeOptions(setPageSizeOptionsInput: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="390"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:390</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><div><pre class="line-numbers"><code class="language-none">                    CASE PAGINATOR                          *</code></pre></div></div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>setPageSizeOptionsInput</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="setPaginatorOptions"></a>
+                    <span class="name">
+                        <span ><b>setPaginatorOptions</b></span>
+                        <a href="#setPaginatorOptions"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>setPaginatorOptions(cases)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="396"
+                            class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:396</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>cases</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_refineCases"></a>
+                    <span class="name">
+                        <span ><b>_refineCases</b></span>
+                        <a href="#_refineCases"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="361" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:361</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>TODO: _refineCases
+Given a case list set values for cases and columns distribution</p>
+</div>
+                </td>
+            </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description">
+                                <b>Parameters :</b>
+                                <table class="params">
+                                    <thead>
+                                        <tr>
+                                            <td>Name</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td>cases</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                        </div>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_setCases"></a>
+                    <span class="name">
+                        <span ><b>_setCases</b></span>
+                        <a href="#_setCases"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="296" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:296</a></div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>TODO: _setCases
+Given a case list set values for cases and columns distribution</p>
+</div>
+                </td>
+            </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description">
+                                <b>Parameters :</b>
+                                <table class="params">
+                                    <thead>
+                                        <tr>
+                                            <td>Name</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td>cases</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                        </div>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="bottom_paginator_data"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>bottom_paginator_data</b></span>
+                        <a href="#bottom_paginator_data"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:34</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="case_data"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>case_data</b></span>
+                        <a href="#case_data"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../classes/System.html" target="_self" >System</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>null</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:35</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="case_list_margin"></a>
+                    <span class="name">
+                        <span ><b>case_list_margin</b></span>
+                        <a href="#case_list_margin"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="65" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:65</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="case_list_width"></a>
+                    <span class="name">
+                        <span ><b>case_list_width</b></span>
+                        <a href="#case_list_width"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>window.outerWidth &lt; 1025 ? &#x27;69%&#x27; : &#x27;77%&#x27;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="64" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:64</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="cases"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>cases</b></span>
+                        <a href="#cases"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Array&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new Array&lt;any&gt;()</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:36</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="dialog"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>dialog</b></span>
+                        <a href="#dialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>MatDialog</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="68" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:68</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="display_value"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>display_value</b></span>
+                        <a href="#display_value"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;all&#x27;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="53" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:53</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="empty_refine"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>empty_refine</b></span>
+                        <a href="#empty_refine"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="54" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:54</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="hide_check"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>hide_check</b></span>
+                        <a href="#hide_check"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="52" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:52</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="innerWidth"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>innerWidth</b></span>
+                        <a href="#innerWidth"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="37" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:37</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isImgLoaded"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>isImgLoaded</b></span>
+                        <a href="#isImgLoaded"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:38</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isSearching"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>isSearching</b></span>
+                        <a href="#isSearching"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="39" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:39</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="jumpToPageOption"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>jumpToPageOption</b></span>
+                        <a href="#jumpToPageOption"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="40" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:40</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="length"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>length</b></span>
+                        <a href="#length"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="41" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:41</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="list_url"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>list_url</b></span>
+                        <a href="#list_url"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>global.API_CASES</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="42" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:42</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="num_cols"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>num_cols</b></span>
+                        <a href="#num_cols"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>4</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:44</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="numPages"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>numPages</b></span>
+                        <a href="#numPages"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="45" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:45</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="optimization_plan"></a>
+                    <span class="name">
+                        <span ><b>optimization_plan</b></span>
+                        <a href="#optimization_plan"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="63" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:63</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="order_date"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>order_date</b></span>
+                        <a href="#order_date"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;-updated&#x27;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="55" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:55</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="original_cases"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>original_cases</b></span>
+                        <a href="#original_cases"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Array&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new Array&lt;any&gt;()</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:43</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pageEvent"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>pageEvent</b></span>
+                        <a href="#pageEvent"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>PageEvent</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="46" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:46</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pageSize"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>pageSize</b></span>
+                        <a href="#pageSize"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>12</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="47" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:47</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="pageSizeOptions"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>pageSizeOptions</b></span>
+                        <a href="#pageSizeOptions"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>number[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[5, 10, 12, 15, 20]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="48" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:48</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="paginator"></a>
+                    <span class="name">
+                        <span ><b>paginator</b></span>
+                        <a href="#paginator"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>MatPaginator</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <b>Decorators : </b>
+                        <br />
+                        <code>
+                            @ViewChild(MatPaginator)<br />
+                        </code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:33</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="search"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>search</b></span>
+                        <a href="#search"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&quot;&quot;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="49" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:49</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="searchedWords$"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>searchedWords$</b></span>
+                        <a href="#searchedWords$"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Observable&lt;string[]&gt;</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>this
+    .searchedWordsControl
+    .valueChanges
+    .pipe(
+      map((search: string) &#x3D;&gt; search.trim().split(&#x27; &#x27;))
+    )</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="57" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:57</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="searchedWordsControl"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>searchedWordsControl</b></span>
+                        <a href="#searchedWordsControl"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new FormControl(&#x27;&#x27;)</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="50" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:50</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="server_name"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>server_name</b></span>
+                        <a href="#server_name"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>global.SERVER_NAME</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="51" class="link-to-prism">src/app/modules/cases/case-list/case-list.component.ts:51</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, HostListener, ChangeDetectorRef, ViewChild } from &#x27;@angular/core&#x27;;
+import { CaseProvider } from &#x27;src/app/providers/case.service&#x27;;
+import { global } from &#x27;../../../global&#x27;
+import { NavigationProvider } from &#x27;src/app/providers/navigation.provider&#x27;;
+import { ResponsiveProvider } from &#x27;src/app/providers/responsive-provider&#x27;;
+import { FormControl } from &#x27;@angular/forms&#x27;;
+import { Observable } from &#x27;rxjs&#x27;;
+import { map } from &#x27;rxjs/operators&#x27;;
+import { System } from &#x27;src/app/models/system.model&#x27;;
+import { CustomErrorHandler } from &#x27;src/app/providers/error.service&#x27;;
+import { PageEvent, MatPaginator } from &#x27;@angular/material/paginator&#x27;;
+import { ConfirmDialogComponent } from &#x27;src/app/components/modal-dialogs/confirm-dialog/confirm-dialog.component&#x27;;
+import { MatDialog } from &#x27;@angular/material/dialog&#x27;;
+import { MatSnackBar } from &#x27;@angular/material&#x27;;
+import { UtilsFunctions } from &#x27;src/app/providers/utils.functions&#x27;;
+import { AuthProvider } from &#x27;src/app/providers/auth.service&#x27;;
+import { DashboardProvider } from &#x27;src/app/providers/dashboard.provider&#x27;;
+import { PaymentProvider } from &#x27;src/app/providers/payment.service&#x27;;
+import { CommonProvider } from &#x27;src/app/providers/common.service&#x27;;
+import { MetaDataProvider } from &#x27;src/app/providers/metadata.service&#x27;;
+
+
+/**
+ * Empty component for list of cases
+ */
+@Component({
+  selector: &#x27;app-case-list&#x27;,
+  templateUrl: &#x27;./case-list.component.html&#x27;,
+  styleUrls: [&#x27;./case-list.component.scss&#x27;]
+})
+
+export class CaseListComponent implements OnInit {
+  @ViewChild(MatPaginator) paginator: MatPaginator;
+  public bottom_paginator_data: any &#x3D; {}
+  public case_data: System &#x3D; null;
+  public cases: Array&lt;any&gt; &#x3D; new Array&lt;any&gt;();
+  public innerWidth: any;
+  public isImgLoaded: any;
+  public isSearching: boolean &#x3D; false;
+  public jumpToPageOption: any;
+  public length: number;
+  public list_url: any &#x3D; global.API_CASES;
+  public original_cases: Array&lt;any&gt; &#x3D; new Array&lt;any&gt;();
+  public num_cols: number &#x3D; 4;
+  public numPages: any;
+  public pageEvent: PageEvent;
+  public pageSize &#x3D; 12;
+  public pageSizeOptions: number[] &#x3D; [5, 10, 12, 15, 20];
+  public search: string &#x3D; &quot;&quot;;
+  public searchedWordsControl &#x3D; new FormControl(&#x27;&#x27;);
+  public server_name: string &#x3D; global.SERVER_NAME;
+  public hide_check:boolean &#x3D; false;
+  public display_value:any&#x3D;&#x27;all&#x27;;
+  public empty_refine:any&#x3D;false;
+  public order_date:any&#x3D;&#x27;-updated&#x27;;
+
+  public searchedWords$: Observable&lt;string[]&gt; &#x3D; this
+    .searchedWordsControl
+    .valueChanges
+    .pipe(
+      map((search: string) &#x3D;&gt; search.trim().split(&#x27; &#x27;))
+    )
+  optimization_plan: any;
+  case_list_width: any &#x3D; window.outerWidth &lt; 1025 ? &#x27;69%&#x27; : &#x27;77%&#x27;;
+  case_list_margin: any;
+
+  constructor(
+    public dialog: MatDialog,
+    private caseProvider: CaseProvider,
+    private meta:MetaDataProvider,
+    private authProvider:AuthProvider,
+    private cdr: ChangeDetectorRef,
+    private paymentProvider:PaymentProvider,
+    private handlerError: CustomErrorHandler,
+    private dashboardProvider:DashboardProvider,
+    private navigator: NavigationProvider,
+    private responsiveProvider: ResponsiveProvider,
+    private _snackBar: MatSnackBar,
+    private commonProvider:CommonProvider,
+    private utils: UtilsFunctions
+  ) {
+
+    this.bottom_paginator_data &#x3D; {
+      previousPageIndex: 0,
+      pageIndex: 0,
+      pageSize: 12,
+      length: 0
+    }
+
+  }
+
+  @HostListener(&#x27;window:resize&#x27;, [&#x27;$event&#x27;])
+  onResize(event) {
+    this.num_cols &#x3D; this.responsiveProvider.getNumCols(window.innerWidth);
+  }
+
+  ngOnInit() {
+    localStorage.removeItem(&#x27;case_reports_id&#x27;);
+    localStorage.removeItem(&#x27;case_in_edition&#x27;);
+    localStorage.removeItem(&#x27;new_case_data&#x27;);
+    localStorage.removeItem(&#x27;filter_for_case&#x27;);
+    localStorage.removeItem(&#x27;reports_for_case&#x27;);
+    localStorage.removeItem(&#x27;max_airflow_allowed&#x27;);
+    this.getPaymentObject();
+    this._getCaseList();
+    this.getContentSize();
+  }
+
+  ngAfterViewInit() {
+    this.searchedWordsControl.valueChanges.subscribe((changes) &#x3D;&gt; {
+      this.isSearching &#x3D; true;
+      this.cases &#x3D; this.caseProvider.filterCaseList(this.original_cases, changes);
+    });
+  }
+
+  ngAfterViewChecked() {
+    this.cdr.detectChanges();
+  }
+
+  getPaymentObject(){
+    this.paymentProvider.getAllProducts().subscribe((response)&#x3D;&gt;{
+      this.optimization_plan &#x3D; response.find(plan &#x3D;&gt; plan.slug &#x3D;&#x3D; &quot;optimization&quot;);
+    },error&#x3D;&gt;{
+      this.handlerError.handleError(error);
+    })
+  }
+
+  getContentSize(){
+    this.responsiveProvider.setContentWidth.subscribe((width)&#x3D;&gt;{
+      this.case_list_width &#x3D; width;
+    })
+    this.responsiveProvider.setContentMargin.subscribe((margin)&#x3D;&gt;{
+      this.case_list_margin &#x3D; margin;
+    })
+  }
+
+  /******************************************************************
+  *                         CASE ACTIONS                            *
+  *******************************************************************/
+
+  /**
+   * TODO:  _attemptDeleteCase
+   * Try to delete a study case selected, but pop up a warning to confir
+   * if confirm then delete case 
+   * @param study_case
+  */
+  _attemptDeleteCase(study_case: any) {
+    
+    let dialog_data &#x3D; {
+      title: &#x27;case&#x27;,
+      description: &quot;You WON&#x27;T be able to recover this case in the future. &lt;br&gt; By deleting your case all the comparisons you made for this case will be deleted as well&quot;
+    };
+    let dialogRef &#x3D; this.dialog.open(ConfirmDialogComponent, {
+      width: &#x27;50%&#x27;,
+      height: &#x27;auto&#x27;,
+      data: dialog_data
+    });
+    
+    dialogRef.afterClosed().subscribe(result &#x3D;&gt; {
+      if (result) {
+        this.authProvider.getUserDashboard().subscribe((dashboard:any)&#x3D;&gt;{
+          let ids &#x3D; dashboard.find(widget &#x3D;&gt; widget.type &#x3D;&#x3D; &quot;changeout&quot;).data;
+          let pos &#x3D; ids.indexOf(study_case.alter_autoincrement_id);
+          if(pos !&#x3D; -1){
+            ids.splice(pos,1);
+            dashboard.find(widget &#x3D;&gt; widget.type &#x3D;&#x3D; &quot;changeout&quot;).data &#x3D; [...ids];
+            this.authProvider.setUserDashboard(dashboard).subscribe((dashboard)&#x3D;&gt;{
+              if(study_case.is_pinned){
+                this.removeFromDashboard(study_case);
+              }
+            });
+          }else{
+            if(study_case.is_pinned){
+              this.removeFromDashboard(study_case);
+            }
+          }
+        })
+        this._deleteStudyCase(study_case.alter_autoincrement_id);
+      }
+    });
+  }
+
+  // Clear search wekwords for case list
+  clearSearch() {
+    this.isSearching &#x3D; false;
+    this.search &#x3D; &#x27;&#x27;;
+    if(this.empty_refine) {
+      this.empty_refine &#x3D; false;
+      this.cases &#x3D; [...this.original_cases];
+      this.refreshPaginatorOptions(this.cases);
+    }
+  }
+
+  /**
+   * TODO:  _compareCase
+   * Go to comparison with selected case to compare
+   * @param study_case
+   */
+  _compareCase(study_case) {
+    this.caseProvider.getCaseDetails(study_case.alter_autoincrement_id).subscribe(
+      (case_details)&#x3D;&gt;{
+        this.navigator._goNewComparisonCaseSelected(case_details);
+      }
+    )
+  }
+
+  /**
+  * TODO: _deleteStudyCase
+  * Given a study case delete selected study case 
+  * @param case_id
+  */
+  _deleteStudyCase(case_id) {
+    this.caseProvider.deleteStudyCase(case_id).subscribe(
+      () &#x3D;&gt; {
+      this.commonProvider.preservePaginator();
+      this.commonProvider.showSnackBar(&#x27;Case deleted.&#x27;,&#x27;Your case has been deleted correctly.&#x27; ,&#x27;success-snackbar&#x27;);
+      if(this.cases.length &#x3D;&#x3D; 1){
+        this.cases &#x3D; [];
+        this.original_cases &#x3D; [];
+      }
+    }, error &#x3D;&gt; {
+      console.log(error)
+    })
+  }
+
+  /**
+  * TODO: _duplicateCase
+  * Given a study case duplicate selected case
+  * @param study_case
+  */
+  _duplicateCase(study_case) {
+    this.caseProvider.getCaseDetails(study_case.alter_autoincrement_id).subscribe(
+      (case_details)&#x3D;&gt;{
+        var private_reports &#x3D; case_details.current_filter.reports.filter(report &#x3D;&gt; report.user);
+        if(private_reports.length &gt; 0){
+          case_details.current_filter.private_report_ids &#x3D; [];
+          private_reports.forEach(report &#x3D;&gt; {
+            case_details.current_filter.private_report_ids.push(report.id);
+          });
+        }
+        case_details.current_filter.model_filter &#x3D; case_details.current_filter.model_filter.id;
+        this.caseProvider.createNewCase(case_details).subscribe((response) &#x3D;&gt; {
+          this._getCaseList();
+        }, error &#x3D;&gt; {
+          this.handlerError.handleError(error);
+        })
+      }
+    )
+  }
+
+  /**
+  * TODO: _editCase
+  * Given a study case go to new case form with data to edit
+  * @param study_case
+  */
+  _editCase(study_case) {
+    this.caseProvider.getCaseDetails(study_case.alter_autoincrement_id).subscribe(
+      (case_details)&#x3D;&gt;{
+        this.navigator._goNewCase(case_details);
+      }
+    )
+  }
+
+  /**
+  * TODO: _getCaseList
+  * Get the study case list for a user
+  * @param study_case
+  */
+  _getCaseList() {
+    this.caseProvider.getPersonalCases().subscribe((cases) &#x3D;&gt; {
+      this._setCases(cases.results);
+      this.setPaginatorOptions(cases);
+    });
+  }
+
+  /**
+  * TODO: _getCaseListByUrl
+  * Given a URL from paginator get the study cases based on page and size
+  * @param url
+  */
+  _getCaseListByUrl(url) {
+    url &#x3D; url.replace(&#x27;-updated&#x27;,this.order_date);
+    this.caseProvider.getCasesByUrl(url).subscribe((cases) &#x3D;&gt; {
+      this._setCases(cases.results);
+      this.setPaginatorOptions(cases);
+    }, error &#x3D;&gt; {
+      this.handlerError.handleError(error);
+    });
+  }
+
+  /**
+  * TODO: _setCases
+  * Given a case list set values for cases and columns distribution
+  * @param cases
+  */
+  _setCases &#x3D; (cases: Array&lt;System&gt;) &#x3D;&gt; {
+    this.cases &#x3D; cases;
+    this.cases.map(case_data &#x3D;&gt; case_data.toggle_chart &#x3D; false);
+    this.cases.map(case_data &#x3D;&gt; case_data.created_display &#x3D; this.utils.formatDateStringMonth(case_data.created));
+    this.cases.map(case_data &#x3D;&gt; case_data.updated &#x3D; this.utils.formatDateStringMonth(case_data.updated));
+    this.original_cases &#x3D; cases;
+    this.original_cases.map(case_data &#x3D;&gt; case_data.toggle_chart &#x3D; false);
+    this.num_cols &#x3D; this.responsiveProvider.getNumCols(window.innerWidth);
+
+    let progress_case &#x3D; this.cases.find(_case &#x3D;&gt; _case.is_processing);
+    if(progress_case){
+      this._refreshCaseStatus(progress_case,&#x27;is_processing&#x27;);
+    }
+
+    this.authProvider.getUserDashboard().subscribe((dashboard:any)&#x3D;&gt;{
+      let cases &#x3D; dashboard.filter(widget&#x3D;&gt;widget.type &#x3D;&#x3D; &#x27;case&#x27; &amp;&amp; widget.data);
+      if(cases){
+        cases.forEach(case_widget &#x3D;&gt; {
+          let case_pinned &#x3D; this.cases.find(study_case &#x3D;&gt; study_case.alter_autoincrement_id &#x3D;&#x3D; case_widget.data);   
+          if(case_pinned){
+            case_pinned.is_pinned &#x3D; true
+          }
+        });  
+      }
+    })
+  
+  }
+
+  /**
+   * TODO: _refreshCaseStatus
+   * Gven a  case, refresh the status of the case
+   * @param case
+   * @param status
+   */
+
+  _refreshCaseStatus(study_case,status){
+    study_case.display_status &#x3D; status;
+    if(status !&#x3D; &#x27;done&#x27;){
+      this.caseProvider.getCaseStatus(study_case.alter_autoincrement_id).subscribe((res:any)&#x3D;&gt;{
+        setTimeout(() &#x3D;&gt; {
+          if(res.is_processing){
+            this._refreshCaseStatus(study_case,res.status.status[res.status.status.length - 1].status);
+          }else{
+            if(!res.update_error){
+              study_case.is_processing  &#x3D; false;
+              this._getCaseList();
+              this._refreshCaseStatus(study_case,&#x27;done&#x27;);
+            }else{
+              study_case.update_error &#x3D; res.update_error
+            }
+          }
+        }, 5000);
+      })
+    }else{
+      setTimeout(() &#x3D;&gt; {
+        this.hide_check &#x3D; true;
+      }, 5000);
+      study_case.is_done &#x3D; true;
+    }
+  }
+  /**
+  * TODO: _refineCases
+  * Given a case list set values for cases and columns distribution
+  * @param cases
+  */
+ _refineCases &#x3D; (cases: Array&lt;System&gt;) &#x3D;&gt; {
+  this.cases &#x3D; cases;
+  this.num_cols &#x3D; this.responsiveProvider.getNumCols(window.innerWidth);
+}
+
+  /******************************************************************
+  *                          NAVIGATION                             *
+  *******************************************************************/
+
+  // Go to create new case
+  _goNewCase() {
+    if(this.original_cases.length &gt; 0 ){
+      let case_position &#x3D; Object.keys(this.original_cases).reduce((a, b) &#x3D;&gt; this.original_cases[a].alter_autoincrement_id &gt; this.original_cases[b].alter_autoincrement_id ? a : b);
+      localStorage.setItem(&#x27;next_case_number&#x27;,this.original_cases[case_position].alter_autoincrement_id);
+    }else{
+      localStorage.setItem(&#x27;next_case_number&#x27;,&#x27;0&#x27;);  
+    }
+    this.navigator._goNewCase(null);
+  }
+
+  // View optimization of case
+  _viewOptimization(case_data: System) {
+    this.navigator._goOptimizationsResults(case_data);
+  }
+
+  /******************************************************************
+  *                         CASE PAGINATOR                          *
+  *******************************************************************/
+
+  setPageSizeOptions(setPageSizeOptionsInput: string) {
+    if (setPageSizeOptionsInput) {
+      this.pageSizeOptions &#x3D; setPageSizeOptionsInput.split(&#x27;,&#x27;).map(str &#x3D;&gt; +str);
+    }
+  }
+
+  setPaginatorOptions(cases) {
+    this.length &#x3D; cases.count;
+    this.bottom_paginator_data.length &#x3D; cases.count;
+  }
+
+  refreshPaginatorOptions(cases) {
+    this.length &#x3D; cases.length;
+    this.bottom_paginator_data.length &#x3D; cases.length;
+  }
+
+  handlePage(event) {
+    this.bottom_paginator_data &#x3D; event.event;
+    this._getCaseListByUrl(event.url);
+  }
+
+  handleManualPage(event) {
+    this.jumpToPageOption &#x3D; {
+      jump: true,
+      page: event.pageIndex,
+      data: event
+    }
+  }
+
+  pinCaseToDashboard(case_study){
+    case_study.is_pinned &#x3D; true;
+    this.dashboardProvider.casePinned(case_study);
+  }
+
+  removeFromDashboard(case_study){
+    this.dashboardProvider.removeCaseFromDashboard(case_study);
+  }
+
+  filterView(){
+    this.empty_refine &#x3D; false;
+    var cases &#x3D; [...this.original_cases];
+    if(this.display_value &#x3D;&#x3D; &#x27;manual&#x27;){
+      cases &#x3D; cases.filter( _case &#x3D;&gt;!(_case.is_instrumented));
+    }
+    if(this.display_value &#x3D;&#x3D; &#x27;instrumented&#x27;){
+      cases &#x3D; cases.filter( _case &#x3D;&gt; _case.is_instrumented );
+    }
+    if(cases.length &#x3D;&#x3D; 0) this.empty_refine &#x3D; true;
+    this._refineCases(cases);
+    this.refreshPaginatorOptions(cases);
+  }
+
+  _orderCaseList():void{
+    this.caseProvider.reOrderCases(this.order_date).subscribe((cases)&#x3D;&gt;{
+      this.bottom_paginator_data &#x3D; {
+        previousPageIndex: 0,
+        pageIndex: 0,
+        pageSize: 12,
+        length: 0
+      }
+      this._setCases(cases.results);
+      this.setPaginatorOptions(cases);
+    })
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;main-content&quot; [style.width]&#x3D;&quot;case_list_width&quot; [style.margin-left]&#x3D;&quot;case_list_margin&quot;&gt;
+    &lt;div class&#x3D;&quot;content-header&quot;&gt;
+        &lt;h3&gt; Optimize &lt;/h3&gt;   
+        &lt;button *ngIf&#x3D;&quot;optimization_plan&quot;  style&#x3D;&quot;width: auto;&quot; mat-stroked-button class&#x3D;&quot;button-primary&quot; (click)&#x3D;&quot;_goNewCase()&quot;&gt; 
+            Create new case 
+            &lt;!-- &lt;b&gt;$ {{ optimization_plan.cost / 100 | number:&#x27;1.2-2&#x27; }}&lt;/b&gt; or &lt;b&gt;{{ optimization_plan.credit_cost }} CFM&#x27;s &lt;/b&gt; --&gt;
+        &lt;/button&gt;
+    &lt;/div&gt;
+
+
+    &lt;div class&#x3D;&quot;searchbar-container&quot; &gt;
+        &lt;input type&#x3D;&quot;text&quot; placeholder&#x3D;&quot;Search a case&quot; name&#x3D;&quot;search&quot; [ngModel]&#x3D;&quot;search&quot;
+            (ngModelChange)&#x3D;&quot;search&#x3D;$event&quot; [formControl]&#x3D;&quot;searchedWordsControl&quot;&gt;
+        &lt;mat-icon&gt;search&lt;/mat-icon&gt;
+    &lt;/div&gt;
+
+    &lt;div class&#x3D;&quot;filters-section&quot;&gt;
+        &lt;div class&#x3D;&quot;order-selector&quot; style&#x3D;&quot;border-radius: 4px !important;&quot;&gt;
+            &lt;mat-icon&gt;reorder&lt;/mat-icon&gt;
+            &lt;select [(ngModel)]&#x3D;&quot;order_date&quot; (ngModelChange)&#x3D;&quot;_orderCaseList()&quot;&gt;
+                &lt;option value&#x3D;&quot;-created&quot;&gt; Newest first &lt;/option&gt;
+                &lt;option value&#x3D;&quot;created&quot;&gt; Oldest first &lt;/option&gt;
+                &lt;option value&#x3D;&quot;-updated&quot;&gt; Latest modified &lt;/option&gt;
+            &lt;/select&gt;
+            &lt;mat-icon class&#x3D;&quot;icon-drop-down&quot;&gt; arrow_drop_down &lt;/mat-icon&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;order-selector&quot; style&#x3D;&quot;border-radius: 4px !important; left: 180px;width: 100px;&quot;&gt;
+            &lt;mat-icon&gt;reorder&lt;/mat-icon&gt;
+            &lt;select [(ngModel)]&#x3D;&quot;display_value&quot; (ngModelChange)&#x3D;&quot;filterView()&quot;&gt;
+                &lt;option value&#x3D;&quot;all&quot;&gt; All cases  &lt;/option&gt;
+                &lt;option value&#x3D;&quot;manual&quot;&gt; Manual  &lt;/option&gt;
+                &lt;option value&#x3D;&quot;instrumented&quot;&gt; Monitored  &lt;/option&gt;
+            &lt;/select&gt;
+            &lt;mat-icon class&#x3D;&quot;icon-drop-down&quot;&gt; arrow_drop_down &lt;/mat-icon&gt;
+        &lt;/div&gt;
+        &lt;app-paginator 
+        [length]&#x3D;&#x27;length&#x27; 
+        [pageSize]&#x3D;&quot;pageSize&quot; 
+        [pageSizeOptions]&#x3D;&quot;pageSizeOptions&quot;
+        [jumpToPageOption]&#x3D;&quot;jumpToPageOption&quot;
+        [url]&#x3D;&quot;list_url&quot; 
+        (jump_page)&#x3D;&quot;handlePage($event)&quot;&gt;&lt;/app-paginator&gt;
+    &lt;/div&gt;
+    
+    
+    &lt;mat-grid-list [cols]&#x3D;&quot;num_cols&quot; style&#x3D;&quot;height: auto;&quot; *ngIf&#x3D;&quot;cases.length &gt; 0&quot; gutterSize&#x3D;&quot;20px&quot;&gt;
+        &lt;mat-grid-tile *ngFor&#x3D;&quot;let case of cases; let i &#x3D; index&quot; [colspan]&#x3D;&quot;1&quot; [rowspan]&#x3D;&quot;1&quot;&gt;
+            &lt;div class&#x3D;&quot;case-card&quot;&gt;
+                &lt;img src&#x3D;&quot;../../../../assets/imgs/loader_gif.gif&quot; class&#x3D;&quot;gif_loader&quot; *ngIf&#x3D;&quot;case.is_processing&quot;&gt;
+                &lt;mat-icon class&#x3D;&quot;case_done animated fadeIn&quot; *ngIf&#x3D;&quot;case.is_done&quot; [class.fadeOut]&#x3D;&quot;hide_check&quot;&gt;check_circle&lt;/mat-icon&gt;
+                &lt;div class&#x3D;&quot;cancel animated fadeIn&quot; *ngIf&#x3D;&quot;case.update_error&quot;&gt;
+                    &lt;mat-icon 
+                        matTooltipClass&#x3D;&quot;custom-tooltip&quot;
+                        #tooltip&#x3D;&quot;matTooltip&quot; 
+                        matTooltipPosition&#x3D;&quot;above&quot;  
+                        matTooltip&#x3D;&quot;{{ case.update_error }}&quot;&gt;
+                        cancel
+                    &lt;/mat-icon&gt;
+                &lt;/div&gt;
+                &lt;button     
+                    *ngIf&#x3D;&quot;!case.is_processing &amp;&amp; !case.update_error&quot;
+                    matTooltipClass&#x3D;&quot;custom-tooltip&quot;
+                    #tooltip&#x3D;&quot;matTooltip&quot; 
+                    [matTooltip]&#x3D;&quot;!case.is_pinned ? &#x27;Pin this case to dashboard&#x27; : &#x27;Remove case from dashboard&#x27; &quot; 
+                    matTooltipPosition&#x3D;&quot;right&quot;  
+                    (click)&#x3D;&quot;!case.is_pinned ? pinCaseToDashboard(case) : removeFromDashboard(case)&quot;
+                    [class.button-pin-active]&#x3D;&quot;case.is_pinned&quot;
+                    class&#x3D;&quot;button-pin&quot;&gt;
+                    &lt;mat-icon&gt; push_pin &lt;/mat-icon&gt;
+                &lt;/button&gt;
+                &lt;div class&#x3D;&quot;card-indicator&quot;&gt; 
+                    &lt;mat-icon
+                        (click)&#x3D;&quot;cases[i].toggle_chart &#x3D; !cases[i].toggle_chart&quot;
+                        matTooltipPosition&#x3D;&quot;right&quot; &gt;
+                        {{ !cases[i].toggle_chart ? &#x27;bar_chart&#x27; : &#x27;flip_to_front&#x27; }}
+                    &lt;/mat-icon&gt; 
+                &lt;/div&gt;
+                &lt;!-- &lt;button mat-icon-button color&#x3D;&quot;dark&quot;
+                    class&#x3D;&quot;button-card-top-left&quot;
+                    (click)&#x3D;&quot;cases[i].toggle_chart &#x3D; !cases[i].toggle_chart&quot;&gt;
+                    &lt;mat-icon *ngIf&#x3D;&quot;!cases[i].toggle_chart&quot; class&#x3D;&quot;color-secondary&quot;&gt;bar_chart&lt;/mat-icon&gt;
+                    &lt;mat-icon class&#x3D;&quot;rotate&quot; *ngIf&#x3D;&quot;cases[i].toggle_chart&quot;&gt;flip_to_front&lt;/mat-icon&gt;
+                &lt;/button&gt; --&gt;
+                &lt;img
+                
+                    matTooltipClass&#x3D;&quot;custom-tooltip&quot;
+                    #tooltip&#x3D;&quot;matTooltip&quot; 
+                    matTooltip&#x3D;&quot;This case has instruments measurements&quot; 
+                    matTooltipPosition&#x3D;&quot;right&quot;  
+                    *ngIf&#x3D;&quot;case.is_instrumented &amp;&amp; !cases[i].toggle_chart&quot; 
+                    (click)&#x3D;&quot;_viewOptimization(case)&quot;
+                    src&#x3D;&quot;../../../../../assets/imgs/instrument_icon.png&quot; class&#x3D;&quot;icon-instrumented&quot;&gt;
+                &lt;div class&#x3D;&quot;case-card-chart-container&quot; *ngIf&#x3D;&quot;case.toggle_chart&quot;&gt;
+                    &lt;h6&gt; Using {{ case.model_filter_name }} &lt;/h6&gt;
+                    &lt;app-bar-chart
+                        [chart_id]&#x3D;&quot;&#x27;bar_chart&#x27; + case.id&quot;
+                        [current_cost]&#x3D;&quot;case.current_filter.change_rate_annual_cost&quot;
+                        [optimized_cost]&#x3D;&quot;case.current_filter.optimize_change_rate_annual_cost&quot;
+                        [selected_cost]&#x3D;&quot;null&quot;&gt;
+                    &lt;/app-bar-chart&gt;
+                    &lt;div class&#x3D;&quot;case-chart-legend&quot;&gt;
+                        &lt;p&gt; &lt;mat-icon class&#x3D;&quot;color-secondary&quot;&gt;stop&lt;/mat-icon&gt; Current Cost &lt;span&gt; &amp;nbsp;&amp;nbsp; {{ (case.current_filter.change_rate_annual_cost).toFixed(2) }} $&lt;/span&gt; &lt;/p&gt;
+                        &lt;p&gt; &lt;mat-icon class&#x3D;&quot;color-primary&quot;&gt;stop&lt;/mat-icon&gt; Optimal Cost &lt;span&gt; &amp;nbsp;&amp;nbsp; {{ case.current_filter.optimize_change_rate_annual_cost.toFixed(2) }} $&lt;/span&gt; &lt;/p&gt;
+                        &lt;p&gt; &lt;mat-icon class&#x3D;&quot;color-primary&quot;&gt;crop_square&lt;/mat-icon&gt; Savings &lt;span&gt; &amp;nbsp;&amp;nbsp; {{ (case.current_filter.change_rate_annual_cost - case.current_filter.optimize_change_rate_annual_cost).toFixed(2) }} $ &lt;/span&gt; &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+
+                    &lt;p class&#x3D;&quot;title&quot; *ngIf&#x3D;&quot;case.alter_autoincrement_id&quot;&gt; CASE #
+                        &lt;span appHighlight [searchedWords]&#x3D;&quot;searchedWords$ | async&quot; classToApply&#x3D;&quot;selected-text&quot; text&#x3D;&quot;{{ case.alter_autoincrement_id }}&quot;&gt;&lt;/span&gt;
+                        &lt;!-- &lt;span class&#x3D;&quot;date-right&quot; appHighlight [searchedWords]&#x3D;&quot;searchedWords$ | async&quot; classToApply&#x3D;&quot;selected-text&quot; 
+                        text&#x3D;&quot;{{ case.created_display }}&quot;&gt;&lt;/span&gt; --&gt;
+                    &lt;/p&gt;
+                    &lt;h5 appHighlight [searchedWords]&#x3D;&quot;searchedWords$ | async&quot; classToApply&#x3D;&quot;selected-text&quot;
+                        text&#x3D;&quot;{{ case.name }}&quot;&gt;
+                    &lt;/h5&gt;
+                    &lt;h6 *ngIf&#x3D;&quot;!case.toggle_chart&quot; appHighlight [searchedWords]&#x3D;&quot;searchedWords$ | async&quot; classToApply&#x3D;&quot;selected-text&quot;
+                        text&#x3D;&quot;{{ case.model_filter_name }}&quot;&gt;
+                    &lt;/h6&gt;
+                    &lt;img *ngIf&#x3D;&quot;(case.model_filter_image &amp;&amp; !isImgLoaded)&quot; src&#x3D;&quot;../../../../assets/imgs/local_loader.gif&quot;&gt;
+                    &lt;img *ngIf&#x3D;&quot;!case.toggle_chart&quot; #content id&#x3D;&quot;content&quot; [hidden]&#x3D;&quot;!isImgLoaded&quot; [src]&#x3D;&quot;case.model_filter_image&quot; (load)&#x3D;&quot;isImgLoaded &#x3D; true&quot; (click)&#x3D;&quot;_viewOptimization(case)&quot;&gt;
+                 
+                    &lt;!-- &lt;h6
+                        *ngIf&#x3D;&quot;case.client_name &amp;&amp; !case.toggle_chart&quot;
+                    
+                        appHighlight [searchedWords]&#x3D;&quot;searchedWords$ | async&quot; classToApply&#x3D;&quot;selected-text&quot;
+                        text&#x3D;&quot;CLIENT :  {{ case.client_name | uppercase}}&quot;&gt;
+                    &lt;/h6&gt; --&gt;
+
+                    &lt;h6 *ngIf&#x3D;&quot;!case.toggle_chart&quot; class&#x3D;&quot;dates&quot; style&#x3D;&quot;margin-top: 5px;&quot;&gt;
+                        &lt;span appHighlight [searchedWords]&#x3D;&quot;searchedWords$ | async&quot; classToApply&#x3D;&quot;selected-text&quot;
+                        text&#x3D;&quot;{{ &#x27;Created on &#x27; + case.created_display }}&quot;&gt;&lt;/span&gt;
+                    &lt;/h6&gt;
+
+                    &lt;mat-divider *ngIf&#x3D;&quot;!case.toggle_chart&quot;&gt;&lt;/mat-divider&gt;
+                    &lt;mat-card-actions *ngIf&#x3D;&quot;!case.toggle_chart&quot;&gt;
+                        &lt;button mat-button (click)&#x3D;&quot;_viewOptimization(case)&quot;&gt; View details&lt;/button&gt;
+                        &lt;button *ngIf&#x3D;&quot;!case.is_instrumented&quot; mat-button (click)&#x3D;&quot;_editCase(case)&quot;&gt;Edit case&lt;/button&gt;
+                    &lt;/mat-card-actions&gt;
+                    &lt;button mat-icon-button color&#x3D;&quot;dark&quot; class&#x3D;&quot;more&quot; [matMenuTriggerFor]&#x3D;&quot;menu&quot;&gt;
+                        &lt;mat-icon&gt;more_vert&lt;/mat-icon&gt;
+                    &lt;/button&gt;
+                    &lt;mat-menu #menu&#x3D;&quot;matMenu&quot;&gt;
+                        &lt;button *ngIf&#x3D;&quot;!case.is_instrumented&quot; mat-menu-item (click)&#x3D;&quot;_editCase(case)&quot;&gt;
+                            &lt;span&gt;Edit&lt;/span&gt;
+                        &lt;/button&gt;
+                        &lt;button mat-menu-item (click)&#x3D;&quot;_attemptDeleteCase(case)&quot;&gt; 
+                            &lt;span&gt;Delete&lt;/span&gt;
+                        &lt;/button&gt;
+                        &lt;!-- &lt;button mat-menu-item (click)&#x3D;&quot;_duplicateCase(case)&quot;&gt;
+                            &lt;span&gt;Duplicate&lt;/span&gt;
+                        &lt;/button&gt; --&gt;
+                        &lt;button [disabled]&#x3D;&quot;case.is_processing || case.update_error !&#x3D;&#x3D; &#x27;&#x27; &quot;  mat-menu-item (click)&#x3D;&quot;_compareCase(case)&quot;&gt;
+                            &lt;span&gt;Compare&lt;/span&gt;
+                        &lt;/button&gt;
+                        &lt;button mat-menu-item disabled&gt;
+                            &lt;span&gt;Pair instrument&lt;/span&gt;
+                        &lt;/button&gt;
+                        &lt;button mat-menu-item (click)&#x3D;&quot;_viewOptimization(case)&quot;&gt;
+                            &lt;span&gt;View details&lt;/span&gt;
+                        &lt;/button&gt;
+                    &lt;/mat-menu&gt;
+            &lt;/div&gt;
+        &lt;/mat-grid-tile&gt;
+    &lt;/mat-grid-list&gt;
+    &lt;br&gt;
+    &lt;app-bottom-paginator 
+        *ngIf&#x3D;&quot;cases &amp;&amp; cases.length &gt; 0&quot; 
+        [data]&#x3D;&#x27;bottom_paginator_data&#x27;
+        [count]&#x3D;&quot;cases.length&quot;
+        (jump_page)&#x3D;&quot;handleManualPage($event)&quot;&gt;
+    &lt;/app-bottom-paginator&gt;
+&lt;/div&gt;
+
+&lt;app-empty-list 
+    *ngIf&#x3D;&quot;(original_cases.length &#x3D;&#x3D; 0 &amp;&amp; search &#x3D;&#x3D; &#x27;&#x27;)&quot;
+    [empty_results]&#x3D;&quot;false&quot;
+    [title]&#x3D;&quot;&#x27;YOUR COLLECTION OF CASES IS EMPTY&#x27;&quot;
+    [subtitle]&#x3D;&quot;&#x27;Fill your list by&#x27;&quot;
+    [action]&#x3D;&quot;&#x27;starting a new case&#x27;&quot;
+    (callToAction)&#x3D;&quot;_goNewCase()&quot;&gt;
+&lt;/app-empty-list&gt;
+
+&lt;app-empty-list 
+    *ngIf&#x3D;&quot;(isSearching &amp;&amp; cases.length &#x3D;&#x3D; 0 &amp;&amp; search !&#x3D;&#x3D; &#x27;&#x27;) || empty_refine&quot;
+    [empty_results]&#x3D;&quot;true&quot;
+    [title]&#x3D;&quot;&#x27;NO MATCHING RESULTS&#x27;&quot;
+    [subtitle]&#x3D;&quot;&#x27;Try again using other criteria.&#x27;&quot;
+    [action]&#x3D;&quot;empty_refine ? &#x27;Clear display filter&#x27; : &#x27;Clear Search&#x27;&quot;
+    (callToAction)&#x3D;&quot;clearSearch();&quot;&gt;
+&lt;/app-empty-list&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./case-list.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.main-content{
+    display: block;
+    transition: width 1s;
+    transition: margin-left 1s;
+}
+
+.searchbar-container{
+    width: 60%;
+    margin-bottom: 20px;
+    height: 30px !important;
+    border: 1px solid #ccc;
+    position: relative;
+    input{
+    }
+    mat-icon{
+        position: absolute;
+        left: 20px;
+        font-size: 18px;
+        width: 18px;
+        height: 18px;
+        color: #aaa;
+        transform: rotateY(0deg);
+    }
+}
+
+.clock{
+    pointer-events: none;
+    width: auto !important;
+    opacity: 0.8;
+    height: 90px !important;
+}
+
+.case-card{
+    padding-bottom: 5px;
+    height: 90%;
+    border-radius: 8px;
+    border-top-left-radius: 0px !important;
+    box-shadow: 0 2px 3px 0 rgba(173, 173, 173, 0.5);
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+    width: 95% !important;
+    display: grid;
+    justify-content: center;
+    .title{
+    }
+    .dates{
+        font-size: 10px;
+        color: #999;
+    }
+    p{
+        font-size: 10px;
+        color: #999;
+        text-align: center;
+        width: 70%;
+        margin-left: 15%;
+        position: absolute;
+        top: 5px;
+        font-weight: bold;
+        .date-right{
+            float: right;
+            font-size: 12px;
+            color: #666;
+        }
+    }
+    img{
+        cursor: pointer;
+        width: 120px;
+        height: 120px;
+        justify-self: center;
+        transition: transform 0.5s;
+        z-index: 1;
+    }
+    img:hover{
+        -ms-transform: scale(1.05); /* IE 9 */
+        -webkit-transform: scale(1.05); /* Safari 3-8 */
+        transform: scale(1.05); 
+    }
+    
+    h5{
+        color:#003A70;
+        font-size: 14px;
+        font-weight: bolder;
+        margin-top: 20px;
+        z-index: 1;
+        margin-bottom: 0px;
+    }
+    h6{
+        font-size: 11px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        z-index: 1;
+    }
+    button{
+        color:#199AD8;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .more{
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        color:#000;
+        .mat-icon{
+            font-size: 24px;
+        }
+    }
+    .button-card-top-left{
+        transform: rotateY(180deg);
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        color:#000;
+        .mat-icon{
+            font-size: 24px;
+        }
+    }
+    .rotate{
+        transform: rotate(90deg);
+    }
+    .case-chart-legend{
+        width: 66%;
+        margin-left: 17%;
+        margin-top: -15px;
+        p{
+            margin-top: 0px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            font-size: 11px;
+            color: black;
+            display: -webkit-flex;;
+            align-items: center;
+            justify-content: left;
+            position: relative;
+            width: 100%;
+            margin-left: 0px;
+            span{
+                font-weight: 600;
+                position: absolute;
+                right: 0;
+            }
+        }
+    }
+    .case-card-content{
+        background-clip: red !important;
+    }
+    .case-card-chart-container{
+        position: absolute;
+        top: 20%;
+        height: 65%;
+        width: 100%;
+    }
+    .icon-instrumented{
+        color: #003A70 !important;
+        position: absolute;
+        left: 10px;
+        top: 60px;
+        height: 21px !important;
+        width: 20px !important;
+    }
+}
+
+.card-indicator{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background-color: inherit;
+    position: absolute;
+    left: 0px;
+    -webkit-clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    transform: rotate(90deg);
+    border-radius: 0 0 0 0px;
+    background-color: #003A70;
+    mat-icon{
+        color: white;
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+        transform: rotate(-90deg);
+        font-size: 24px;
+        cursor: pointer;
+        opacity: 0.9;
+    }
+    mat-icon:hover{
+        opacity: 1;
+    }
+}
+
+
+button.mat-menu-item {
+    width: 100%;
+    height: 30px;
+    font-size: 11px;
+    line-height: 0px;
+}
+
+.content-header{
+    width: 100%;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    button{
+        position: absolute;
+        right: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+    }
+    h3{
+        color:#003A70;
+    }
+    h4{
+        color: #666;
+        font-size: 14px;
+    }
+    mat-icon{
+        cursor: pointer;
+    }
+}
+
+
+.compare-table{
+    width: 100%;
+  }
+  
+  tr {
+    display: inline;
+  }
+  td {
+      margin: 0;
+      padding: 0;
+      width: 50%;
+      float: left;
+      background: #d8d8d8;
+  } 
+  
+  @media all and (min-width: 900px) {
+    
+    tr {
+      display: table-row;
+    }
+    td {
+      float: none;
+      min-width: 300px;
+    } 
+  }
+  
+
+::ng-deep .selected-text {
+    color: #003A70 !important;
+    // background-color:rgba(36, 182, 177, 0.555) !important;
+    background-color: yellow;
+    font-weight: 500 !important; 
+}
+
+.mat-card-actions, .mat-card-content, .mat-card-subtitle {
+    display: block;
+    margin-bottom: 0px !important;
+}
+
+.button-pin{
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    color: #ccc !important;
+    background: none;
+    border: none;
+    mat-icon{
+        transition: font-size 0.25s;
+        transform: rotate(45deg);
+        font-size: 18px !important;
+    }
+}
+
+.button-pin-active{
+    color: #199AD8 !important;
+    mat-icon{
+        font-size: 24px !important;
+    }
+}
+
+.order-selector{
+    background: white;
+    position: absolute;
+    width: 120px;
+    left: 10px;
+    padding: 5px 20px 5px 10px;
+    border-radius: 4px;
+    display: -webkit-flex;;
+    box-shadow: 1.5px 2.5px 5px 0px rgba(173, 173, 173, 0.5) !important;
+    align-items: center;
+    height: 27px;
+    mat-icon{
+        width: 20px;
+        height: 20px;
+        font-size: 19px;
+        z-index: 0;
+        color: #707070;
+        cursor: pointer;
+    }
+    select{
+        z-index: 1;
+        width: 100%;
+        position: absolute;
+        cursor: pointer;
+        right: 0;
+        height: 25px;
+        margin-left: 20px;
+        background-color: transparent;
+        padding-left: 40px;
+        font-size: 11px;
+        color: #707070;
+        outline: 0px;
+        border-radius: 4px;
+        border: none !important;
+        -webkit-appearance: none;
+        option{
+            border: none !important;
+            outline: none;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+    select:focus {
+        outline: none;
+    }
+    .icon-drop-down{
+        z-index: 0;
+        position: absolute;
+        right: 10px;
+    }
+}
+
+.filters-section{
+    width: 100%;
+    display: -webkit-flex;;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+
+.card-loading {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    background: linear-gradient(110deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+    border-radius: 5px;
+    background-size: 200% 100%;
+    animation: 1.5s shine linear infinite;
+
+}
+  
+@keyframes shine {
+    to {
+      background-position-x: -200%;
+    }
+}
+
+.card-in-progress{
+    pointer-events: none;
+    opacity: 0.85;
+}
+
+.opacity{
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.progress-message{
+    color: #333;
+    font-size: 14px;
+    margin-top: 0px !important;
+}
+
+
+.gif_loader{
+    position: absolute;
+    left: -20px;
+    top: 25%;
+    height: 80px !important;
+    width: 80px !important;
+}
+
+.case_done{
+    position: absolute !important;
+    left: -20px !important;
+    top: 33% !important;
+    color: green;
+    height: 80px !important;
+    width: 80px !important;
+}
+
+.cancel{
+    position: absolute !important;
+    left: -20px !important;
+    top: 33% !important;
+    cursor: pointer;
+    mat-icon{
+        position: relative;
+        color: rgb(218, 15, 15);
+        height: 80px !important;
+        width: 80px !important;
+    }
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="main-content" [style.width]="case_list_width" [style.margin-left]="case_list_margin">    <div class="content-header">        <h3> Optimize </h3>           <button *ngIf="optimization_plan"  style="width: auto;" mat-stroked-button class="button-primary" (click)="_goNewCase()">             Create new case             <!-- <b>$ {{ optimization_plan.cost / 100 | number:\'1.2-2\' }}</b> or <b>{{ optimization_plan.credit_cost }} CFM\'s </b> -->        </button>    </div>    <div class="searchbar-container" >        <input type="text" placeholder="Search a case" name="search" [ngModel]="search"            (ngModelChange)="search=$event" [formControl]="searchedWordsControl">        <mat-icon>search</mat-icon>    </div>    <div class="filters-section">        <div class="order-selector" style="border-radius: 4px !important;">            <mat-icon>reorder</mat-icon>            <select [(ngModel)]="order_date" (ngModelChange)="_orderCaseList()">                <option value="-created"> Newest first </option>                <option value="created"> Oldest first </option>                <option value="-updated"> Latest modified </option>            </select>            <mat-icon class="icon-drop-down"> arrow_drop_down </mat-icon>        </div>        <div class="order-selector" style="border-radius: 4px !important; left: 180px;width: 100px;">            <mat-icon>reorder</mat-icon>            <select [(ngModel)]="display_value" (ngModelChange)="filterView()">                <option value="all"> All cases  </option>                <option value="manual"> Manual  </option>                <option value="instrumented"> Monitored  </option>            </select>            <mat-icon class="icon-drop-down"> arrow_drop_down </mat-icon>        </div>        <app-paginator         [length]=\'length\'         [pageSize]="pageSize"         [pageSizeOptions]="pageSizeOptions"        [jumpToPageOption]="jumpToPageOption"        [url]="list_url"         (jump_page)="handlePage($event)"></app-paginator>    </div>            <mat-grid-list [cols]="num_cols" style="height: auto;" *ngIf="cases.length > 0" gutterSize="20px">        <mat-grid-tile *ngFor="let case of cases; let i = index" [colspan]="1" [rowspan]="1">            <div class="case-card">                <img src="../../../../assets/imgs/loader_gif.gif" class="gif_loader" *ngIf="case.is_processing">                <mat-icon class="case_done animated fadeIn" *ngIf="case.is_done" [class.fadeOut]="hide_check">check_circle</mat-icon>                <div class="cancel animated fadeIn" *ngIf="case.update_error">                    <mat-icon                         matTooltipClass="custom-tooltip"                        #tooltip="matTooltip"                         matTooltipPosition="above"                          matTooltip="{{ case.update_error }}">                        cancel                    </mat-icon>                </div>                <button                         *ngIf="!case.is_processing && !case.update_error"                    matTooltipClass="custom-tooltip"                    #tooltip="matTooltip"                     [matTooltip]="!case.is_pinned ? \'Pin this case to dashboard\' : \'Remove case from dashboard\' "                     matTooltipPosition="right"                      (click)="!case.is_pinned ? pinCaseToDashboard(case) : removeFromDashboard(case)"                    [class.button-pin-active]="case.is_pinned"                    class="button-pin">                    <mat-icon> push_pin </mat-icon>                </button>                <div class="card-indicator">                     <mat-icon                        (click)="cases[i].toggle_chart = !cases[i].toggle_chart"                        matTooltipPosition="right" >                        {{ !cases[i].toggle_chart ? \'bar_chart\' : \'flip_to_front\' }}                    </mat-icon>                 </div>                <!-- <button mat-icon-button color="dark"                    class="button-card-top-left"                    (click)="cases[i].toggle_chart = !cases[i].toggle_chart">                    <mat-icon *ngIf="!cases[i].toggle_chart" class="color-secondary">bar_chart</mat-icon>                    <mat-icon class="rotate" *ngIf="cases[i].toggle_chart">flip_to_front</mat-icon>                </button> -->                <img                                    matTooltipClass="custom-tooltip"                    #tooltip="matTooltip"                     matTooltip="This case has instruments measurements"                     matTooltipPosition="right"                      *ngIf="case.is_instrumented && !cases[i].toggle_chart"                     (click)="_viewOptimization(case)"                    src="../../../../../assets/imgs/instrument_icon.png" class="icon-instrumented">                <div class="case-card-chart-container" *ngIf="case.toggle_chart">                    <h6> Using {{ case.model_filter_name }} </h6>                    <app-bar-chart                        [chart_id]="\'bar_chart\' + case.id"                        [current_cost]="case.current_filter.change_rate_annual_cost"                        [optimized_cost]="case.current_filter.optimize_change_rate_annual_cost"                        [selected_cost]="null">                    </app-bar-chart>                    <div class="case-chart-legend">                        <p> <mat-icon class="color-secondary">stop</mat-icon> Current Cost <span> &nbsp;&nbsp; {{ (case.current_filter.change_rate_annual_cost).toFixed(2) }} $</span> </p>                        <p> <mat-icon class="color-primary">stop</mat-icon> Optimal Cost <span> &nbsp;&nbsp; {{ case.current_filter.optimize_change_rate_annual_cost.toFixed(2) }} $</span> </p>                        <p> <mat-icon class="color-primary">crop_square</mat-icon> Savings <span> &nbsp;&nbsp; {{ (case.current_filter.change_rate_annual_cost - case.current_filter.optimize_change_rate_annual_cost).toFixed(2) }} $ </span> </p>                    </div>                </div>                    <p class="title" *ngIf="case.alter_autoincrement_id"> CASE #                        <span appHighlight [searchedWords]="searchedWords$ | async" classToApply="selected-text" text="{{ case.alter_autoincrement_id }}"></span>                        <!-- <span class="date-right" appHighlight [searchedWords]="searchedWords$ | async" classToApply="selected-text"                         text="{{ case.created_display }}"></span> -->                    </p>                    <h5 appHighlight [searchedWords]="searchedWords$ | async" classToApply="selected-text"                        text="{{ case.name }}">                    </h5>                    <h6 *ngIf="!case.toggle_chart" appHighlight [searchedWords]="searchedWords$ | async" classToApply="selected-text"                        text="{{ case.model_filter_name }}">                    </h6>                    <img *ngIf="(case.model_filter_image && !isImgLoaded)" src="../../../../assets/imgs/local_loader.gif">                    <img *ngIf="!case.toggle_chart" #content id="content" [hidden]="!isImgLoaded" [src]="case.model_filter_image" (load)="isImgLoaded = true" (click)="_viewOptimization(case)">                                     <!-- <h6                        *ngIf="case.client_name && !case.toggle_chart"                                            appHighlight [searchedWords]="searchedWords$ | async" classToApply="selected-text"                        text="CLIENT :  {{ case.client_name | uppercase}}">                    </h6> -->                    <h6 *ngIf="!case.toggle_chart" class="dates" style="margin-top: 5px;">                        <span appHighlight [searchedWords]="searchedWords$ | async" classToApply="selected-text"                        text="{{ \'Created on \' + case.created_display }}"></span>                    </h6>                    <mat-divider *ngIf="!case.toggle_chart"></mat-divider>                    <mat-card-actions *ngIf="!case.toggle_chart">                        <button mat-button (click)="_viewOptimization(case)"> View details</button>                        <button *ngIf="!case.is_instrumented" mat-button (click)="_editCase(case)">Edit case</button>                    </mat-card-actions>                    <button mat-icon-button color="dark" class="more" [matMenuTriggerFor]="menu">                        <mat-icon>more_vert</mat-icon>                    </button>                    <mat-menu #menu="matMenu">                        <button *ngIf="!case.is_instrumented" mat-menu-item (click)="_editCase(case)">                            <span>Edit</span>                        </button>                        <button mat-menu-item (click)="_attemptDeleteCase(case)">                             <span>Delete</span>                        </button>                        <!-- <button mat-menu-item (click)="_duplicateCase(case)">                            <span>Duplicate</span>                        </button> -->                        <button [disabled]="case.is_processing || case.update_error !== \'\' "  mat-menu-item (click)="_compareCase(case)">                            <span>Compare</span>                        </button>                        <button mat-menu-item disabled>                            <span>Pair instrument</span>                        </button>                        <button mat-menu-item (click)="_viewOptimization(case)">                            <span>View details</span>                        </button>                    </mat-menu>            </div>        </mat-grid-tile>    </mat-grid-list>    <br>    <app-bottom-paginator         *ngIf="cases && cases.length > 0"         [data]=\'bottom_paginator_data\'        [count]="cases.length"        (jump_page)="handleManualPage($event)">    </app-bottom-paginator></div><app-empty-list     *ngIf="(original_cases.length == 0 && search == \'\')"    [empty_results]="false"    [title]="\'YOUR COLLECTION OF CASES IS EMPTY\'"    [subtitle]="\'Fill your list by\'"    [action]="\'starting a new case\'"    (callToAction)="_goNewCase()"></app-empty-list><app-empty-list     *ngIf="(isSearching && cases.length == 0 && search !== \'\') || empty_refine"    [empty_results]="true"    [title]="\'NO MATCHING RESULTS\'"    [subtitle]="\'Try again using other criteria.\'"    [action]="empty_refine ? \'Clear display filter\' : \'Clear Search\'"    (callToAction)="clearSearch();"></app-empty-list></div>'
+    var COMPONENTS = [{'name': 'AboutComponent', 'selector': 'app-about'},{'name': 'AdvancedFilterComponent', 'selector': 'app-advanced-filter'},{'name': 'AdvancedSearchComponent', 'selector': 'app-advanced-search'},{'name': 'AirFlowDialogComponent', 'selector': 'airflow-dialog'},{'name': 'AirflowVsDpComponent', 'selector': 'app-airflow-vs-dp'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AreaChartComponent', 'selector': 'app-area-chart'},{'name': 'BarChartComponent', 'selector': 'app-bar-chart'},{'name': 'BeforePrintDialogComponent', 'selector': 'app-before-print-dialog'},{'name': 'BillingsComponent', 'selector': 'app-billings'},{'name': 'BottomPaginatorComponent', 'selector': 'app-bottom-paginator'},{'name': 'CaseActionsComponent', 'selector': 'app-case-actions'},{'name': 'CaseCostComponent', 'selector': 'app-case-cost'},{'name': 'CaseListComponent', 'selector': 'app-case-list'},{'name': 'CaseSelectorComponent', 'selector': 'app-case-selector'},{'name': 'CaseStudyProfileComponent', 'selector': 'app-case-study-profile'},{'name': 'CaseTimeLineComponent', 'selector': 'app-case-time-line'},{'name': 'ChangeCaseDialogComponent', 'selector': 'app-change-case-dialog'},{'name': 'ChangeoutListComponent', 'selector': 'app-changeout-list'},{'name': 'ChangeProviderDialogComponent', 'selector': 'app-change-provider-dialog'},{'name': 'ChartAirflowVsDpComponent', 'selector': 'app-chart-airflow-vs-dp'},{'name': 'ChartCostVsTimeComponent', 'selector': 'app-chart-cost-vs-time'},{'name': 'ChartDpVsTimeComponent', 'selector': 'app-chart-dp-vs-time'},{'name': 'ChartDustVsDpComponent', 'selector': 'app-chart-dust-vs-dp'},{'name': 'ChartReviewComponent', 'selector': 'app-chart-review'},{'name': 'CompanyComponent', 'selector': 'app-company'},{'name': 'ComparisonBarChartComponent', 'selector': 'app-comparison-bar-chart'},{'name': 'ComparisonDpVsTimeChartComponent', 'selector': 'app-comparison-dp-vs-time-chart'},{'name': 'ComparisonListComponent', 'selector': 'app-comparison-list'},{'name': 'ComparisonResultsComponent', 'selector': 'app-comparison-results'},{'name': 'ConfirmDialogComponent', 'selector': 'app-confirm-dialog'},{'name': 'ConfirmRegisterPageComponent', 'selector': 'app-confirm-register-page'},{'name': 'ContactComponent', 'selector': 'app-contact'},{'name': 'ContactComponentComponent', 'selector': 'app-contact-component'},{'name': 'CreditCarDListPageComponent', 'selector': 'app-credit-cart-list-page'},{'name': 'CreditsSummaryComponent', 'selector': 'app-credits-summary'},{'name': 'CurrentCycleValuesComponent', 'selector': 'app-current-cycle-values'},{'name': 'CustomizeDashboardComponent', 'selector': 'app-customize-dashboard'},{'name': 'CustomSnackBarComponent', 'selector': 'app-custom-snack-bar'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DialogDeleteConfirmation', 'selector': ''},{'name': 'DustVsDpComponent', 'selector': 'app-dust-vs-dp'},{'name': 'EmptyListComponent', 'selector': 'app-empty-list'},{'name': 'ErrorDialogComponent', 'selector': 'app-error-dialog'},{'name': 'FaqsComponent', 'selector': 'app-faqs'},{'name': 'FeedbackDialogComponent', 'selector': 'app-feedback-dialog'},{'name': 'FilterDetailsComponent', 'selector': 'app-filter-details'},{'name': 'FilterFinderComponent', 'selector': 'app-filter-finder'},{'name': 'FilterListComponent', 'selector': 'app-filter-list'},{'name': 'FilterListReviewComponent', 'selector': 'app-filter-list-review'},{'name': 'FilterSelectorComponent', 'selector': 'app-filter-selector'},{'name': 'FilterSummaryComponent', 'selector': 'app-filter-summary'},{'name': 'FilterTermsConditionsComponent', 'selector': 'app-filter-terms-conditions'},{'name': 'FilterTestReportsComponent', 'selector': 'app-filter-test-reports'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'FrequencyChartComponent', 'selector': 'app-frequency-chart'},{'name': 'GaugeChartComponent', 'selector': 'app-gauge-chart'},{'name': 'GaugeComponentComponent', 'selector': 'app-gauge-component'},{'name': 'GeneralErrorComponent', 'selector': 'app-general-error'},{'name': 'GeneralNewsComponent', 'selector': 'app-general-news'},{'name': 'GenericListComponent', 'selector': 'app-generic-list'},{'name': 'HeaderGeneralComponent', 'selector': 'app-header-general'},{'name': 'HeaderLoggedComponent', 'selector': 'app-header-logged'},{'name': 'HistogramChartComponent', 'selector': 'app-histogram-chart'},{'name': 'HistogramComponent', 'selector': 'app-histogram'},{'name': 'HoboDashboardComponent', 'selector': 'app-hobo-dashboard'},{'name': 'HomeCounterComponent', 'selector': 'app-home-counter'},{'name': 'HomePageComponent', 'selector': 'app-home-page'},{'name': 'InstrumentationComponent', 'selector': 'app-instrumentation'},{'name': 'InstrumentComponent', 'selector': 'app-instrument-list'},{'name': 'InstrumentHelpComponent', 'selector': 'app-instrument-help'},{'name': 'InstrumentIndicatorComponent', 'selector': 'app-instrument-indicator'},{'name': 'InstrumentSelectorComponent', 'selector': 'app-instrument-selector'},{'name': 'InstumentsListComponent', 'selector': 'app-instuments-list'},{'name': 'InvoiceComponent', 'selector': 'app-invoice'},{'name': 'LandingPageComponent', 'selector': 'app-landing-page'},{'name': 'LeaveDialogComponent', 'selector': 'app-leave-dialog'},{'name': 'LoaderComponent', 'selector': 'app-loader'},{'name': 'LoginPageComponent', 'selector': 'app-login-page'},{'name': 'LoginPageSonicuComponent', 'selector': 'app-provider-login'},{'name': 'MervChartComponent', 'selector': 'app-merv-chart'},{'name': 'MobilePlaceholderComponent', 'selector': 'app-mobile-placeholder'},{'name': 'ModelFilterFormComponent', 'selector': 'app-model-filter-form'},{'name': 'MonitoringComponent', 'selector': 'app-monitoring'},{'name': 'NewCardComponent', 'selector': 'app-new-card'},{'name': 'NewCaseComponent', 'selector': 'app-new-case'},{'name': 'NewComparisonComponent', 'selector': 'app-new-comparison'},{'name': 'NewInstrumentationComponent', 'selector': 'app-new-instrumentation'},{'name': 'NewPasswordComponent', 'selector': 'app-new-password'},{'name': 'NotificationsInboxComponent', 'selector': 'app-notifications-inbox'},{'name': 'NotificationsListComponent', 'selector': 'app-notifications-list'},{'name': 'NotificationsSettingsComponent', 'selector': 'app-notifications-settings'},{'name': 'OptimizationResultsComponent', 'selector': 'app-optimization-results'},{'name': 'PaginatorComponent', 'selector': 'app-paginator'},{'name': 'PairedCaseInstrumentComponent', 'selector': 'app-paired-list'},{'name': 'PaymentDialogComponent', 'selector': 'app-payment-dialog'},{'name': 'PdfHelperDialogComponent', 'selector': 'app-pdf-helper-dialog'},{'name': 'PdfViewerComponent', 'selector': 'app-pdf-viewer'},{'name': 'PersonalInformationComponent', 'selector': 'app-personal-information'},{'name': 'PieChartComponent', 'selector': 'app-pie-chart'},{'name': 'PlansListComponent', 'selector': 'app-plans-list'},{'name': 'PopOverComponent', 'selector': 'app-pop-over'},{'name': 'ProductComponent', 'selector': 'app-product'},{'name': 'ProfilePageComponent', 'selector': 'app-profile-page'},{'name': 'ProfileSelectionComponent', 'selector': 'app-profile-selection'},{'name': 'RecoverPasswordPageComponent', 'selector': 'app-recover-password-page'},{'name': 'RedirectDialogComponent', 'selector': 'app-redirect-dialog'},{'name': 'RegisterPageComponent', 'selector': 'app-register-page'},{'name': 'ReplaceCostDialogComponent', 'selector': 'app-replace-cost-dialog'},{'name': 'ReportFileDropperComponent', 'selector': 'app-report-file-dropper'},{'name': 'ReportRejectedComponent', 'selector': 'app-report-rejected'},{'name': 'ReportReviewComponent', 'selector': 'app-report-review'},{'name': 'RequestFilterComponent', 'selector': 'app-request-filter'},{'name': 'RequestFilterOptionsComponent', 'selector': 'app-request-filter-options'},{'name': 'SellersComponent', 'selector': 'app-sellers'},{'name': 'SharedReportsComponent', 'selector': 'app-shared-reports'},{'name': 'SingleFormComponent', 'selector': 'app-single-form'},{'name': 'StripePaymentCreationComponent', 'selector': 'app-stripe-payment-creation'},{'name': 'SubscriptionDialogComponent', 'selector': 'app-subscription-dialog'},{'name': 'SubscriptionsListComponent', 'selector': 'app-subscriptions-list'},{'name': 'SuccessDialogComponent', 'selector': 'app-success-dialog'},{'name': 'SystemInformationComponent', 'selector': 'app-system-information'},{'name': 'SystemInformationSummaryComponent', 'selector': 'app-system-information-summary'},{'name': 'TableCostSummaryComponent', 'selector': 'app-table-cost-summary'},{'name': 'TermsAndConditionsComponent', 'selector': 'app-terms-and-conditions'},{'name': 'UploadReportComponent', 'selector': 'app-upload-report'},{'name': 'UserOverviewComponent', 'selector': 'app-user-overview'},{'name': 'UserReportsComponent', 'selector': 'app-user-reports'},{'name': 'UserSharedReportsComponent', 'selector': 'app-users-shared-reports'},{'name': 'UserWelcomeComponent', 'selector': 'app-user-welcome'},{'name': 'ValidatorMenuComponent', 'selector': 'app-validator-menu'},{'name': 'VersionComponent', 'selector': 'app-version'},{'name': 'VerticalSwipperComponent', 'selector': 'app-vertical-swipper'}];
+    var DIRECTIVES = [{'name': 'DragDirective', 'selector': '[appDrag]'},{'name': 'FocusMeDirective', 'selector': '[focusMe]'},{'name': 'HighlightDirective', 'selector': '[appHighlight]'}];
+    var ACTUAL_COMPONENT = {'name': 'CaseListComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'CaseListComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
